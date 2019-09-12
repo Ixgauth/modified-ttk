@@ -1,0 +1,12 @@
+#ignore build files
+VisualizeImageData/build/
+SmartVolumeMapper/build/
+PolyDataToImageData/build/
+MetaImageWriter/build/
+MeshVoxelizationVolumeCalculator/build/
+IterateImageData/build/
+ImageStencilToImageTest/build/
+ignored/
+CreateClosedSurface/
+FillHoles/build/
+FillHoles/data/
