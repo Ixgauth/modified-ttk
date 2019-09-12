@@ -194,7 +194,7 @@ namespace ttk
                This will currently intake the full field and information about it and send it through the topological simplification helper filter. This all works.
                The goal moving forward is to make it so one can close and mesh voxelize the output data to get the volume. This can theoretically be placed into the same
                pairs structure seen above in place of the tmp val/cur val calculation as the volume will be input in place of the persistence. Basically the same idea
-               as the main method at /home/ian/ttk/ttk-data-0.9.3/vtkWork/TestObtainCriticalPoints/main.cxx.
+               as the main method at /home/ian/ttk/vtkWork/TestObtainCriticalPoints/main.cxx.
 
                The only thing that I want to say here is that one will need to do this for each of the pairs in the tree. Make sure that the point you are sending into the 
                topological simplification helper is the min or the max and not the saddle point. I had hoped that the min and max would only be in either the temp vert 
@@ -244,7 +244,7 @@ namespace ttk
 }
 
 /*
-This is the same code as what is seen inside /home/ian/ttk/ttk-data-0.9.3/vtkWork/TestObtainCriticalPoints/main.cxx
+This is the same code as what is seen inside /home/ian/ttk/vtkWork/TestObtainCriticalPoints/main.cxx
 I could not use it in this file due to the fact that I have been unable to change the CMake files to allow me to include vtkPolyDataToImageStencil 
 or any of the other stenciling header files that are provided by vtk. However, the goal would be to use these classes to take the dataset that is output
 by Topological Simplification Helper and perform mesh voxelization to get the volume of the given peak or valley.
