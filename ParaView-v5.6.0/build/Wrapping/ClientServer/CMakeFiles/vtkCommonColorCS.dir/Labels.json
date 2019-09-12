@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkColorSeriesClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkNamedColorsClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCommonColorCSInit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Common/Color/vtkColorSeries.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Common/Color/vtkNamedColors.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"VTKModular"
+		],
+		"name" : "vtkCommonColorCS"
+	}
+}

@@ -1,0 +1,127 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkBlueObeliskDataPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkBlueObeliskDataInternalPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkBlueObeliskDataParserPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCMLMoleculeReaderPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkGaussianCubeReader2Python.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMoleculeMapperPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMoleculeToAtomBallFilterPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMoleculeToBondStickFilterPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMoleculeToLinesFilterPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMoleculeToPolyDataFilterPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPeriodicTablePython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPointSetToMoleculeFilterPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkProgrammableElectronicDataPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkProteinRibbonFilterPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkSimpleBondPerceiverPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkVASPAnimationReaderPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkVASPTessellationReaderPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkXYZMolReader2Python.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDomainsChemistryPythonInitImpl.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkBlueObeliskDataPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkBlueObeliskDataInternalPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkBlueObeliskDataParserPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCMLMoleculeReaderPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkGaussianCubeReader2Python.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMoleculeMapperPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMoleculeToAtomBallFilterPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMoleculeToBondStickFilterPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMoleculeToLinesFilterPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMoleculeToPolyDataFilterPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPeriodicTablePython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPointSetToMoleculeFilterPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkProgrammableElectronicDataPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkProteinRibbonFilterPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkSimpleBondPerceiverPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkVASPAnimationReaderPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkVASPTessellationReaderPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkXYZMolReader2Python.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDomainsChemistryPythonInit.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"VTKModular"
+		],
+		"name" : "vtkDomainsChemistryPythonD"
+	}
+}

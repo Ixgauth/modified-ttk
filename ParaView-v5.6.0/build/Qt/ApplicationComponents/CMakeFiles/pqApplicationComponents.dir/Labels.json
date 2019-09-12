@@ -1,0 +1,2275 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAboutDialogReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAboutDialogReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAddToFavoritesReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAddToFavoritesReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAlwaysConnectedBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAlwaysConnectedBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAnimationShortcutWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAnimationShortcutWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAnimationShortcutDecorator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAnimationShortcutDecorator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAnimationTimeToolbar.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAnimationTimeToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAnimationTimeWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAnimationTimeWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqApplicationComponentsInit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqApplicationComponentsInit.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqApplicationSettingsReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqApplicationSettingsReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqApplyBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqApplyBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqApplyPropertiesReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqApplyPropertiesReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAutoApplyReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAutoApplyReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAutoLoadPluginXMLBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAutoLoadPluginXMLBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAxesToolbar.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAxesToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqBackgroundEditorWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqBackgroundEditorWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqBoolPropertyWidgetDecorator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqBoolPropertyWidgetDecorator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqBoxPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqBoxPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCTHArraySelectionDecorator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCTHArraySelectionDecorator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCameraLinkReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCameraLinkReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCameraManipulatorWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCameraManipulatorWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCameraReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCameraReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCameraToolbar.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCameraToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCameraUndoRedoReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCameraUndoRedoReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystConnectReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystConnectReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystContinueReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystExportReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystExportReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystPauseSimulationReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystPauseSimulationReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystRemoveBreakpointReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystRemoveBreakpointReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystScriptGeneratorReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystScriptGeneratorReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystSetBreakpointReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystSetBreakpointReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCategoryToolbarsBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCategoryToolbarsBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqChangePipelineInputReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqChangePipelineInputReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqChartSelectionReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqChartSelectionReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqChooseColorPresetReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqChooseColorPresetReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCollaborationBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCollaborationBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorAnnotationsPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorAnnotationsPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorEditorPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorEditorPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorMapEditor.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorMapEditor.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorOpacityEditorWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorOpacityEditorWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorPaletteSelectorWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorPaletteSelectorWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorSelectorPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorSelectorPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorTableModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorTableModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorToolbar.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqColorToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCommandButtonPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCommandButtonPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCommandLineOptionsBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCommandLineOptionsBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCopyReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCopyReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCrashRecoveryBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCrashRecoveryBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCreateCustomFilterReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCreateCustomFilterReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCustomShortcutBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCustomShortcutBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCustomizeShortcutsReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCustomizeShortcutsReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCustomizeShortcutsDialog.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCustomizeShortcutsDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCustomViewpointsToolbar.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCustomViewpointsToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCylinderPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCylinderPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDataQueryReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDataQueryReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDataTimeStepBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDataTimeStepBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDefaultMainWindow.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDefaultMainWindow.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDefaultViewBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDefaultViewBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDeleteReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDeleteReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDesktopServicesReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDesktopServicesReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDoubleRangeSliderPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqDoubleRangeSliderPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqEditCameraReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqEditCameraReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqEditColorMapReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqEditColorMapReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqEditScalarBarReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqEditScalarBarReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqEnableWidgetDecorator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqEnableWidgetDecorator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqExampleVisualizationsDialog.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqExampleVisualizationsDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqExampleVisualizationsDialogReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqExampleVisualizationsDialogReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqExportReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqExportReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqFileNamePropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqFileNamePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqFiltersMenuReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqFiltersMenuReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqFontPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqFontPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqGenericPropertyWidgetDecorator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqGenericPropertyWidgetDecorator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqGlyphScaleFactorPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqGlyphScaleFactorPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqHandlePropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqHandlePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqIgnoreSourceTimeReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqIgnoreSourceTimeReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqImageCompressorWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqImageCompressorWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqImplicitPlanePropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqImplicitPlanePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqImportCinemaReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqImportCinemaReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqInputDataTypeDecorator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqInputDataTypeDecorator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqInteractivePropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqInteractivePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLinePropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLinePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLinkSelectionReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLinkSelectionReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqListPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqListPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLiveSourceBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLiveSourceBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLoadDataReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLoadDataReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLoadMaterialsReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLoadMaterialsReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLoadPaletteReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLoadPaletteReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLoadRestoreWindowLayoutReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLoadRestoreWindowLayoutReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLoadStateReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLoadStateReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLockPanelsBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLockPanelsBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLockPanelsReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqLockPanelsReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqMainControlsToolbar.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqMainControlsToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqManageCustomFiltersReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqManageCustomFiltersReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqManageLinksReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqManageLinksReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqManageFavoritesReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqManageFavoritesReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqManagePluginsReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqManagePluginsReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqMasterOnlyReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqMasterOnlyReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqModelTransformSupportBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqModelTransformSupportBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqMultiComponentsDecorator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqMultiComponentsDecorator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqObjectPickingBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqObjectPickingBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqOpacityTableModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqOpacityTableModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqOSPRayHidingDecorator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqOSPRayHidingDecorator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPVAnimationWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPVAnimationWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPVApplicationCore.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPVApplicationCore.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqParaViewBehaviors.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqParaViewBehaviors.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqParaViewMenuBuilders.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqParaViewMenuBuilders.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPersistentMainWindowStateBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPersistentMainWindowStateBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPipelineContextMenuBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPipelineContextMenuBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPluginActionGroupBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPluginActionGroupBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPluginDockWidgetsBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPluginDockWidgetsBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPluginSettingsBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPluginSettingsBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPluginToolBarBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPluginToolBarBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPointPickingHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPointPickingHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPreviewMenuManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPreviewMenuManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPropertyGroupButton.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPropertyGroupButton.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqProxyGroupMenuManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqProxyGroupMenuManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqReloadFilesReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqReloadFilesReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqRenameProxyReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqRenameProxyReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqRenderViewSelectionReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqRenderViewSelectionReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqRepresentationToolbar.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqRepresentationToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqResetScalarRangeReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqResetScalarRangeReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqResetDefaultSettingsReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqResetDefaultSettingsReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSaveAnimationGeometryReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSaveAnimationGeometryReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSaveAnimationReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSaveAnimationReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSaveDataReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSaveDataReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSaveScreenshotReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSaveScreenshotReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSaveStateReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSaveStateReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqScalarBarVisibilityReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqScalarBarVisibilityReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSelectionReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSelectionReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSeriesEditorPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSeriesEditorPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqServerConnectReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqServerConnectReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqServerDisconnectReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqServerDisconnectReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSetMainWindowTitleReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSetMainWindowTitleReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqShowHideAllReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqShowHideAllReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqShowWidgetDecorator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqShowWidgetDecorator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSourcesMenuReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSourcesMenuReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSpherePropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSpherePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSplinePropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSplinePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSpreadSheetViewDecorator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSpreadSheetViewDecorator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSpreadSheetVisibilityBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqSpreadSheetVisibilityBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqStandardPropertyWidgetInterface.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqStandardPropertyWidgetInterface.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqStandardRecentlyUsedResourceLoaderImplementation.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqStandardRecentlyUsedResourceLoaderImplementation.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqStandardViewFrameActionsImplementation.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqStandardViewFrameActionsImplementation.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqStatusBar.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqStatusBar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqStreamingTestingEventPlayer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqStreamingTestingEventPlayer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTestingReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTestingReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTextLocationWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTextLocationWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTimeInspectorWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTimeInspectorWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTimerLogReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTimerLogReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqToggleInteractionViewMode.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqToggleInteractionViewMode.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTransferFunctionWidgetPropertyDialog.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTransferFunctionWidgetPropertyDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTransferFunctionWidgetPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTransferFunctionWidgetPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqUndoRedoBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqUndoRedoBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqUndoRedoReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqUndoRedoReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqUseSeparateColorMapReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqUseSeparateColorMapReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqVCRToolbar.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqVCRToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqVerifyRequiredPluginBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqVerifyRequiredPluginBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqViewMenuManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqViewMenuManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqViewResolutionPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqViewResolutionPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqViewStreamingBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqViewStreamingBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqViewTypePropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqViewTypePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqWelcomeDialog.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqWelcomeDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqYoungsMaterialPropertyWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqYoungsMaterialPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystExportInspector.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqCatalystExportInspector.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqMacroReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqMacroReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTraceReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqTraceReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPythonShellReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPythonShellReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqHideAllReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqHideAllReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqHelpReaction.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqHelpReaction.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPluginDocumentationBehavior.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqPluginDocumentationBehavior.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/qrc_pqApplicationComponents.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAboutDialogReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAddToFavoritesReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAlwaysConnectedBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAnimationShortcutDecorator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAnimationShortcutWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAnimationTimeToolbar.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAnimationTimeWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqApplicationSettingsReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqApplyBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAutoApplyReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAutoLoadPluginXMLBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAxesToolbar.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqBackgroundEditorWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqBoolPropertyWidgetDecorator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqBoxPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCTHArraySelectionDecorator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCameraLinkReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCameraManipulatorWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCameraReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCameraToolbar.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCameraUndoRedoReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystConnectReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystContinueReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystExportReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystPauseSimulationReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystRemoveBreakpointReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystScriptGeneratorReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystSetBreakpointReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCategoryToolbarsBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqChangePipelineInputReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqChartSelectionReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqChooseColorPresetReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCollaborationBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorAnnotationsPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorEditorPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorMapEditor.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorOpacityEditorWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorPaletteSelectorWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorSelectorPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorTableModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorToolbar.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCommandButtonPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCommandLineOptionsBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCopyReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCrashRecoveryBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCreateCustomFilterReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCustomShortcutBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCustomizeShortcutsReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCustomizeShortcutsDialog.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCustomViewpointsToolbar.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCylinderPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDataQueryReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDataTimeStepBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDefaultMainWindow.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDefaultViewBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDeleteReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDesktopServicesReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDoubleRangeSliderPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqEditCameraReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqEditColorMapReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqEditScalarBarReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqEnableWidgetDecorator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqExampleVisualizationsDialog.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqExampleVisualizationsDialogReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqExportReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqFileNamePropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqFiltersMenuReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqFontPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqGenericPropertyWidgetDecorator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqGlyphScaleFactorPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqHandlePropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqIgnoreSourceTimeReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqImageCompressorWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqImplicitPlanePropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqImportCinemaReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqInputDataTypeDecorator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqInteractivePropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLinePropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLinkSelectionReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqListPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLiveSourceBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLoadDataReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLoadMaterialsReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLoadPaletteReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLoadRestoreWindowLayoutReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLoadStateReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLockPanelsBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLockPanelsReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqMainControlsToolbar.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqManageCustomFiltersReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqManageLinksReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqManageFavoritesReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqManagePluginsReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqMasterOnlyReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqModelTransformSupportBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqMultiComponentsDecorator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqObjectPickingBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqOpacityTableModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqOSPRayHidingDecorator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPVAnimationWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPVApplicationCore.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqParaViewBehaviors.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPersistentMainWindowStateBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPipelineContextMenuBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPluginActionGroupBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPluginDockWidgetsBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPluginSettingsBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPluginToolBarBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPointPickingHelper.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPreviewMenuManager.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPropertyGroupButton.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqProxyGroupMenuManager.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqReloadFilesReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqRenameProxyReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqRenderViewSelectionReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqRepresentationToolbar.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqResetScalarRangeReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqResetDefaultSettingsReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSaveAnimationGeometryReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSaveAnimationReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSaveDataReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSaveScreenshotReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSaveStateReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqScalarBarVisibilityReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSelectionReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSeriesEditorPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqServerConnectReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqServerDisconnectReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSetMainWindowTitleReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqShowHideAllReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqShowWidgetDecorator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSourcesMenuReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSpherePropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSplinePropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSpreadSheetViewDecorator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSpreadSheetVisibilityBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqStandardPropertyWidgetInterface.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqStandardRecentlyUsedResourceLoaderImplementation.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqStandardViewFrameActionsImplementation.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqStatusBar.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqStreamingTestingEventPlayer.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTestingReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTextLocationWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTimeInspectorWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTimerLogReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqToggleInteractionViewMode.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTransferFunctionWidgetPropertyDialog.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTransferFunctionWidgetPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqUndoRedoBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqUndoRedoReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqUseSeparateColorMapReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqVCRToolbar.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqVerifyRequiredPluginBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqViewMenuManager.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqViewResolutionPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqViewStreamingBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqViewTypePropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqWelcomeDialog.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqYoungsMaterialPropertyWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystExportInspector.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqMacroReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTraceReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPythonShellReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqHideAllReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqHelpReaction.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPluginDocumentationBehavior.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqAnimationTimeWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqAxesToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqBackgroundEditorWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqBoxPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqCameraManipulatorWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqCameraToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqCatalystExportInspector.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqColorAnnotationsPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqColorEditorPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqColorMapEditor.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqColorOpacityEditorWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqColorToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqCustomResolutionDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqCylinderPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqCustomizeShortcutsDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqDefaultMainWindow.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqDoubleRangeSliderPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqEditMenuBuilder.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqExampleVisualizationsDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqFileMenuBuilder.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqFontPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqHandlePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqImageCompressorWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqImplicitPlanePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqLinePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqMainControlsToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqResetScalarRangeToDataOverTime.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqSavePresetOptions.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqSeriesEditorPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqSpherePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqSplinePropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqSpreadSheetViewDecorator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqTextLocationWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqTimeInspectorWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqTransferFunctionWidgetPropertyDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqViewResolutionPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqVCRToolbar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqWelcomeDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/ui_pqYoungsMaterialPropertyWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/pqApplicationComponentsModule.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/pqApplicationComponents.qrc"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAboutDialogReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAddToFavoritesReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAlwaysConnectedBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAnimationShortcutDecorator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAnimationShortcutWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAnimationTimeToolbar.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAnimationTimeWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqApplicationSettingsReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqApplyBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAutoApplyReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAutoLoadPluginXMLBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAxesToolbar.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqBackgroundEditorWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqBoolPropertyWidgetDecorator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqBoxPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCTHArraySelectionDecorator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCameraLinkReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCameraManipulatorWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCameraReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCameraToolbar.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCameraUndoRedoReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystConnectReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystContinueReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystExportReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystPauseSimulationReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystRemoveBreakpointReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystScriptGeneratorReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystSetBreakpointReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCategoryToolbarsBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqChangePipelineInputReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqChartSelectionReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqChooseColorPresetReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCollaborationBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorAnnotationsPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorEditorPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorMapEditor.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorOpacityEditorWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorPaletteSelectorWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorSelectorPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorTableModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqColorToolbar.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCommandButtonPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCommandLineOptionsBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCopyReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCrashRecoveryBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCreateCustomFilterReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCustomShortcutBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCustomizeShortcutsReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCustomizeShortcutsDialog.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCustomViewpointsToolbar.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCylinderPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDataQueryReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDataTimeStepBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDefaultMainWindow.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDefaultViewBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDeleteReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDesktopServicesReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqDoubleRangeSliderPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqEditCameraReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqEditColorMapReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqEditScalarBarReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqEnableWidgetDecorator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqExampleVisualizationsDialog.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqExampleVisualizationsDialogReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqExportReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqFileNamePropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqFiltersMenuReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqFontPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqGenericPropertyWidgetDecorator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqGlyphScaleFactorPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqHandlePropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqIgnoreSourceTimeReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqImageCompressorWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqImplicitPlanePropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqImportCinemaReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqInputDataTypeDecorator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqInteractivePropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLinePropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLinkSelectionReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqListPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLiveSourceBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLoadDataReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLoadMaterialsReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLoadPaletteReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLoadRestoreWindowLayoutReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLoadStateReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLockPanelsBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqLockPanelsReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqMainControlsToolbar.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqManageCustomFiltersReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqManageLinksReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqManageFavoritesReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqManagePluginsReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqMasterOnlyReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqModelTransformSupportBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqMultiComponentsDecorator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqObjectPickingBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqOpacityTableModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqOSPRayHidingDecorator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPVAnimationWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPVApplicationCore.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqParaViewBehaviors.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPersistentMainWindowStateBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPipelineContextMenuBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPluginActionGroupBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPluginDockWidgetsBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPluginSettingsBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPluginToolBarBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPointPickingHelper.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPreviewMenuManager.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPropertyGroupButton.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqProxyGroupMenuManager.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqReloadFilesReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqRenameProxyReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqRenderViewSelectionReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqRepresentationToolbar.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqResetScalarRangeReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqResetDefaultSettingsReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSaveAnimationGeometryReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSaveAnimationReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSaveDataReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSaveScreenshotReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSaveStateReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqScalarBarVisibilityReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSelectionReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSeriesEditorPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqServerConnectReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqServerDisconnectReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSetMainWindowTitleReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqShowHideAllReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqShowWidgetDecorator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSourcesMenuReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSpherePropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSplinePropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSpreadSheetViewDecorator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqSpreadSheetVisibilityBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqStandardPropertyWidgetInterface.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqStandardRecentlyUsedResourceLoaderImplementation.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqStandardViewFrameActionsImplementation.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqStatusBar.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqStreamingTestingEventPlayer.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTestingReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTextLocationWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTimeInspectorWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTimerLogReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqToggleInteractionViewMode.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTransferFunctionWidgetPropertyDialog.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTransferFunctionWidgetPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqUndoRedoBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqUndoRedoReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqUseSeparateColorMapReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqVCRToolbar.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqVerifyRequiredPluginBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqViewMenuManager.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqViewResolutionPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqViewStreamingBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqViewTypePropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqWelcomeDialog.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqYoungsMaterialPropertyWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqCatalystExportInspector.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqMacroReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqTraceReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPythonShellReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqHideAllReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqHelpReaction.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqPluginDocumentationBehavior.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqAnimationTimeWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqAxesToolbar.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqBackgroundEditorWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqBoxPropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqCameraManipulatorWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqCameraToolbar.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqCatalystExportInspector.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqColorAnnotationsPropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqColorEditorPropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqColorMapEditor.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqColorOpacityEditorWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqColorToolbar.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqCustomResolutionDialog.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqCylinderPropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqCustomizeShortcutsDialog.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqDefaultMainWindow.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqDoubleRangeSliderPropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqEditMenuBuilder.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqExampleVisualizationsDialog.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqFileMenuBuilder.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqFontPropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqHandlePropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqImageCompressorWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqImplicitPlanePropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqLinePropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqMainControlsToolbar.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqResetScalarRangeToDataOverTime.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqSavePresetOptions.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqSeriesEditorPropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqSpherePropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqSplinePropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqSpreadSheetViewDecorator.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqTextLocationWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqTimeInspectorWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqTransferFunctionWidgetPropertyDialog.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqViewResolutionPropertyWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqVCRToolbar.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqWelcomeDialog.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/Resources/UI/pqYoungsMaterialPropertyWidget.ui"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pqApplicationComponents"
+		],
+		"name" : "pqApplicationComponents"
+	}
+}

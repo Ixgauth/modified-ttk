@@ -1,0 +1,82 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkNetworkImageSource.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVCatalystChannelInformation.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVEnsembleDataReaderInformation.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVEnvironmentInformation.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVEnvironmentInformationHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVFileInformation.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVSingleOutputExtractSelection.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkSliceAlongPolyPlane.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkAnnotateGlobalDataFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPythonCalculator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkAnnotateAttributeDataFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkNetworkImageSource.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVCatalystChannelInformation.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVEnsembleDataReaderInformation.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVEnvironmentInformation.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVEnvironmentInformationHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVFileInformation.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPVSingleOutputExtractSelection.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkSliceAlongPolyPlane.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkAnnotateGlobalDataFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkPythonCalculator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerCore/Default/vtkAnnotateAttributeDataFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ClientServerCore/Default/vtkPVClientServerCoreDefaultModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPVClientServerCoreDefault"
+		],
+		"name" : "vtkPVClientServerCoreDefault"
+	}
+}

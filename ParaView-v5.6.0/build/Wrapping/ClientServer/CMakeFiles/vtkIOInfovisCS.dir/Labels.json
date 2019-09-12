@@ -1,0 +1,112 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkBiomTableReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkChacoGraphReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkDelimitedTextReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkDIMACSGraphReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkDIMACSGraphWriterClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkFixedWidthTextReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkISIReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkMultiNewickTreeReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkNewickTreeReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkNewickTreeWriterClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPhyloXMLTreeReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPhyloXMLTreeWriterClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkRISReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkTulipReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkXGMLReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkXMLTreeReaderClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkIOInfovisCSInit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkBiomTableReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkChacoGraphReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDelimitedTextReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDIMACSGraphReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDIMACSGraphWriter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkFixedWidthTextReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkISIReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkMultiNewickTreeReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkNewickTreeReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkNewickTreeWriter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkPhyloXMLTreeReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkPhyloXMLTreeWriter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkRISReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkTulipReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkXGMLReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkXMLTreeReader.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"VTKModular"
+		],
+		"name" : "vtkIOInfovisCS"
+	}
+}

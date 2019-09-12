@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMatplotlibMathTextUtilitiesPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkRenderingMatplotlibObjectFactoryPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkRenderingMatplotlibPythonInitImpl.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMatplotlibMathTextUtilitiesPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkRenderingMatplotlibObjectFactoryPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkRenderingMatplotlibPythonInit.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"VTKModular"
+		],
+		"name" : "vtkRenderingMatplotlibPythonD"
+	}
+}

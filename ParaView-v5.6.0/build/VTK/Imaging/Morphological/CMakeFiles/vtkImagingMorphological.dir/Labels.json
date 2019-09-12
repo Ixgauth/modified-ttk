@@ -1,0 +1,82 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageConnector.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageConnectivityFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageContinuousDilate3D.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageContinuousErode3D.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageDilateErode3D.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageIslandRemoval2D.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageNonMaximumSuppression.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageOpenClose3D.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageSeedConnectivity.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageSkeleton2D.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageThresholdConnectivity.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageConnector.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageConnectivityFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageContinuousDilate3D.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageContinuousErode3D.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageDilateErode3D.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageIslandRemoval2D.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageNonMaximumSuppression.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageOpenClose3D.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageSeedConnectivity.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageSkeleton2D.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Morphological/vtkImageThresholdConnectivity.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Imaging/Morphological/vtkImagingMorphologicalModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkImagingMorphological"
+		],
+		"name" : "vtkImagingMorphological"
+	}
+}

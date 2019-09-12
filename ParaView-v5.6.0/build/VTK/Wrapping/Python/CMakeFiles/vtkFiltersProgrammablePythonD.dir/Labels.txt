@@ -1,0 +1,11 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkProgrammableAttributeDataFilterPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkProgrammableFilterPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkProgrammableGlyphFilterPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkFiltersProgrammablePythonInitImpl.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkProgrammableAttributeDataFilterPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkProgrammableFilterPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkProgrammableGlyphFilterPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkFiltersProgrammablePythonInit.cxx.rule

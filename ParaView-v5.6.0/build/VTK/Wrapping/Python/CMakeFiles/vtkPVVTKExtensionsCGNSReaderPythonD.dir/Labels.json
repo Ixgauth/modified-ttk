@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCGNSFileSeriesReaderPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCGNSReaderPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCGNSSubsetInclusionLatticePython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPVVTKExtensionsCGNSReaderPythonInitImpl.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCGNSFileSeriesReaderPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCGNSReaderPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCGNSSubsetInclusionLatticePython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPVVTKExtensionsCGNSReaderPythonInit.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"VTKModular"
+		],
+		"name" : "vtkPVVTKExtensionsCGNSReaderPythonD"
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkClientServerIDClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkClientServerInterpreterClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkClientServerStreamClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkClientServerCSInit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerStream/vtkClientServerID.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerStream/vtkClientServerInterpreter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerStream/vtkClientServerStream.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"VTKModular"
+		],
+		"name" : "vtkClientServerCS"
+	}
+}

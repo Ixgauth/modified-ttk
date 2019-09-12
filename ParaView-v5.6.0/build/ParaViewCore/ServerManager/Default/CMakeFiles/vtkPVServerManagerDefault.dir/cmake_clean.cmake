@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkLoadStateOptions.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkPVGeneralSettings.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkPVMultiServerDataSource.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkPVX3DExporter.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMCameraConfigurationReader.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMCameraConfigurationWriter.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMCSVExporterProxy.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMCSVProxiesInitializationHelper.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMDirectoryProxy.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMEnsembleDataReaderProxy.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMExporterProxy.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMGL2PSExporterProxy.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMInteractionUndoStackBuilder.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMInteractiveSelectionPipeline.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMLoadStateOptionsProxy.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMMultiServerSourceProxy.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMPLYWriterProxyInitializationHelper.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMPreselectionPipeline.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMPropertyModificationUndoElement.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMProxyClipboard.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMProxyConfigurationReader.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMProxyConfigurationWriter.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMPSWriterProxy.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMReaderReloadHelper.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMRenderViewExporterProxy.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMSpreadSheetRepresentationInitializationHelper.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMTesting.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMTooltipSelectionPipeline.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMViewExportHelper.cxx.o"
+  "CMakeFiles/vtkPVServerManagerDefault.dir/vtkSMXYChartRepresentationInitializationHelper.cxx.o"
+  "../../../lib/libvtkPVServerManagerDefault-pv5.6.pdb"
+  "../../../lib/libvtkPVServerManagerDefault-pv5.6.so.1"
+  "../../../lib/libvtkPVServerManagerDefault-pv5.6.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vtkPVServerManagerDefault.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

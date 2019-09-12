@@ -1,0 +1,36 @@
+# Target labels
+ vtkIOInfovis
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkBiomTableReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkChacoGraphReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDelimitedTextReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDIMACSGraphReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDIMACSGraphWriter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkFixedWidthTextReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkISIReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkMultiNewickTreeReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkNewickTreeReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkNewickTreeWriter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkPhyloXMLTreeReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkPhyloXMLTreeWriter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkRISReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkTulipReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkXGMLReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkXMLTreeReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkBiomTableReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkChacoGraphReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDelimitedTextReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDIMACSGraphReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDIMACSGraphWriter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkFixedWidthTextReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkISIReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkMultiNewickTreeReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkNewickTreeReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkNewickTreeWriter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkPhyloXMLTreeReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkPhyloXMLTreeWriter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkRISReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkTulipReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkXGMLReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkXMLTreeReader.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/Infovis/vtkIOInfovisModule.h

@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/CGNSWriter/vtkCGNSWriter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/CGNSWriter/vtkCGNSWriter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/VTKExtensions/CGNSWriter/vtkPVVTKExtensionsCGNSWriterModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPVVTKExtensionsCGNSWriter"
+		],
+		"name" : "vtkPVVTKExtensionsCGNSWriter"
+	}
+}

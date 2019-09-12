@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Utilities/PythonInitializer/vtkPVPythonInitializer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Utilities/PythonInitializer/vtkUtilitiesPythonInitializerModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkUtilitiesPythonInitializer"
+		],
+		"name" : "vtkUtilitiesPythonInitializer"
+	}
+}

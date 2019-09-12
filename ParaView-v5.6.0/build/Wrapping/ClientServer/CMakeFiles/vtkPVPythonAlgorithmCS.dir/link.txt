@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkPVPythonAlgorithmCS-pv5.6.a  CMakeFiles/vtkPVPythonAlgorithmCS.dir/vtkSIPythonSourceProxyClientServer.cxx.o CMakeFiles/vtkPVPythonAlgorithmCS.dir/vtkPVPythonAlgorithmPluginClientServer.cxx.o CMakeFiles/vtkPVPythonAlgorithmCS.dir/vtkPVPythonAlgorithmCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkPVPythonAlgorithmCS-pv5.6.a

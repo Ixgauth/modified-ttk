@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkOpenGLMoleculeMapperPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDomainsChemistryOpenGL2ObjectFactoryPython.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDomainsChemistryOpenGL2PythonInitImpl.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkOpenGLMoleculeMapperPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDomainsChemistryOpenGL2ObjectFactoryPython.cxx.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDomainsChemistryOpenGL2PythonInit.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"VTKModular"
+		],
+		"name" : "vtkDomainsChemistryOpenGL2PythonD"
+	}
+}

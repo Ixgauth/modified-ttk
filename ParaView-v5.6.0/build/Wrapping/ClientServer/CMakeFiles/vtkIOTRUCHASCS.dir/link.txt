@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkIOTRUCHASCS-pv5.6.a  CMakeFiles/vtkIOTRUCHASCS.dir/vtkTRUCHASReaderClientServer.cxx.o CMakeFiles/vtkIOTRUCHASCS.dir/vtkIOTRUCHASCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkIOTRUCHASCS-pv5.6.a

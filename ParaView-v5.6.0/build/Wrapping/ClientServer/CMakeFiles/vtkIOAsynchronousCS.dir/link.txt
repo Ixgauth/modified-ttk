@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkIOAsynchronousCS-pv5.6.a  CMakeFiles/vtkIOAsynchronousCS.dir/vtkThreadedImageWriterClientServer.cxx.o CMakeFiles/vtkIOAsynchronousCS.dir/vtkIOAsynchronousCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkIOAsynchronousCS-pv5.6.a

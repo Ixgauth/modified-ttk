@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkRenderingGL2PSOpenGL2CS-pv5.6.a  CMakeFiles/vtkRenderingGL2PSOpenGL2CS.dir/vtkOpenGLGL2PSHelperImplClientServer.cxx.o CMakeFiles/vtkRenderingGL2PSOpenGL2CS.dir/vtkRenderingGL2PSOpenGL2ObjectFactoryClientServer.cxx.o CMakeFiles/vtkRenderingGL2PSOpenGL2CS.dir/vtkRenderingGL2PSOpenGL2CSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkRenderingGL2PSOpenGL2CS-pv5.6.a

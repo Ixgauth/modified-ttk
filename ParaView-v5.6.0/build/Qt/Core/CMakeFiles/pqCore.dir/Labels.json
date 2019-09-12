@@ -1,0 +1,1069 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqAnimationCue.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqAnimationCue.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqAnimationScene.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqAnimationScene.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqApplicationCore.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqApplicationCore.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqAutoStartInterface.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqAutoStartInterface.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqBoxChartView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqBoxChartView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCheckBoxDelegate.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCheckBoxDelegate.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCollaborationEventPlayer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCollaborationEventPlayer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCollaborationManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCollaborationManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqComparativeContextView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqComparativeContextView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqComparativeRenderView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqComparativeRenderView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqComparativeXYBarChartView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqComparativeXYBarChartView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqComparativeXYChartView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqComparativeXYChartView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqContextView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqContextView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCoreInit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCoreInit.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCoreTestUtility.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCoreTestUtility.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCoreUtilities.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqCoreUtilities.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqDataRepresentation.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqDataRepresentation.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqDebug.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqDebug.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialog.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogEventPlayer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogEventPlayer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogEventTranslator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogEventTranslator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogFavoriteModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogFavoriteModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogRecentDirsModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogRecentDirsModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFlatTreeViewEventPlayer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFlatTreeViewEventPlayer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFlatTreeViewEventTranslator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFlatTreeViewEventTranslator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqGraphLayoutStrategyInterface.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqGraphLayoutStrategyInterface.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqImageUtil.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqImageUtil.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqInteractiveViewLink.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqInteractiveViewLink.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqInterfaceTracker.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqInterfaceTracker.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqLinksModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqLinksModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqLinkViewWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqLinkViewWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqMultiSliceAxisWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqMultiSliceAxisWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqMultiSliceView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqMultiSliceView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqNonEditableStyledItemDelegate.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqNonEditableStyledItemDelegate.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqObjectBuilder.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqObjectBuilder.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqOptions.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqOptions.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqOutputPort.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqOutputPort.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqOutputWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqOutputWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqParallelCoordinatesChartView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqParallelCoordinatesChartView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPipelineFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPipelineFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPipelineRepresentation.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPipelineRepresentation.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPipelineSource.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPipelineSource.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPlotMatrixView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPlotMatrixView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPluginManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPluginManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqProgressManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqProgressManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPropertyLinks.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPropertyLinks.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPropertyLinksConnection.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPropertyLinksConnection.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPropertyManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPropertyManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqProxyModifiedStateUndoElement.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqProxyModifiedStateUndoElement.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqProxySelection.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqProxySelection.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqQVTKWidgetBase.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqQVTKWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqQVTKWidgetEventPlayer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqQVTKWidgetEventPlayer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqQVTKWidgetEventTranslator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqQVTKWidgetEventTranslator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqQVTKWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqRecentlyUsedResourceLoaderInterface.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqRecentlyUsedResourceLoaderInterface.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqRecentlyUsedResourcesList.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqRecentlyUsedResourcesList.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqRenderViewBase.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqRenderViewBase.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqRenderView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqRenderView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqRepresentation.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqRepresentation.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqScalarBarRepresentation.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqScalarBarRepresentation.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqScalarsToColors.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqScalarsToColors.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerConfiguration.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerConfiguration.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerConfigurationCollection.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerConfigurationCollection.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerManagerModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerManagerModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerManagerModelInterface.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerManagerModelInterface.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerManagerModelItem.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerManagerModelItem.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerManagerObserver.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerManagerObserver.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerResource.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqServerResource.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSettings.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSettings.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSMAdaptor.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSMAdaptor.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSMProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSMProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSpreadSheetView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSpreadSheetView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSpreadSheetViewModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSpreadSheetViewModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSpreadSheetViewSelectionModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSpreadSheetViewSelectionModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSpreadSheetViewWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqSpreadSheetViewWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqStandardServerManagerModelInterface.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqStandardServerManagerModelInterface.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqTimeKeeper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqTimeKeeper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqTreeLayoutStrategyInterface.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqTreeLayoutStrategyInterface.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqUndoStack.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqUndoStack.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXMLEventObserver.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXMLEventObserver.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXMLEventSource.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXMLEventSource.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXMLUtil.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXMLUtil.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXYBagChartView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXYBagChartView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXYBarChartView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXYBarChartView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXYFunctionalBagChartView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXYFunctionalBagChartView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXYHistogramChartView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXYHistogramChartView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXYChartView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqXYChartView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/vtkPVGUIPluginInterface.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/vtkPVGUIPluginInterface.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqDisplayPolicy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqDisplayPolicy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPythonView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqPythonView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/qrc_pqCore.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqAnimationCue.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqAnimationScene.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqApplicationCore.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqBoxChartView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqCheckBoxDelegate.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqCollaborationEventPlayer.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqCollaborationManager.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqComparativeContextView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqComparativeRenderView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqComparativeXYBarChartView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqComparativeXYChartView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqContextView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqCoreTestUtility.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqCoreUtilities.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqDataRepresentation.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogEventPlayer.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogEventTranslator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogFavoriteModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogFilter.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialog.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogRecentDirsModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFlatTreeViewEventPlayer.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFlatTreeViewEventTranslator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqInteractiveViewLink.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqInterfaceTracker.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqLinksModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqLinkViewWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqMultiSliceAxisWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqMultiSliceView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqNonEditableStyledItemDelegate.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqObjectBuilder.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqOutputPort.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqOutputWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqParallelCoordinatesChartView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPipelineFilter.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPipelineRepresentation.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPipelineSource.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPlotMatrixView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPluginManager.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqProgressManager.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPropertyLinksConnection.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPropertyLinks.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPropertyManager.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqProxy.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqQVTKWidgetEventPlayer.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqQVTKWidgetEventTranslator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqQVTKWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqRecentlyUsedResourcesList.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqRenderViewBase.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqRenderView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqRepresentation.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqScalarBarRepresentation.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqScalarsToColors.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqServerConfigurationCollection.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqServer.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqServerManagerModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqServerManagerModelItem.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqServerManagerObserver.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqSettings.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqSpreadSheetView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqSpreadSheetViewModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqSpreadSheetViewSelectionModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqSpreadSheetViewWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqStandardServerManagerModelInterface.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqTimeKeeper.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqUndoStack.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXMLEventObserver.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXMLEventSource.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXYBagChartView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXYBarChartView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXYFunctionalBagChartView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXYHistogramChartView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXYChartView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqDisplayPolicy.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPythonView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/ui_pqFileDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/ui_pqOutputWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/ui_pqPluginEULADialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/pqCoreModule.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/Resources/pqCore.qrc"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqAnimationCue.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqAnimationScene.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqApplicationCore.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqBoxChartView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqCheckBoxDelegate.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqCollaborationEventPlayer.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqCollaborationManager.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqComparativeContextView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqComparativeRenderView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqComparativeXYBarChartView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqComparativeXYChartView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqContextView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqCoreTestUtility.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqCoreUtilities.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqDataRepresentation.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogEventPlayer.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogEventTranslator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogFavoriteModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogFilter.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialog.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogRecentDirsModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFlatTreeViewEventPlayer.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFlatTreeViewEventTranslator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqInteractiveViewLink.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqInterfaceTracker.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqLinksModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqLinkViewWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqMultiSliceAxisWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqMultiSliceView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqNonEditableStyledItemDelegate.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqObjectBuilder.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqOutputPort.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqOutputWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqParallelCoordinatesChartView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPipelineFilter.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPipelineRepresentation.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPipelineSource.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPlotMatrixView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPluginManager.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqProgressManager.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPropertyLinksConnection.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPropertyLinks.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPropertyManager.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqProxy.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqQVTKWidgetEventPlayer.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqQVTKWidgetEventTranslator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqQVTKWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqRecentlyUsedResourcesList.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqRenderViewBase.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqRenderView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqRepresentation.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqScalarBarRepresentation.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqScalarsToColors.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqServerConfigurationCollection.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqServer.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqServerManagerModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqServerManagerModelItem.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqServerManagerObserver.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqSettings.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqSpreadSheetView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqSpreadSheetViewModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqSpreadSheetViewSelectionModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqSpreadSheetViewWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqStandardServerManagerModelInterface.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqTimeKeeper.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqUndoStack.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXMLEventObserver.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXMLEventSource.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXYBagChartView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXYBarChartView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXYFunctionalBagChartView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXYHistogramChartView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqXYChartView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqDisplayPolicy.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqPythonView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/Resources/UI/pqFileDialog.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/Resources/UI/pqOutputWidget.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Core/Resources/UI/pqPluginEULADialog.ui"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pqCore"
+		],
+		"name" : "pqCore"
+	}
+}

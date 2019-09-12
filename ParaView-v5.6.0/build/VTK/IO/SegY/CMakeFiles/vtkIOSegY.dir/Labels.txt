@@ -1,0 +1,12 @@
+# Target labels
+ vtkIOSegY
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYIOUtils.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYReaderInternal.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYTraceReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYIOUtils.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYReaderInternal.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYTraceReader.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/SegY/vtkIOSegYModule.h

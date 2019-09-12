@@ -1,0 +1,82 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkImageDataLIC2DClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkLICNoiseHelperClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkLineIntegralConvolution2DClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPainterCommunicatorClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkStructuredGridLIC2DClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkSurfaceLICCompositeClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkSurfaceLICHelperClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkSurfaceLICInterfaceClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkSurfaceLICMapperClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCompositeSurfaceLICMapperClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkTextureIOClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkRenderingLICOpenGL2CSInit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LICOpenGL2/vtkImageDataLIC2D.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LICOpenGL2/vtkLICNoiseHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LICOpenGL2/vtkLineIntegralConvolution2D.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LICOpenGL2/vtkPainterCommunicator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LICOpenGL2/vtkStructuredGridLIC2D.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LICOpenGL2/vtkSurfaceLICComposite.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LICOpenGL2/vtkSurfaceLICHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LICOpenGL2/vtkSurfaceLICInterface.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LICOpenGL2/vtkSurfaceLICMapper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LICOpenGL2/vtkCompositeSurfaceLICMapper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LICOpenGL2/vtkTextureIO.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"VTKModular"
+		],
+		"name" : "vtkRenderingLICOpenGL2CS"
+	}
+}

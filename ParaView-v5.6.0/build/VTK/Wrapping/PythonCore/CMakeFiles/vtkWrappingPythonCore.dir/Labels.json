@@ -1,0 +1,91 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonArgs.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonCommand.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonOverload.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonUtil.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkSmartPyObject.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKExtras.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKMethodDescriptor.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKReference.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKNamespace.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKObject.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKSpecialObject.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKTemplate.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonCompatibility.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/PythonCore/vtkWrappingPythonCoreModule.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonArgs.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonCommand.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonOverload.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonUtil.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkSmartPyObject.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKExtras.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKMethodDescriptor.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKReference.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKNamespace.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKObject.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKSpecialObject.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKTemplate.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkWrappingPythonCore"
+		],
+		"name" : "vtkWrappingPythonCore"
+	}
+}

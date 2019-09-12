@@ -1,0 +1,1 @@
+/usr/bin/cc    -O3 -DNDEBUG   -Wl,-lc  -Wl,-lc    -rdynamic CMakeFiles/smTestDriver-launcher.dir/smTestDriver-forward.c.o  -o launcher/smTestDriver 

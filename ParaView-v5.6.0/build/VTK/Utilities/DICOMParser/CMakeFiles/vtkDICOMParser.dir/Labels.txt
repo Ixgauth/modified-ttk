@@ -1,0 +1,6 @@
+# Target labels
+ vtkDICOMParser
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/DICOMParser/DICOMFile.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/DICOMParser/DICOMParser.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/DICOMParser/DICOMAppHelper.cxx

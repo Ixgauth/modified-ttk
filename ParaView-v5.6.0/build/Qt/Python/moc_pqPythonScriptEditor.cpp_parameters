@@ -1,0 +1,8 @@
+-I/home/ian/ttk/ParaView-v5.6.0/build
+-I/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Python
+-I/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python
+-I/usr/include/python3.6m
+-DVTK_IN_VTK
+-o
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonScriptEditor.cpp
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonScriptEditor.h

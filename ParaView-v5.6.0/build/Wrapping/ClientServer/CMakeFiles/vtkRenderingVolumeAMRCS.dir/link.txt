@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkRenderingVolumeAMRCS-pv5.6.a  CMakeFiles/vtkRenderingVolumeAMRCS.dir/vtkAMRVolumeMapperClientServer.cxx.o CMakeFiles/vtkRenderingVolumeAMRCS.dir/vtkRenderingVolumeAMRCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkRenderingVolumeAMRCS-pv5.6.a

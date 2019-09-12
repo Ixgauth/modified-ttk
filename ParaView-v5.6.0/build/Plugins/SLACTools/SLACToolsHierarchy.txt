@@ -1,0 +1,8 @@
+vtkPTemporalRanges : vtkTemporalRanges ; vtkPTemporalRanges.h ; SLACTools
+vtkPTemporalRanges::Superclass = vtkTemporalRanges ; vtkPTemporalRanges.h ; SLACTools
+vtkSLACPlaneGlyphs : vtkPolyDataAlgorithm ; vtkSLACPlaneGlyphs.h ; SLACTools
+vtkSLACPlaneGlyphs::Superclass = vtkPolyDataAlgorithm ; vtkSLACPlaneGlyphs.h ; SLACTools
+vtkSamplePlaneSource : vtkPolyDataAlgorithm ; vtkSamplePlaneSource.h ; SLACTools
+vtkSamplePlaneSource::Superclass = vtkPolyDataAlgorithm ; vtkSamplePlaneSource.h ; SLACTools
+vtkTemporalRanges : vtkTableAlgorithm ; vtkTemporalRanges.h ; SLACTools
+vtkTemporalRanges::Superclass = vtkTableAlgorithm ; vtkTemporalRanges.h ; SLACTools

@@ -1,0 +1,37 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkAbstractTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCylindricalTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkGeneralTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkHomogeneousTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkIdentityTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkLinearTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMatrixToHomogeneousTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMatrixToLinearTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPerspectiveTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkSphericalTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkThinPlateSplineTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkTransform2DPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkTransformCollectionPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkWarpTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkLandmarkTransformPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCommonTransformsPythonInitImpl.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkAbstractTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCylindricalTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkGeneralTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkHomogeneousTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkIdentityTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkLinearTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMatrixToHomogeneousTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkMatrixToLinearTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPerspectiveTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkSphericalTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkThinPlateSplineTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkTransform2DPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkTransformCollectionPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkWarpTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkLandmarkTransformPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkCommonTransformsPythonInit.cxx.rule

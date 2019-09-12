@@ -1,0 +1,6 @@
+ttk_add_paraview_plugin(ttkVolumePersistenceDiagram
+	SOURCES ${VTKWRAPPER_DIR}/ttkVolumePersistenceDiagram/ttkVolumePersistenceDiagram.cpp
+	PLUGIN_VERSION 1.0
+	PLUGIN_XML VolumePersistenceDiagram.xml
+	LINK volumeVolumePersistenceDiagram)
+

@@ -1,0 +1,10 @@
+# Target labels
+ vtkIOPLY
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/PLY/vtkPLY.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/PLY/vtkPLYReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/PLY/vtkPLYWriter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/PLY/vtkPLY.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/PLY/vtkPLYReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/PLY/vtkPLYWriter.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/PLY/vtkIOPLYModule.h

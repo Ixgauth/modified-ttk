@@ -1,0 +1,23 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPAutoCorrelativeStatisticsPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPContingencyStatisticsPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPCorrelativeStatisticsPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPDescriptiveStatisticsPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPKMeansStatisticsPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPMultiCorrelativeStatisticsPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPOrderStatisticsPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPPCAStatisticsPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPBivariateLinearTableThresholdPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkFiltersParallelStatisticsPythonInitImpl.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPAutoCorrelativeStatisticsPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPContingencyStatisticsPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPCorrelativeStatisticsPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPDescriptiveStatisticsPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPKMeansStatisticsPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPMultiCorrelativeStatisticsPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPOrderStatisticsPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPPCAStatisticsPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkPBivariateLinearTableThresholdPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkFiltersParallelStatisticsPythonInit.cxx.rule

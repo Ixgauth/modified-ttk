@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkPVVTKExtensionsCGNSReaderCS-pv5.6.a  CMakeFiles/vtkPVVTKExtensionsCGNSReaderCS.dir/vtkCGNSFileSeriesReaderClientServer.cxx.o CMakeFiles/vtkPVVTKExtensionsCGNSReaderCS.dir/vtkCGNSReaderClientServer.cxx.o CMakeFiles/vtkPVVTKExtensionsCGNSReaderCS.dir/vtkCGNSSubsetInclusionLatticeClientServer.cxx.o CMakeFiles/vtkPVVTKExtensionsCGNSReaderCS.dir/vtkPVVTKExtensionsCGNSReaderCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkPVVTKExtensionsCGNSReaderCS-pv5.6.a

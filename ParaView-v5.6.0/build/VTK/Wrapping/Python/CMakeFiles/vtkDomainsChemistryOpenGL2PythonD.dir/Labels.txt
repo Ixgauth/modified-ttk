@@ -1,0 +1,9 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkOpenGLMoleculeMapperPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDomainsChemistryOpenGL2ObjectFactoryPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDomainsChemistryOpenGL2PythonInitImpl.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkOpenGLMoleculeMapperPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDomainsChemistryOpenGL2ObjectFactoryPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDomainsChemistryOpenGL2PythonInit.cxx.rule

@@ -1,0 +1,1 @@
+/usr/bin/cc    -O3 -DNDEBUG   -Wl,-lc  -Wl,-lc    -rdynamic CMakeFiles/vtkParseJava.dir/vtkParseJava.c.o  -o ../../../bin/vtkParseJava-pv5.6 ../../../lib/libvtkWrappingTools-pv5.6.a 

@@ -1,0 +1,1 @@
+/usr/bin/cc    -O3 -DNDEBUG   -Wl,-lc  -Wl,-lc    -rdynamic CMakeFiles/vtkWrapJava.dir/vtkWrapJava.c.o  -o ../../../bin/vtkWrapJava-pv5.6 ../../../lib/libvtkWrappingTools-pv5.6.a 

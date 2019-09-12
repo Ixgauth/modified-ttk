@@ -1,0 +1,20 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkTextureMapToCylinderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkTextureMapToPlaneClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkTextureMapToSphereClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkImplicitTextureCoordsClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkThresholdTextureCoordsClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkTransformTextureCoordsClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkTriangularTCoordsClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkScalarsToTextureFilterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkFiltersTextureCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Texture/vtkTextureMapToCylinder.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Texture/vtkTextureMapToPlane.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Texture/vtkTextureMapToSphere.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Texture/vtkImplicitTextureCoords.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Texture/vtkThresholdTextureCoords.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Texture/vtkTransformTextureCoords.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Texture/vtkTriangularTCoords.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Texture/vtkScalarsToTextureFilter.h

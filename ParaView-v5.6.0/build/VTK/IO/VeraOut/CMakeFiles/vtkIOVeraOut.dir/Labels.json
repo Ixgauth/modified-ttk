@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/VeraOut/vtkVeraOutReader.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/VeraOut/vtkVeraOutReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/VeraOut/vtkIOVeraOutModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOVeraOut"
+		],
+		"name" : "vtkIOVeraOut"
+	}
+}

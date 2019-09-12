@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/VPIC/VPICDataSet.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/VPIC/VPICDefinition.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/VPIC/VPICGlobal.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/VPIC/VPICHeader.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/VPIC/VPICPart.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/VPIC/VPICView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/VPIC/GridExchange.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkVPIC"
+		],
+		"name" : "VPIC"
+	}
+}

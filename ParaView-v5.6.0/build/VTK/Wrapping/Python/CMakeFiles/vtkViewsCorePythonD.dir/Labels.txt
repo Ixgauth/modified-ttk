@@ -1,0 +1,17 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkConvertSelectionDomainPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDataRepresentationPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkEmptyRepresentationPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkRenderViewBasePython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkViewPython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkViewThemePython.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkViewsCorePythonInitImpl.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkConvertSelectionDomainPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkDataRepresentationPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkEmptyRepresentationPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkRenderViewBasePython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkViewPython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkViewThemePython.cxx.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/Python/vtkViewsCorePythonInit.cxx.rule

@@ -1,0 +1,4 @@
+vtkPVServerImplementationRenderingPython
+vtkSIImageTextureProxy
+vtkSIPVRepresentationProxy
+vtkSIUnstructuredGridVolumeRepresentationProxy

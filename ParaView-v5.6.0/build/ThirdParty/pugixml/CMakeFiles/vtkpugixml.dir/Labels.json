@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ThirdParty/pugixml/pugixml.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkpugixml"
+		],
+		"name" : "vtkpugixml"
+	}
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkPVServerImplementationRenderingCS-pv5.6.a  CMakeFiles/vtkPVServerImplementationRenderingCS.dir/vtkSIImageTextureProxyClientServer.cxx.o CMakeFiles/vtkPVServerImplementationRenderingCS.dir/vtkSIPVRepresentationProxyClientServer.cxx.o CMakeFiles/vtkPVServerImplementationRenderingCS.dir/vtkSIUnstructuredGridVolumeRepresentationProxyClientServer.cxx.o CMakeFiles/vtkPVServerImplementationRenderingCS.dir/vtkPVServerImplementationRenderingCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkPVServerImplementationRenderingCS-pv5.6.a

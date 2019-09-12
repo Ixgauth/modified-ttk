@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkFiltersParallelVerdictCS-pv5.6.a  CMakeFiles/vtkFiltersParallelVerdictCS.dir/vtkPCellSizeFilterClientServer.cxx.o CMakeFiles/vtkFiltersParallelVerdictCS.dir/vtkFiltersParallelVerdictCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkFiltersParallelVerdictCS-pv5.6.a

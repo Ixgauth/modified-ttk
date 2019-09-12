@@ -1,0 +1,76 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageHSIToRGB.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageHSVToRGB.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageYIQToRGB.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageLuminance.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageMapToRGBA.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageMapToWindowLevelColors.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageQuantizeRGBToIndex.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageRGBToHSI.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageRGBToHSV.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageRGBToYIQ.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageHSIToRGB.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageHSVToRGB.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageYIQToRGB.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageLuminance.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageMapToRGBA.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageMapToWindowLevelColors.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageQuantizeRGBToIndex.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageRGBToHSI.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageRGBToHSV.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Imaging/Color/vtkImageRGBToYIQ.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Imaging/Color/vtkImagingColorModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkImagingColor"
+		],
+		"name" : "vtkImagingColor"
+	}
+}

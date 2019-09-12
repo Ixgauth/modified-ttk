@@ -1,0 +1,16 @@
+-I/home/ian/ttk/ParaView-v5.6.0/build
+-I/home/ian/ttk/ParaView-v5.6.0/ThirdParty/QtTesting/vtkqttesting
+-I/home/ian/ttk/ParaView-v5.6.0/build/ThirdParty/QtTesting/vtkqttesting
+-I/home/ian/ttk/ParaView-v5.6.0/build/ThirdParty/QtTesting
+-I/home/ian/ttk/ParaView-v5.6.0/ThirdParty/QtTesting
+-I/home/ian/ttk/ParaView-v5.6.0/ThirdParty/QtTesting/vtkqttesting
+-I/home/ian/ttk/ParaView-v5.6.0/build/ThirdParty/QtTesting/vtkqttesting
+-I/home/ian/ttk/ParaView-v5.6.0/build/ThirdParty/QtTesting
+-I/home/ian/ttk/ParaView-v5.6.0/ThirdParty/QtTesting
+-I/home/ian/ttk/ParaView-v5.6.0/build/ThirdParty/QtTesting/vtkqttesting
+-I/home/ian/ttk/ParaView-v5.6.0/ThirdParty/QtTesting/vtkqttesting
+-I/home/ian/ttk/ParaView-v5.6.0/build/ThirdParty/QtTesting/vtkqttesting/Examples
+-DVTK_IN_VTK
+-o
+/home/ian/ttk/ParaView-v5.6.0/build/ThirdParty/QtTesting/vtkqttesting/Examples/moc_TestingDemo.cpp
+/home/ian/ttk/ParaView-v5.6.0/ThirdParty/QtTesting/vtkqttesting/Examples/TestingDemo.h

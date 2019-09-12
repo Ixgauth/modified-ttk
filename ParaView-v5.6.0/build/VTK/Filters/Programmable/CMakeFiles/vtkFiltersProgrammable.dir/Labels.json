@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Programmable/vtkProgrammableAttributeDataFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Programmable/vtkProgrammableFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Programmable/vtkProgrammableGlyphFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Programmable/vtkProgrammableAttributeDataFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Programmable/vtkProgrammableFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Programmable/vtkProgrammableGlyphFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Filters/Programmable/vtkFiltersProgrammableModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersProgrammable"
+		],
+		"name" : "vtkFiltersProgrammable"
+	}
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkIOTecplotTableCS-pv5.6.a  CMakeFiles/vtkIOTecplotTableCS.dir/vtkTecplotTableReaderClientServer.cxx.o CMakeFiles/vtkIOTecplotTableCS.dir/vtkIOTecplotTableCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkIOTecplotTableCS-pv5.6.a

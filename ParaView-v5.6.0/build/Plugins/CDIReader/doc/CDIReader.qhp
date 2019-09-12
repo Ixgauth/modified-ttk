@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>CDIReader.org</namespace>
+    <virtualFolder>CDIReader</virtualFolder>
+    <filterSection>
+        <toc> <section title="CDIReader" ref="" >
+  </section> </toc>
+        <keywords>
+          <!-- how to handle keywords? -->
+        </keywords>
+        <files>
+          
+        </files>
+    </filterSection>
+</QtHelpProject>

@@ -1,0 +1,1 @@
+/usr/bin/cc    -O3 -DNDEBUG   -Wl,-lc  -Wl,-lc    -rdynamic CMakeFiles/vtkWrapClientServer.dir/vtkWrapClientServer.c.o  -o ../../bin/vtkWrapClientServer-pv5.6 ../../lib/libvtkWrappingTools-pv5.6.a 

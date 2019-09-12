@@ -1,0 +1,4 @@
+vtkIOPLYPython
+vtkPLY
+vtkPLYReader
+vtkPLYWriter

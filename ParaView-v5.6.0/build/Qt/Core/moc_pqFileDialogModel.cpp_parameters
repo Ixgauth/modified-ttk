@@ -1,0 +1,5 @@
+-I/home/ian/ttk/ParaView-v5.6.0/build
+-DVTK_IN_VTK
+-o
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Core/moc_pqFileDialogModel.cpp
+/home/ian/ttk/ParaView-v5.6.0/Qt/Core/pqFileDialogModel.h

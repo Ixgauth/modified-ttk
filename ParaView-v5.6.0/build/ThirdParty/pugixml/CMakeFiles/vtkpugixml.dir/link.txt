@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC    -w -w -O3 -DNDEBUG  -Wl,-lc    -shared -Wl,-soname,libvtkpugixml-pv5.6.so.1 -o ../../lib/libvtkpugixml-pv5.6.so.1 CMakeFiles/vtkpugixml.dir/pugixml.cxx.o 

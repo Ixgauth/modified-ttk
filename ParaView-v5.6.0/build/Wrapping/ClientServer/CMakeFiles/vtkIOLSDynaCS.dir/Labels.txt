@@ -1,0 +1,16 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkLSDynaPartClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkLSDynaPartCollectionClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkLSDynaReaderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkLSDynaSummaryParserClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/LSDynaMetaDataClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/LSDynaFamilyClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkIOLSDynaCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/LSDyna/vtkLSDynaPart.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/LSDyna/vtkLSDynaPartCollection.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/LSDyna/vtkLSDynaReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/LSDyna/vtkLSDynaSummaryParser.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/LSDyna/LSDynaMetaData.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/LSDyna/LSDynaFamily.h

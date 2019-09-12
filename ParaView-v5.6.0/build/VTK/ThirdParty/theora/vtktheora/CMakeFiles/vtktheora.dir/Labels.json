@@ -1,0 +1,106 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/analyze.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/encapiwrapper.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/encfrag.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/encinfo.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/encode.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/enquant.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/fdct.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/huffenc.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/mathops.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/mcenc.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/rate.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/tokenize.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/bitpack.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/decapiwrapper.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/decinfo.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/decode.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/dequant.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/huffdec.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/info.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/apiwrapper.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/fragment.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/idct.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/internal.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/quant.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/lib/state.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/include/theora/codec.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/include/theora/theora.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/include/theora/theoradec.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/include/theora/theoraenc.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/theora/vtktheora/include/theora/vtk_theora_mangle.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/ThirdParty/theora/vtktheora/include/vtktheora_export.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtktheora"
+		],
+		"name" : "vtktheora"
+	}
+}

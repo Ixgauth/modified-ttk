@@ -1,0 +1,4 @@
+vtkStreamLinesMapper : vtkMapper ; vtkStreamLinesMapper.h ; StreamLinesRepresentation
+vtkStreamLinesMapper::Superclass = vtkMapper ; vtkStreamLinesMapper.h ; StreamLinesRepresentation
+vtkStreamLinesRepresentation : vtkPVDataRepresentation ; vtkStreamLinesRepresentation.h ; StreamLinesRepresentation
+vtkStreamLinesRepresentation::Superclass = vtkPVDataRepresentation ; vtkStreamLinesRepresentation.h ; StreamLinesRepresentation

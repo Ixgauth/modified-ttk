@@ -1,0 +1,16 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkConvertSelectionDomainClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkDataRepresentationClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkEmptyRepresentationClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkRenderViewBaseClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkViewClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkViewThemeClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkViewsCoreCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkConvertSelectionDomain.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkDataRepresentation.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkEmptyRepresentation.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkRenderViewBase.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkView.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkViewTheme.h

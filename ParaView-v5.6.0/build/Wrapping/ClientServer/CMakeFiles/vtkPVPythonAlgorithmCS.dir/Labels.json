@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkSIPythonSourceProxyClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPVPythonAlgorithmPluginClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPVPythonAlgorithmCSInit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/PythonAlgorithm/vtkSIPythonSourceProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/PythonAlgorithm/vtkPVPythonAlgorithmPlugin.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"VTKModular"
+		],
+		"name" : "vtkPVPythonAlgorithmCS"
+	}
+}

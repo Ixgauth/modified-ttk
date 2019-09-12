@@ -1,0 +1,9 @@
+-I/home/ian/ttk/ParaView-v5.6.0/build
+-DVTK_IN_VTK
+-I
+/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/../Components
+-I
+/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/../Core
+-o
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/ApplicationComponents/moc_pqAnimationTimeWidget.cpp
+/home/ian/ttk/ParaView-v5.6.0/Qt/ApplicationComponents/pqAnimationTimeWidget.h

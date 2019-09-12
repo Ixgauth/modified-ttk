@@ -1,0 +1,11 @@
+set(vtkPVVTKExtensionsRendering_LOADED 1)
+set(vtkPVVTKExtensionsRendering_DEPENDS "vtkChartsCore;vtkCommonColor;vtkCommonComputationalGeometry;vtkCommonSystem;vtkFiltersExtraction;vtkFiltersGeneric;vtkFiltersHyperTree;vtkFiltersParallel;vtkIOExport;vtkIOExportOpenGL2;vtkIOImage;vtkIOXML;vtkInteractionStyle;vtkInteractionWidgets;vtkPVVTKExtensionsCore;vtkRenderingAnnotation;vtkRenderingContextOpenGL2;vtkRenderingFreeType;vtkRenderingMatplotlib;vtkRenderingOpenGL2;vtkRenderingParallel;vtkRenderingVolumeAMR;vtkglew;vtklz4;vtkzlib")
+set(vtkPVVTKExtensionsRendering_LIBRARIES "vtkPVVTKExtensionsRendering")
+set(vtkPVVTKExtensionsRendering_INCLUDE_DIRS "${VTK_INSTALL_PREFIX}/include/paraview-5.6")
+set(vtkPVVTKExtensionsRendering_LIBRARY_DIRS "")
+set(vtkPVVTKExtensionsRendering_RUNTIME_LIBRARY_DIRS "${VTK_INSTALL_PREFIX}/lib")
+set(vtkPVVTKExtensionsRendering_WRAP_HIERARCHY_FILE "${CMAKE_CURRENT_LIST_DIR}/vtkPVVTKExtensionsRenderingHierarchy.txt")
+set(vtkPVVTKExtensionsRendering_KIT "vtkPVExtensions")
+set(vtkPVVTKExtensionsRendering_TARGETS_FILE "")
+
+

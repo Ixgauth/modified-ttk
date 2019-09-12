@@ -1,0 +1,21 @@
+_analyze75_orient_code : enum ; vtknifti1_io.h ; AnalyzeNIfTIIO
+analyze_75_orient_code = _analyze75_orient_code ; vtknifti1_io.h ; AnalyzeNIfTIIO
+mat33 ; vtknifti1_io.h ; AnalyzeNIfTIIO ; WRAP_EXCLUDE_PYTHON
+mat44 ; vtknifti1_io.h ; AnalyzeNIfTIIO ; WRAP_EXCLUDE_PYTHON
+nifti_analyze75 ; vtknifti1_io.h ; AnalyzeNIfTIIO ; WRAP_EXCLUDE_PYTHON
+nifti_brick_list ; vtknifti1_io.h ; AnalyzeNIfTIIO ; WRAP_EXCLUDE_PYTHON
+nifti_image ; vtknifti1_io.h ; AnalyzeNIfTIIO ; WRAP_EXCLUDE_PYTHON
+vtkAnalyzeReader : vtkImageReader ; vtkAnalyzeReader.h ; AnalyzeNIfTIIO
+vtkAnalyzeReader::Superclass = vtkImageReader ; vtkAnalyzeReader.h ; AnalyzeNIfTIIO
+vtkAnalyzeWriter : vtkImageWriter ; vtkAnalyzeWriter.h ; AnalyzeNIfTIIO
+vtkAnalyzeWriter::Superclass = vtkImageWriter ; vtkAnalyzeWriter.h ; AnalyzeNIfTIIO
+vtkNIfTIReader : vtkImageReader ; vtkNIfTIReader.h ; AnalyzeNIfTIIO
+vtkNIfTIReader::Superclass = vtkImageReader ; vtkNIfTIReader.h ; AnalyzeNIfTIIO
+vtkNIfTIWriter : vtkImageWriter ; vtkNIfTIWriter.h ; AnalyzeNIfTIIO
+vtkNIfTIWriter::Superclass = vtkImageWriter ; vtkNIfTIWriter.h ; AnalyzeNIfTIIO
+vtknifti1_io : vtkObject ; vtknifti1_io.h ; AnalyzeNIfTIIO
+vtknifti1_io::Superclass = vtkObject ; vtknifti1_io.h ; AnalyzeNIfTIIO
+vtkznzlib : vtkObject ; vtkznzlib.h ; AnalyzeNIfTIIO
+vtkznzlib::Superclass = vtkObject ; vtkznzlib.h ; AnalyzeNIfTIIO
+znzFile = * znzptr ; vtkznzlib.h ; AnalyzeNIfTIIO
+znzptr ; vtkznzlib.h ; AnalyzeNIfTIIO ; WRAP_EXCLUDE_PYTHON

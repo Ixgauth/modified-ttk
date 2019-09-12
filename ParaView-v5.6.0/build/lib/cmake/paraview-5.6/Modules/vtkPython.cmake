@@ -1,0 +1,12 @@
+set(vtkPython_LOADED 1)
+set(vtkPython_DEPENDS "vtkCommonCore")
+set(vtkPython_LIBRARIES "/usr/lib/x86_64-linux-gnu/libpython3.6m.so")
+set(vtkPython_INCLUDE_DIRS "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/Python;/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/Python;/usr/include/python3.6m")
+set(vtkPython_LIBRARY_DIRS "")
+set(vtkPython_RUNTIME_LIBRARY_DIRS "/home/ian/ttk/ParaView-v5.6.0/build/lib")
+set(vtkPython_WRAP_HIERARCHY_FILE "")
+set(vtkPython_KIT "")
+set(vtkPython_TARGETS_FILE "")
+set(vtkPython_EXCLUDE_FROM_WRAPPING 1)
+set(VTK_PYTHONPATH "/home/ian/ttk/ParaView-v5.6.0/build/lib/python3.6/site-packages")
+

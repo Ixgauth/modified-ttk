@@ -1,0 +1,6 @@
+vtkTestingRenderingPython
+vtkMultiBaselineRegressionTest
+vtkRegressionTestImage
+vtkTesting
+vtkTestingInteractor
+vtkTestingObjectFactory

@@ -1,0 +1,1 @@
+/usr/bin/cc    -O3 -DNDEBUG   -Wl,-lc  -Wl,-lc    -rdynamic CMakeFiles/vtkLegacyColorMapXMLToJSON-launcher.dir/vtkLegacyColorMapXMLToJSON-forward.c.o  -o launcher/vtkLegacyColorMapXMLToJSON 

@@ -1,0 +1,9 @@
+vtkPVCatalystPython
+CAdaptorAPI
+vtkCPAdaptorAPI
+vtkCPCxxHelper
+vtkCPDataDescription
+vtkCPInputDataDescription
+vtkCPPipeline
+vtkCPProcessor
+vtkCPXMLPWriterPipeline

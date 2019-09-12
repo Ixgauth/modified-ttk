@@ -1,0 +1,18 @@
+# Target labels
+ vtkFiltersAMR
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkAMRCutPlane.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkAMRGaussianPulseSource.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkAMRResampleFilter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkAMRSliceFilter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkAMRToMultiBlockFilter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkImageToAMR.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkParallelAMRUtilities.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkAMRCutPlane.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkAMRGaussianPulseSource.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkAMRResampleFilter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkAMRSliceFilter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkAMRToMultiBlockFilter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkImageToAMR.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/AMR/vtkParallelAMRUtilities.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Filters/AMR/vtkFiltersAMRModule.h

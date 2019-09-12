@@ -1,0 +1,17 @@
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkBiomTableReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkChacoGraphReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDelimitedTextReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDIMACSGraphReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkDIMACSGraphWriter.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkFixedWidthTextReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkISIReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkMultiNewickTreeReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkNewickTreeReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkNewickTreeWriter.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkPhyloXMLTreeReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkPhyloXMLTreeWriter.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkRISReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkTulipReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkXGMLReader.h;vtkIOInfovis
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Infovis/vtkXMLTreeReader.h;vtkIOInfovis
+

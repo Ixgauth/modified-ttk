@@ -1,0 +1,118 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkAutoCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkBivariateLinearTableThreshold.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkComputeQuartiles.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkContingencyStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkDescriptiveStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkHighestDensityRegionsStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkExtractFunctionalBagPlot.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkKMeansDistanceFunctorCalculator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkKMeansDistanceFunctor.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkKMeansStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkMultiCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkOrderStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkPCAStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkStatisticsAlgorithm.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkStrahlerMetric.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkStreamingStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkAutoCorrelativeStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkBivariateLinearTableThreshold.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkComputeQuartiles.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkContingencyStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkCorrelativeStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkDescriptiveStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkHighestDensityRegionsStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkExtractFunctionalBagPlot.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkKMeansDistanceFunctorCalculator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkKMeansDistanceFunctor.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkKMeansStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkMultiCorrelativeStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkOrderStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkPCAStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkStatisticsAlgorithm.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkStrahlerMetric.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Statistics/vtkStreamingStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Filters/Statistics/vtkFiltersStatisticsModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersStatistics"
+		],
+		"name" : "vtkFiltersStatistics"
+	}
+}

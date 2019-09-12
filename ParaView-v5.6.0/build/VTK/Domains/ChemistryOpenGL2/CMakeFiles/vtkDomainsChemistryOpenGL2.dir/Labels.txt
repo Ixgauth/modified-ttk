@@ -1,0 +1,8 @@
+# Target labels
+ vtkDomainsChemistryOpenGL2
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/ChemistryOpenGL2/vtkOpenGLMoleculeMapper.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Domains/ChemistryOpenGL2/vtkDomainsChemistryOpenGL2ObjectFactory.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/ChemistryOpenGL2/vtkOpenGLMoleculeMapper.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Domains/ChemistryOpenGL2/vtkDomainsChemistryOpenGL2ObjectFactory.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Domains/ChemistryOpenGL2/vtkDomainsChemistryOpenGL2Module.h

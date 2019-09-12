@@ -1,0 +1,73 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkCPExodusIIElementBlock.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkCPExodusIIInSituReader.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkCPExodusIINodalCoordinatesTemplate.txx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkCPExodusIIResultsArrayTemplate.txx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkExodusIICache.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkExodusIIReader.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkExodusIIReaderParser.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkExodusIIReaderVariableCheck.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkExodusIIWriter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkModelMetadata.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkCPExodusIINodalCoordinatesTemplate.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkCPExodusIIResultsArrayTemplate.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkCPExodusIIElementBlock.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkCPExodusIIInSituReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkExodusIICache.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkExodusIIReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkExodusIIReaderParser.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkExodusIIWriter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Exodus/vtkModelMetadata.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/Exodus/vtkIOExodusModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOExodus"
+		],
+		"name" : "vtkIOExodus"
+	}
+}

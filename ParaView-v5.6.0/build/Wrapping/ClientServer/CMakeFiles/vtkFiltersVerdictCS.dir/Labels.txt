@@ -1,0 +1,12 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCellQualityClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCellSizeFilterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkMatrixMathFilterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkMeshQualityClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkFiltersVerdictCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Verdict/vtkCellQuality.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Verdict/vtkCellSizeFilter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Verdict/vtkMatrixMathFilter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Verdict/vtkMeshQuality.h

@@ -1,0 +1,12 @@
+# Target labels
+ vtkTestingRendering
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Testing/Rendering/vtkMultiBaselineRegressionTest.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Testing/Rendering/vtkRegressionTestImage.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Testing/Rendering/vtkTesting.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Testing/Rendering/vtkTestingInteractor.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Testing/Rendering/vtkTestingObjectFactory.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Testing/Rendering/vtkTesting.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Testing/Rendering/vtkTestingInteractor.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Testing/Rendering/vtkTestingObjectFactory.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Testing/Rendering/vtkTestingRenderingModule.h

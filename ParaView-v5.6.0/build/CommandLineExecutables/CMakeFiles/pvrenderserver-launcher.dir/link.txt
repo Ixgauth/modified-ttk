@@ -1,0 +1,1 @@
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/pvrenderserver-launcher.dir/pvrenderserver-forward.c.o  -o launcher/pvrenderserver 

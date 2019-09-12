@@ -1,0 +1,1 @@
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/paraview-config-launcher.dir/paraview-config-forward.c.o  -o launcher/paraview-config 

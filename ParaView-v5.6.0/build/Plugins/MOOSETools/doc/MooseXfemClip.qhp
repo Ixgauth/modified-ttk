@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>MooseXfemClip.org</namespace>
+    <virtualFolder>MooseXfemClip</virtualFolder>
+    <filterSection>
+        <toc> <section title="MooseXfemClip" ref="index.html" >
+     <section title="MooseXfemClip" ref="index.html" />
+ </section> </toc>
+        <keywords>
+          <!-- how to handle keywords? -->
+        </keywords>
+        <files>
+          <file>index.html</file>
+<file>after.png</file>
+<file>before.png</file>
+
+        </files>
+    </filterSection>
+</QtHelpProject>

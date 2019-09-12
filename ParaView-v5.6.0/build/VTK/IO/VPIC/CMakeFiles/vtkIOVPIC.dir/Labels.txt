@@ -1,0 +1,6 @@
+# Target labels
+ vtkIOVPIC
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/VPIC/vtkVPICReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/VPIC/vtkVPICReader.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/VPIC/vtkIOVPICModule.h

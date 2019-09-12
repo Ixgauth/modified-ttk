@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/Points/vtkBoundedPlaneSource.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/Points/vtkBoundedVolumeSource.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/Points/vtkBoundedPlaneSource.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/Points/vtkBoundedVolumeSource.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/VTKExtensions/Points/vtkPVVTKExtensionsPointsModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPVVTKExtensionsPoints"
+		],
+		"name" : "vtkPVVTKExtensionsPoints"
+	}
+}

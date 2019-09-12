@@ -1,0 +1,6 @@
+set(vtkRenderingParallel_HEADERS_LOADED 1)
+set(vtkRenderingParallel_HEADERS "vtkClientServerCompositePass;vtkClientServerSynchronizedRenderers;vtkCompositedSynchronizedRenderers;vtkCompositer;vtkCompositeRenderManager;vtkCompositeRGBAPass;vtkCompositeZPass;vtkCompressCompositer;vtkParallelRenderManager;vtkPHardwareSelector;vtkSynchronizedRenderers;vtkSynchronizedRenderWindows;vtkTreeCompositer;vtkImageRenderManager")
+
+foreach(header ${vtkRenderingParallel_HEADERS})
+  set(vtkRenderingParallel_HEADER_${header}_EXISTS 1)
+endforeach()

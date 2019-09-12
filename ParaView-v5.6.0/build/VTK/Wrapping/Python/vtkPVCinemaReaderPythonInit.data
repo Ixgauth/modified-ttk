@@ -1,0 +1,7 @@
+vtkPVCinemaReaderPython
+vtkSMCinemaDatabaseImporter
+vtkCinemaDatabase
+vtkCinemaDatabaseReader
+vtkCinemaLayerMapper
+vtkCinemaLayerRepresentation
+vtkPVCinemaDatabaseInformation

@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Matplotlib/vtkMatplotlibMathTextUtilities.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/Matplotlib/vtkRenderingMatplotlibObjectFactory.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Matplotlib/vtkMatplotlibMathTextUtilities.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/Matplotlib/vtkRenderingMatplotlibObjectFactory.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/Matplotlib/vtkRenderingMatplotlibModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkRenderingMatplotlib"
+		],
+		"name" : "vtkRenderingMatplotlib"
+	}
+}

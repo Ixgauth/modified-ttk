@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeTmp/VTK_UNDEFINED_SYMBOLS_ALLOWED/foo.c
+

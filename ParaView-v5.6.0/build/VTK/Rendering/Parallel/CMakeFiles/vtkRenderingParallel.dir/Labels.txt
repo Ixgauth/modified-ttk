@@ -1,0 +1,36 @@
+# Target labels
+ vtkRenderingParallel
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkClientServerCompositePass.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkClientServerSynchronizedRenderers.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompositedSynchronizedRenderers.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompositer.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompositeRenderManager.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompositeRGBAPass.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompositeZPass.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompressCompositer.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkParallelRenderManager.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkPHardwareSelector.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkSynchronizedRenderers.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkSynchronizedRenderWindows.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkTreeCompositer.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkImageRenderManager.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/Parallel/vtkCompositeZPassShader_fs.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/Parallel/vtkCompositeZPassFS.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkClientServerCompositePass.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkClientServerSynchronizedRenderers.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompositedSynchronizedRenderers.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompositer.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompositeRenderManager.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompositeRGBAPass.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompositeZPass.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkCompressCompositer.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkParallelRenderManager.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkPHardwareSelector.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkSynchronizedRenderers.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkSynchronizedRenderWindows.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkTreeCompositer.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Parallel/vtkImageRenderManager.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/Parallel/vtkRenderingParallelModule.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/Parallel/vtkCompositeZPassShader_fs.h.rule
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/Parallel/vtkCompositeZPassFS.h.rule

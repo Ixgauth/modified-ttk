@@ -1,0 +1,6 @@
+vtkPVRandomPointsStreamingSource : vtkMultiBlockDataSetAlgorithm ; vtkPVRandomPointsStreamingSource.h ; StreamingParticles
+vtkPVRandomPointsStreamingSource::Superclass = vtkMultiBlockDataSetAlgorithm ; vtkPVRandomPointsStreamingSource.h ; StreamingParticles
+vtkStreamingParticlesPriorityQueue : vtkObject ; vtkStreamingParticlesPriorityQueue.h ; StreamingParticles
+vtkStreamingParticlesPriorityQueue::Superclass = vtkObject ; vtkStreamingParticlesPriorityQueue.h ; StreamingParticles
+vtkStreamingParticlesRepresentation : vtkPVDataRepresentation ; vtkStreamingParticlesRepresentation.h ; StreamingParticles
+vtkStreamingParticlesRepresentation::Superclass = vtkPVDataRepresentation ; vtkStreamingParticlesRepresentation.h ; StreamingParticles

@@ -1,0 +1,6 @@
+# Target labels
+ vtkFiltersParallelVerdict
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelVerdict/vtkPCellSizeFilter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelVerdict/vtkPCellSizeFilter.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Filters/ParallelVerdict/vtkFiltersParallelVerdictModule.h

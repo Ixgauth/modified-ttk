@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/PythonAlgorithm/vtkSIPythonSourceProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/PythonAlgorithm/vtkPVPythonAlgorithmPlugin.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/PythonAlgorithm/vtkSIPythonSourceProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/PythonAlgorithm/vtkPVPythonAlgorithmPlugin.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/PythonAlgorithm/vtkPVPythonAlgorithmModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPVPythonAlgorithm"
+		],
+		"name" : "vtkPVPythonAlgorithm"
+	}
+}

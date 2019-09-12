@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkPVVTKExtensionsPointsCS-pv5.6.a  CMakeFiles/vtkPVVTKExtensionsPointsCS.dir/vtkBoundedPlaneSourceClientServer.cxx.o CMakeFiles/vtkPVVTKExtensionsPointsCS.dir/vtkBoundedVolumeSourceClientServer.cxx.o CMakeFiles/vtkPVVTKExtensionsPointsCS.dir/vtkPVVTKExtensionsPointsCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkPVVTKExtensionsPointsCS-pv5.6.a

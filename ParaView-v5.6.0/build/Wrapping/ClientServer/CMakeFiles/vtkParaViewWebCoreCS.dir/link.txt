@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkParaViewWebCoreCS-pv5.6.a  CMakeFiles/vtkParaViewWebCoreCS.dir/vtkPVWebApplicationClientServer.cxx.o CMakeFiles/vtkParaViewWebCoreCS.dir/vtkParaViewWebCoreCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkParaViewWebCoreCS-pv5.6.a

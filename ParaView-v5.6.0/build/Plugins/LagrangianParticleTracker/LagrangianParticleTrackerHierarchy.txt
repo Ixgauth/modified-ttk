@@ -1,0 +1,7 @@
+vtkLagrangianHelperBase : vtkDataObjectAlgorithm ; vtkLagrangianHelperBase.h ; LagrangianParticleTracker
+vtkLagrangianHelperBase::Superclass = vtkDataObjectAlgorithm ; vtkLagrangianHelperBase.h ; LagrangianParticleTracker
+vtkLagrangianSeedHelper : vtkLagrangianHelperBase ; vtkLagrangianSeedHelper.h ; LagrangianParticleTracker
+vtkLagrangianSeedHelper::FlowOrConstant : enum ; vtkLagrangianSeedHelper.h ; LagrangianParticleTracker
+vtkLagrangianSeedHelper::Superclass = vtkLagrangianHelperBase ; vtkLagrangianSeedHelper.h ; LagrangianParticleTracker
+vtkLagrangianSurfaceHelper : vtkLagrangianHelperBase ; vtkLagrangianSurfaceHelper.h ; LagrangianParticleTracker
+vtkLagrangianSurfaceHelper::Superclass = vtkLagrangianHelperBase ; vtkLagrangianSurfaceHelper.h ; LagrangianParticleTracker

@@ -1,0 +1,64 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum.cc"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum-dtoa.cc"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/cached-powers.cc"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/diy-fp.cc"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/double-conversion.cc"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fast-dtoa.cc"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fixed-dtoa.cc"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/strtod.cc"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/bignum.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/cached-powers.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/diy-fp.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/double-conversion.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fast-dtoa.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/fixed-dtoa.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/ieee.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/strtod.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/doubleconversion/vtkdoubleconversion/double-conversion/utils.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkdoubleconversion"
+		],
+		"name" : "vtkdoubleconversion"
+	}
+}

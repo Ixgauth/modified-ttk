@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkFiltersVerdictCS-pv5.6.a  CMakeFiles/vtkFiltersVerdictCS.dir/vtkCellQualityClientServer.cxx.o CMakeFiles/vtkFiltersVerdictCS.dir/vtkCellSizeFilterClientServer.cxx.o CMakeFiles/vtkFiltersVerdictCS.dir/vtkMatrixMathFilterClientServer.cxx.o CMakeFiles/vtkFiltersVerdictCS.dir/vtkMeshQualityClientServer.cxx.o CMakeFiles/vtkFiltersVerdictCS.dir/vtkFiltersVerdictCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkFiltersVerdictCS-pv5.6.a

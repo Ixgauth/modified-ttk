@@ -1,0 +1,14 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtk3DSImporterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkImporterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkVRMLImporterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkOBJImporterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkOBJImporterInternalsClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkIOImportCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtk3DSImporter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkImporter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkVRMLImporter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkOBJImporter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkOBJImporterInternals.h

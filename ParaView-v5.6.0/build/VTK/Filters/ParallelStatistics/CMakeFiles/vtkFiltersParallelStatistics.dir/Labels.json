@@ -1,0 +1,70 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPAutoCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPContingencyStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPDescriptiveStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPKMeansStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPMultiCorrelativeStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPOrderStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPPCAStatistics.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPBivariateLinearTableThreshold.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPAutoCorrelativeStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPContingencyStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPCorrelativeStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPDescriptiveStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPKMeansStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPMultiCorrelativeStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPOrderStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPPCAStatistics.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelStatistics/vtkPBivariateLinearTableThreshold.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Filters/ParallelStatistics/vtkFiltersParallelStatisticsModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersParallelStatistics"
+		],
+		"name" : "vtkFiltersParallelStatistics"
+	}
+}

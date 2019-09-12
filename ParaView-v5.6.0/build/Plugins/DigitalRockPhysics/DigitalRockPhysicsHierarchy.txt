@@ -1,0 +1,4 @@
+vtkPMaterialClusterAnalysisFilter : vtkImageAlgorithm ; vtkPMaterialClusterAnalysisFilter.h ; DigitalRockPhysics
+vtkPMaterialClusterAnalysisFilter::Superclass = vtkImageAlgorithm ; vtkPMaterialClusterAnalysisFilter.h ; DigitalRockPhysics
+vtkPMaterialClusterExplodeFilter : vtkPolyDataAlgorithm ; vtkPMaterialClusterExplodeFilter.h ; DigitalRockPhysics
+vtkPMaterialClusterExplodeFilter::Superclass = vtkPolyDataAlgorithm ; vtkPMaterialClusterExplodeFilter.h ; DigitalRockPhysics

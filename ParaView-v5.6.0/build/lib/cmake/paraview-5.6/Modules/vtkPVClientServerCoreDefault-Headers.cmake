@@ -1,0 +1,6 @@
+set(vtkPVClientServerCoreDefault_HEADERS_LOADED 1)
+set(vtkPVClientServerCoreDefault_HEADERS "vtkNetworkImageSource;vtkPVCatalystChannelInformation;vtkPVEnsembleDataReaderInformation;vtkPVEnvironmentInformation;vtkPVEnvironmentInformationHelper;vtkPVFileInformation;vtkPVSingleOutputExtractSelection;vtkSliceAlongPolyPlane;vtkAnnotateGlobalDataFilter;vtkPythonCalculator;vtkAnnotateAttributeDataFilter")
+
+foreach(header ${vtkPVClientServerCoreDefault_HEADERS})
+  set(vtkPVClientServerCoreDefault_HEADER_${header}_EXISTS 1)
+endforeach()

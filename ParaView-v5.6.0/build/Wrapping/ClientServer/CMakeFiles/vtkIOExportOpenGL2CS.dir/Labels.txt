@@ -1,0 +1,8 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkOpenGLGL2PSExporterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkIOExportOpenGL2ObjectFactoryClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkIOExportOpenGL2CSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/ExportOpenGL2/vtkOpenGLGL2PSExporter.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/ExportOpenGL2/vtkIOExportOpenGL2ObjectFactory.h

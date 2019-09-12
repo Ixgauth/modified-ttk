@@ -1,0 +1,14 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkDataEncoderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkWebApplicationClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkWebInteractionEventClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkWebUtilitiesClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkObjectIdMapClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkWebCoreCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkDataEncoder.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkWebApplication.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkWebInteractionEvent.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkWebUtilities.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkObjectIdMap.h

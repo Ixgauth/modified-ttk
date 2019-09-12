@@ -1,0 +1,8 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPythonInterpreterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPythonInteractiveInterpreterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPythonInterpreterCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/PythonInterpreter/vtkPythonInterpreter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/PythonInterpreter/vtkPythonInteractiveInterpreter.h

@@ -1,0 +1,232 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVCatalystSessionCore.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVFilePathEncodingHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVProxyDefinitionIterator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVSessionBase.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVSessionCore.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVSessionCoreInterpreterHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVSessionServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIArraySelectionProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSICollaborationManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSICompoundSourceProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIDataArrayProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIDataArraySelectionProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIDirectoryProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIDoubleMapProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIDoubleVectorProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIIdTypeVectorProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIIndexSelectionProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIInputProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIIntVectorProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIMetaReaderProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIObject.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIProxyDefinitionManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIProxyProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSISILProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSISourceProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIStringVectorProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSITimeLabelProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSITimeRangeProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSITimeStepsProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIVectorProperty.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIWriterProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSMMessage.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSMMessageMinimal.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ServerImplementation/Core/vtkPVMessage.pb.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIVectorPropertyTemplate.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVCatalystSessionCore.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVFilePathEncodingHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVProxyDefinitionIterator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVSessionBase.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVSessionCore.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVSessionCoreInterpreterHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkPVSessionServer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIArraySelectionProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSICollaborationManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSICompoundSourceProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIDataArrayProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIDataArraySelectionProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIDirectoryProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIDoubleMapProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIDoubleVectorProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIIdTypeVectorProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIIndexSelectionProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIInputProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIIntVectorProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIMetaReaderProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIObject.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIProxyDefinitionManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIProxyProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSISILProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSISourceProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIStringVectorProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSITimeLabelProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSITimeRangeProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSITimeStepsProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIVectorProperty.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSIWriterProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Core/vtkSMMessage.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ServerImplementation/Core/vtkPVServerImplementationCoreModule.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ServerImplementation/Core/vtkPVMessage.pb.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPVServerImplementationCore"
+		],
+		"name" : "vtkPVServerImplementationCore"
+	}
+}

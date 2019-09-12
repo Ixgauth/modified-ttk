@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/CGNSReader/cgio_helpers.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/CGNSReader/vtkCGNSFileSeriesReader.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/CGNSReader/vtkCGNSReader.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/CGNSReader/vtkCGNSReaderInternal.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/CGNSReader/vtkCGNSSubsetInclusionLattice.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/CGNSReader/vtkFileSeriesHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/CGNSReader/vtkCGNSFileSeriesReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/CGNSReader/vtkCGNSReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/CGNSReader/vtkCGNSSubsetInclusionLattice.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/VTKExtensions/CGNSReader/vtkPVVTKExtensionsCGNSReaderModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPVVTKExtensionsCGNSReader"
+		],
+		"name" : "vtkPVVTKExtensionsCGNSReader"
+	}
+}

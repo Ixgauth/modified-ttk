@@ -1,0 +1,4 @@
+vtkMomentGlyphs : vtkPolyDataAlgorithm ; vtkMomentGlyphs.h ; Moments
+vtkMomentGlyphs::Superclass = vtkPolyDataAlgorithm ; vtkMomentGlyphs.h ; Moments
+vtkMomentVectors : vtkDataSetAlgorithm ; vtkMomentVectors.h ; Moments
+vtkMomentVectors::Superclass = vtkDataSetAlgorithm ; vtkMomentVectors.h ; Moments

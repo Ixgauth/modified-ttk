@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkIOMovieCS-pv5.6.a  CMakeFiles/vtkIOMovieCS.dir/vtkGenericMovieWriterClientServer.cxx.o CMakeFiles/vtkIOMovieCS.dir/vtkOggTheoraWriterClientServer.cxx.o CMakeFiles/vtkIOMovieCS.dir/vtkIOMovieCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkIOMovieCS-pv5.6.a

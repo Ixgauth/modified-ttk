@@ -1,0 +1,1195 @@
+Enabled 172 modules:
+ * CinemaPython, needed by vtkPVCinemaReader.
+ * Pygments, needed by pqPython.
+ * pqApplicationComponents, needed by Option PARAVIEW_BUILD_QT_GUI.
+ * pqComponents, needed by pqApplicationComponents.
+ * pqCore, needed by 2 modules:
+        pqComponents
+        pqPython
+ * pqPython, needed by pqComponents.
+ * pqWidgets, needed by pqCore.
+ * smTestDriver, needed by VTK_Group_ParaViewCore.
+ * vtkAcceleratorsVTKm, needed by 2 modules:
+        vtkPVClientServerCoreRendering
+        vtkPVServerManagerApplication
+ * vtkChartsCore, needed by 4 modules:
+        pqComponents
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+        vtkPVVTKExtensionsRendering
+ * vtkClientServer, needed by vtkPVCommon.
+ * vtkCommonColor, needed by 4 modules:
+        vtkChartsCore
+        vtkPVServerManagerRendering
+        vtkPVVTKExtensionsRendering
+        vtkRenderingCore
+ * vtkCommonComputationalGeometry, needed by 5 modules:
+        vtkFiltersGeneral
+        vtkFiltersSources
+        vtkInteractionWidgets
+        vtkPVVTKExtensionsRendering
+        vtkRenderingCore
+ * vtkCommonCore, needed by 109 modules:
+        smTestDriver
+        vtkAcceleratorsVTKm
+        vtkChartsCore
+        vtkClientServer
+        vtkCommonColor
+        vtkCommonComputationalGeometry
+        vtkCommonDataModel
+        vtkCommonExecutionModel
+        vtkCommonMath
+        vtkCommonMisc
+        vtkCommonSystem
+        vtkCommonTransforms
+        vtkDomainsChemistry
+        vtkDomainsChemistryOpenGL2
+        vtkFiltersAMR
+        vtkFiltersCore
+        vtkFiltersExtraction
+        vtkFiltersFlowPaths
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersGeometry
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersParallelStatistics
+        vtkFiltersPoints
+        vtkFiltersProgrammable
+        vtkFiltersPython
+        vtkFiltersSources
+        vtkFiltersStatistics
+        vtkFiltersTexture
+        vtkFiltersVerdict
+        vtkGUISupportQt
+        vtkIOAMR
+        vtkIOAsynchronous
+        vtkIOCore
+        vtkIOEnSight
+        vtkIOExodus
+        vtkIOExport
+        vtkIOExportOpenGL2
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkIOInfovis
+        vtkIOLSDyna
+        vtkIOLegacy
+        vtkIOMovie
+        vtkIONetCDF
+        vtkIOPLY
+        vtkIOParallel
+        vtkIOParallelExodus
+        vtkIOParallelLSDyna
+        vtkIOParallelXML
+        vtkIOSegY
+        vtkIOTecplotTable
+        vtkIOVPIC
+        vtkIOVeraOut
+        vtkIOXML
+        vtkIOXMLParser
+        vtkIOXdmf2
+        vtkImagingColor
+        vtkImagingCore
+        vtkImagingFourier
+        vtkImagingGeneral
+        vtkImagingHybrid
+        vtkImagingMath
+        vtkImagingMorphological
+        vtkImagingSources
+        vtkInfovisCore
+        vtkInteractionImage
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkPVClientServerCoreCore
+        vtkPVCommon
+        vtkPVServerManagerCore
+        vtkPVVTKExtensionsCGNSReader
+        vtkPVVTKExtensionsCGNSWriter
+        vtkPVVTKExtensionsH5PartReader
+        vtkPVVTKExtensionsSIL
+        vtkParallelCore
+        vtkPython
+        vtkPythonInterpreter
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingCore
+        vtkRenderingFreeType
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingLICOpenGL2
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingMatplotlib
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeAMR
+        vtkRenderingVolumeOpenGL2
+        vtkTestingCore
+        vtkTestingRendering
+        vtkUtilitiesProcessXML
+        vtkVPIC
+        vtkViewsContext2D
+        vtkViewsCore
+        vtkWebCore
+        vtkWebGLExporter
+        vtkWebPython
+        vtkWrappingPythonCore
+        vtkWrappingTools
+ * vtkCommonDataModel, needed by 89 modules:
+        vtkAcceleratorsVTKm
+        vtkChartsCore
+        vtkCommonColor
+        vtkCommonComputationalGeometry
+        vtkCommonExecutionModel
+        vtkDomainsChemistry
+        vtkDomainsChemistryOpenGL2
+        vtkFiltersAMR
+        vtkFiltersCore
+        vtkFiltersExtraction
+        vtkFiltersFlowPaths
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersGeometry
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersParallelStatistics
+        vtkFiltersPoints
+        vtkFiltersProgrammable
+        vtkFiltersSources
+        vtkFiltersStatistics
+        vtkFiltersTexture
+        vtkFiltersVerdict
+        vtkGUISupportQt
+        vtkIOAMR
+        vtkIOAsynchronous
+        vtkIOCore
+        vtkIOEnSight
+        vtkIOExodus
+        vtkIOExport
+        vtkIOExportOpenGL2
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkIOInfovis
+        vtkIOLSDyna
+        vtkIOLegacy
+        vtkIOMotionFX
+        vtkIOMovie
+        vtkIONetCDF
+        vtkIOPLY
+        vtkIOParallel
+        vtkIOParallelExodus
+        vtkIOParallelLSDyna
+        vtkIOParallelXML
+        vtkIOSegY
+        vtkIOTecplotTable
+        vtkIOVPIC
+        vtkIOVeraOut
+        vtkIOXML
+        vtkIOXMLParser
+        vtkIOXdmf2
+        vtkImagingColor
+        vtkImagingCore
+        vtkImagingFourier
+        vtkImagingGeneral
+        vtkImagingHybrid
+        vtkImagingMath
+        vtkImagingMorphological
+        vtkImagingSources
+        vtkInfovisCore
+        vtkInteractionImage
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkPVVTKExtensionsCGNSReader
+        vtkPVVTKExtensionsCGNSWriter
+        vtkPVVTKExtensionsH5PartReader
+        vtkParallelCore
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingCore
+        vtkRenderingFreeType
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingLICOpenGL2
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingMatplotlib
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeAMR
+        vtkRenderingVolumeOpenGL2
+        vtkTestingRendering
+        vtkViewsCore
+        vtkWebCore
+        vtkWebGLExporter
+ * vtkCommonExecutionModel, needed by 75 modules:
+        vtkAcceleratorsVTKm
+        vtkChartsCore
+        vtkDomainsChemistry
+        vtkDomainsChemistryOpenGL2
+        vtkFiltersAMR
+        vtkFiltersCore
+        vtkFiltersExtraction
+        vtkFiltersFlowPaths
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersGeometry
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersPoints
+        vtkFiltersProgrammable
+        vtkFiltersPython
+        vtkFiltersSources
+        vtkFiltersStatistics
+        vtkFiltersTexture
+        vtkFiltersVerdict
+        vtkIOAMR
+        vtkIOAsynchronous
+        vtkIOCore
+        vtkIOEnSight
+        vtkIOExodus
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkIOInfovis
+        vtkIOLSDyna
+        vtkIOLegacy
+        vtkIOMotionFX
+        vtkIOMovie
+        vtkIONetCDF
+        vtkIOParallel
+        vtkIOParallelExodus
+        vtkIOParallelLSDyna
+        vtkIOParallelXML
+        vtkIOSegY
+        vtkIOTRUCHAS
+        vtkIOTecplotTable
+        vtkIOVPIC
+        vtkIOVeraOut
+        vtkIOXML
+        vtkIOXdmf2
+        vtkImagingColor
+        vtkImagingCore
+        vtkImagingFourier
+        vtkImagingGeneral
+        vtkImagingHybrid
+        vtkImagingMath
+        vtkImagingMorphological
+        vtkImagingSources
+        vtkInfovisCore
+        vtkInteractionImage
+        vtkInteractionWidgets
+        vtkPVCinemaReader
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsCGNSReader
+        vtkPVVTKExtensionsCGNSWriter
+        vtkPVVTKExtensionsH5PartReader
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingCore
+        vtkRenderingFreeType
+        vtkRenderingLICOpenGL2
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingOpenGL2
+        vtkRenderingVolume
+        vtkRenderingVolumeAMR
+        vtkTestingRendering
+        vtkViewsCore
+ * vtkCommonMath, needed by 30 modules:
+        vtkCommonDataModel
+        vtkCommonMisc
+        vtkCommonTransforms
+        vtkDomainsChemistryOpenGL2
+        vtkFiltersAMR
+        vtkFiltersCore
+        vtkFiltersFlowPaths
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersHybrid
+        vtkIOAsynchronous
+        vtkIOExport
+        vtkIOImage
+        vtkImagingCore
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingCore
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingLICOpenGL2
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeAMR
+        vtkRenderingVolumeOpenGL2
+        vtkWebGLExporter
+ * vtkCommonMisc, needed by 28 modules:
+        vtkCommonDataModel
+        vtkCommonExecutionModel
+        vtkCommonExecutionModel
+        vtkFiltersCore
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersModeling
+        vtkFiltersStatistics
+        vtkIOAsynchronous
+        vtkIOCore
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkIOInfovis
+        vtkIOLegacy
+        vtkIOMotionFX
+        vtkIOMovie
+        vtkIOPLY
+        vtkIOParallel
+        vtkIOParallelXML
+        vtkIOVPIC
+        vtkIOXML
+        vtkPVClientServerCoreCore
+        vtkPVVTKExtensionsCore
+        vtkPythonInterpreter
+        vtkRenderingVolume
+ * vtkCommonSystem, needed by 32 modules:
+        vtkCommonDataModel
+        vtkCommonExecutionModel
+        vtkFiltersAMR
+        vtkFiltersCore
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersHyperTree
+        vtkFiltersParallel
+        vtkFiltersParallelStatistics
+        vtkIOAMR
+        vtkIOAsynchronous
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOMovie
+        vtkIOParallel
+        vtkIOXML
+        vtkImagingColor
+        vtkInteractionWidgets
+        vtkPVClientServerCoreCore
+        vtkPVVTKExtensionsRendering
+        vtkParallelCore
+        vtkRenderingCore
+        vtkRenderingLICOpenGL2
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeAMR
+        vtkRenderingVolumeOpenGL2
+        vtkTestingRendering
+        vtkWebCore
+ * vtkCommonTransforms, needed by 28 modules:
+        vtkChartsCore
+        vtkCommonDataModel
+        vtkDomainsChemistry
+        vtkFiltersCore
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersHybrid
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersProgrammable
+        vtkFiltersSources
+        vtkFiltersTexture
+        vtkIOExport
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkImagingCore
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingCore
+        vtkRenderingLabel
+        vtkRenderingMatplotlib
+        vtkRenderingOpenGL2
+        vtkRenderingVolume
+        vtkRenderingVolumeOpenGL2
+ * vtkDICOMParser, needed by vtkIOImage.
+ * vtkDomainsChemistry, needed by 4 modules:
+        vtkDomainsChemistryOpenGL2
+        vtkDomainsChemistryOpenGL2
+        vtkPVClientServerCoreRendering
+        vtkPVServerManagerApplication
+ * vtkDomainsChemistryOpenGL2, needed by 2 modules:
+        vtkDomainsChemistry
+        vtkPVServerManagerApplication
+ * vtkFiltersAMR, needed by 5 modules:
+        vtkIOAMR
+        vtkPVClientServerCoreRendering
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+        vtkRenderingVolumeAMR
+ * vtkFiltersCore, needed by 25 modules:
+        vtkDomainsChemistry
+        vtkFiltersAMR
+        vtkFiltersExtraction
+        vtkFiltersFlowPaths
+        vtkFiltersGeneral
+        vtkFiltersGeneric
+        vtkFiltersGeometry
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersSources
+        vtkIOExodus
+        vtkIOImport
+        vtkIOParallel
+        vtkIOParallelExodus
+        vtkInteractionWidgets
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsCore
+        vtkPVVTKExtensionsPoints
+        vtkRenderingAnnotation
+        vtkRenderingCore
+        vtkRenderingLOD
+        vtkRenderingVolumeOpenGL2
+        vtkWebGLExporter
+ * vtkFiltersExtraction, needed by 12 modules:
+        vtkFiltersParallel
+        vtkGUISupportQt
+        vtkIOParallel
+        vtkIOXdmf2
+        vtkInfovisCore
+        vtkInteractionStyle
+        vtkPVClientServerCoreCore
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsCGNSReader
+        vtkPVVTKExtensionsCGNSWriter
+        vtkPVVTKExtensionsDefault
+        vtkPVVTKExtensionsRendering
+ * vtkFiltersFlowPaths, needed by vtkPVServerManagerApplication.
+ * vtkFiltersGeneral, needed by 23 modules:
+        vtkAcceleratorsVTKm
+        vtkChartsCore
+        vtkDomainsChemistry
+        vtkFiltersExtraction
+        vtkFiltersHybrid
+        vtkFiltersHyperTree
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkFiltersSources
+        vtkFiltersTexture
+        vtkInfovisCore
+        vtkInteractionWidgets
+        vtkPVCatalyst
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingCore
+        vtkRenderingFreeType
+        vtkRenderingLabel
+        vtkRenderingVolumeOpenGL2
+        vtkViewsCore
+        vtkWebCore
+ * vtkFiltersGeneric, needed by 3 modules:
+        vtkPVServerManagerApplication
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsRendering
+ * vtkFiltersGeometry, needed by 10 modules:
+        vtkAcceleratorsVTKm
+        vtkFiltersFlowPaths
+        vtkFiltersHybrid
+        vtkFiltersParallel
+        vtkIOExport
+        vtkPVServerManagerApplication
+        vtkRenderingCore
+        vtkWebCore
+        vtkWebGLExporter
+        vtkWebPython
+ * vtkFiltersHybrid, needed by 2 modules:
+        vtkInteractionWidgets
+        vtkPVServerManagerApplication
+ * vtkFiltersHyperTree, needed by 2 modules:
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsRendering
+ * vtkFiltersModeling, needed by 5 modules:
+        vtkFiltersParallel
+        vtkFiltersPoints
+        vtkInteractionWidgets
+        vtkPVServerManagerApplication
+        vtkRenderingLOD
+ * vtkFiltersParallel, needed by 6 modules:
+        vtkIOParallel
+        vtkPVClientServerCoreCore
+        vtkPVServerManagerApplication
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsRendering
+        vtkRenderingParallel
+ * vtkFiltersParallelStatistics, needed by 2 modules:
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+ * vtkFiltersParallelVerdict, needed by vtkPVServerManagerApplication.
+ * vtkFiltersPoints, needed by vtkPVVTKExtensionsPoints.
+ * vtkFiltersProgrammable, needed by 2 modules:
+        vtkPVClientServerCoreCore
+        vtkPVServerManagerApplication
+ * vtkFiltersPython, needed by 2 modules:
+        vtkPVPythonAlgorithm
+        vtkPVServerManagerApplication
+ * vtkFiltersSources, needed by 13 modules:
+        vtkDomainsChemistry
+        vtkFiltersFlowPaths
+        vtkFiltersGeneric
+        vtkFiltersModeling
+        vtkFiltersParallel
+        vtkIOImport
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsCore
+        vtkRenderingAnnotation
+        vtkRenderingCore
+        vtkRenderingVolumeOpenGL2
+ * vtkFiltersStatistics, needed by 3 modules:
+        vtkFiltersExtraction
+        vtkFiltersParallelStatistics
+        vtkPVServerManagerApplication
+ * vtkFiltersTexture, needed by vtkPVServerManagerApplication.
+ * vtkFiltersVerdict, needed by 2 modules:
+        vtkFiltersParallelVerdict
+        vtkPVServerManagerApplication
+ * vtkGUISupportQt, needed by 3 modules:
+        pqApplicationComponents
+        pqCore
+        pqWidgets
+ * vtkIOAMR, needed by vtkPVServerManagerApplication.
+ * vtkIOAsynchronous, needed by vtkPVServerManagerApplication.
+ * vtkIOCore, needed by 16 modules:
+        vtkFiltersFlowPaths
+        vtkIOAsynchronous
+        vtkIOExodus
+        vtkIOExport
+        vtkIOGeometry
+        vtkIOInfovis
+        vtkIOLegacy
+        vtkIOPLY
+        vtkIOParallel
+        vtkIOTecplotTable
+        vtkIOXML
+        vtkIOXMLParser
+        vtkPVVTKExtensionsCGNSWriter
+        vtkRenderingLICOpenGL2
+        vtkWebCore
+        vtkWebGLExporter
+ * vtkIOEnSight, needed by 2 modules:
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+ * vtkIOExodus, needed by 3 modules:
+        vtkIOParallelExodus
+        vtkIOParallelExodus
+        vtkPVServerManagerApplication
+ * vtkIOExport, needed by 4 modules:
+        vtkIOExportOpenGL2
+        vtkIOExportOpenGL2
+        vtkPVVTKExtensionsRendering
+        vtkWebGLExporter
+ * vtkIOExportOpenGL2, needed by 2 modules:
+        vtkIOExport
+        vtkPVVTKExtensionsRendering
+ * vtkIOGeometry, needed by 4 modules:
+        vtkIOMotionFX
+        vtkIOParallel
+        vtkPVServerManagerApplication
+        vtkPVServerManagerApplication
+ * vtkIOImage, needed by 16 modules:
+        pqComponents
+        vtkIOAsynchronous
+        vtkIOExport
+        vtkIOExport
+        vtkIOGeometry
+        vtkIOImport
+        vtkIOParallel
+        vtkIOSegY
+        vtkImagingHybrid
+        vtkPVServerManagerApplication
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsCore
+        vtkPVVTKExtensionsRendering
+        vtkRenderingParallel
+        vtkTestingRendering
+        vtkWebCore
+ * vtkIOImport, needed by 2 modules:
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+ * vtkIOInfovis, needed by 3 modules:
+        vtkPVClientServerCoreDefault
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+ * vtkIOLSDyna, needed by vtkIOParallelLSDyna.
+ * vtkIOLegacy, needed by 10 modules:
+        vtkDomainsChemistry
+        vtkFiltersParallel
+        vtkIOGeometry
+        vtkIOInfovis
+        vtkIOParallel
+        vtkIOXdmf2
+        vtkPVClientServerCoreCore
+        vtkPVServerManagerApplication
+        vtkParallelCore
+        vtkRenderingLICOpenGL2
+ * vtkIOMotionFX, needed by vtkPVServerManagerApplication.
+ * vtkIOMovie, needed by 2 modules:
+        vtkPVAnimation
+        vtkPVServerManagerApplication
+ * vtkIONetCDF, needed by 2 modules:
+        vtkIOParallel
+        vtkPVServerManagerApplication
+ * vtkIOPLY, needed by 2 modules:
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+ * vtkIOParallel, needed by 3 modules:
+        vtkPVServerManagerApplication
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+ * vtkIOParallelExodus, needed by 2 modules:
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+ * vtkIOParallelLSDyna, needed by vtkPVServerManagerApplication.
+ * vtkIOParallelXML, needed by vtkPVVTKExtensionsDefault.
+ * vtkIOSegY, needed by vtkPVServerManagerApplication.
+ * vtkIOTRUCHAS, needed by vtkPVServerManagerApplication.
+ * vtkIOTecplotTable, needed by vtkPVServerManagerApplication.
+ * vtkIOVPIC, needed by vtkPVServerManagerApplication.
+ * vtkIOVeraOut, needed by vtkPVServerManagerApplication.
+ * vtkIOXML, needed by 10 modules:
+        vtkFiltersAMR
+        vtkIOAsynchronous
+        vtkIOExport
+        vtkIOInfovis
+        vtkIOParallelXML
+        vtkPVServerManagerApplication
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsRendering
+        vtkRenderingLICOpenGL2
+        vtkRenderingVolume
+ * vtkIOXMLParser, needed by 7 modules:
+        vtkDomainsChemistry
+        vtkIOExodus
+        vtkIOInfovis
+        vtkIOLSDyna
+        vtkIOXML
+        vtkIOXdmf2
+        vtkPVCommon
+ * vtkIOXdmf2, needed by vtkPVServerManagerApplication.
+ * vtkImagingColor, needed by 3 modules:
+        vtkInteractionImage
+        vtkInteractionWidgets
+        vtkRenderingAnnotation
+ * vtkImagingCore, needed by 21 modules:
+        vtkAcceleratorsVTKm
+        vtkFiltersHybrid
+        vtkIOExport
+        vtkIOExportOpenGL2
+        vtkImagingColor
+        vtkImagingFourier
+        vtkImagingGeneral
+        vtkImagingHybrid
+        vtkImagingMorphological
+        vtkImagingSources
+        vtkInteractionImage
+        vtkInteractionWidgets
+        vtkPVServerManagerApplication
+        vtkRenderingContextOpenGL2
+        vtkRenderingLICOpenGL2
+        vtkRenderingMatplotlib
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeAMR
+        vtkRenderingVolumeOpenGL2
+        vtkTestingRendering
+ * vtkImagingFourier, needed by 3 modules:
+        vtkFiltersStatistics
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+ * vtkImagingGeneral, needed by 2 modules:
+        vtkImagingMorphological
+        vtkInteractionWidgets
+ * vtkImagingHybrid, needed by 2 modules:
+        vtkInteractionWidgets
+        vtkPVServerManagerApplication
+ * vtkImagingMath, needed by vtkRenderingVolumeOpenGL2.
+ * vtkImagingMorphological, needed by vtkPVServerManagerApplication.
+ * vtkImagingSources, needed by 6 modules:
+        vtkFiltersHybrid
+        vtkImagingGeneral
+        vtkImagingMorphological
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+        vtkRenderingLICOpenGL2
+ * vtkInfovisCore, needed by 2 modules:
+        vtkChartsCore
+        vtkIOInfovis
+ * vtkInteractionImage, needed by vtkPVServerManagerApplication.
+ * vtkInteractionStyle, needed by 5 modules:
+        vtkGUISupportQt
+        vtkInteractionImage
+        vtkInteractionWidgets
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsRendering
+ * vtkInteractionWidgets, needed by 6 modules:
+        vtkInteractionImage
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsDefault
+        vtkPVVTKExtensionsRendering
+        vtkViewsCore
+        vtkWebGLExporter
+ * vtkMetaIO, needed by vtkIOImage.
+ * vtkPVAnimation, needed by 5 modules:
+        pqApplicationComponents
+        pqComponents
+        pqCore
+        vtkPVCinemaReader
+        vtkPVServerManagerApplication
+ * vtkPVCatalyst, needed by Option PARAVIEW_ENABLE_CATALYST.
+ * vtkPVCinemaReader, needed by 2 modules:
+        pqApplicationComponents
+        vtkPVServerManagerApplication
+ * vtkPVClientServerCoreCore, needed by 4 modules:
+        VTK_Group_ParaViewCore
+        vtkPVClientServerCoreRendering
+        vtkPVPythonAlgorithm
+        vtkPVServerImplementationCore
+ * vtkPVClientServerCoreDefault, needed by 4 modules:
+        pqApplicationComponents
+        pqComponents
+        pqCore
+        vtkPVServerManagerDefault
+ * vtkPVClientServerCoreRendering, needed by 5 modules:
+        VTK_Group_ParaViewRendering
+        vtkPVCinemaReader
+        vtkPVClientServerCoreDefault
+        vtkPVServerImplementationRendering
+        vtkPVServerManagerDefault
+ * vtkPVCommon, needed by 4 modules:
+        VTK_Group_ParaViewCore
+        vtkPVClientServerCoreCore
+        vtkPVClientServerCoreCore
+        vtkPVVTKExtensionsCore
+ * vtkPVPythonAlgorithm, needed by vtkPVServerManagerApplication.
+ * vtkPVServerImplementationCore, needed by 4 modules:
+        VTK_Group_ParaViewCore
+        vtkPVPythonAlgorithm
+        vtkPVServerImplementationRendering
+        vtkPVServerManagerCore
+ * vtkPVServerImplementationRendering, needed by 2 modules:
+        VTK_Group_ParaViewRendering
+        vtkPVServerManagerRendering
+ * vtkPVServerManagerApplication, needed by 4 modules:
+        Option PARAVIEW_ENABLE_COMMANDLINE_TOOLS
+        pqApplicationComponents
+        pqCore
+        vtkPVCatalyst
+ * vtkPVServerManagerCore, needed by 7 modules:
+        VTK_Group_ParaViewCore
+        pqWidgets
+        vtkPVAnimation
+        vtkPVCinemaReader
+        vtkPVServerManagerApplication
+        vtkPVServerManagerRendering
+        vtkPVServerManagerRendering
+ * vtkPVServerManagerDefault, needed by 6 modules:
+        pqApplicationComponents
+        pqComponents
+        pqCore
+        vtkPVAnimation
+        vtkPVServerManagerApplication
+        vtkParaViewWebCore
+ * vtkPVServerManagerRendering, needed by 6 modules:
+        VTK_Group_ParaViewRendering
+        pqApplicationComponents
+        pqComponents
+        vtkPVCinemaReader
+        vtkPVServerManagerDefault
+        vtkUtilitiesLegacyColorMapXMLToJSON
+ * vtkPVVTKExtensionsCGNSReader, needed by vtkPVServerManagerApplication.
+ * vtkPVVTKExtensionsCGNSWriter, needed by vtkPVServerManagerApplication.
+ * vtkPVVTKExtensionsCore, needed by 7 modules:
+        VTK_Group_ParaViewCore
+        vtkPVClientServerCoreCore
+        vtkPVVTKExtensionsCGNSReader
+        vtkPVVTKExtensionsCGNSWriter
+        vtkPVVTKExtensionsDefault
+        vtkPVVTKExtensionsH5PartReader
+        vtkPVVTKExtensionsRendering
+ * vtkPVVTKExtensionsDefault, needed by 3 modules:
+        vtkPVAnimation
+        vtkPVClientServerCoreDefault
+        vtkPVClientServerCoreRendering
+ * vtkPVVTKExtensionsH5PartReader, needed by vtkPVServerManagerApplication.
+ * vtkPVVTKExtensionsPoints, needed by vtkPVServerManagerApplication.
+ * vtkPVVTKExtensionsRendering, needed by 3 modules:
+        VTK_Group_ParaViewRendering
+        vtkPVClientServerCoreRendering
+        vtkPVVTKExtensionsDefault
+ * vtkPVVTKExtensionsSIL, needed by 2 modules:
+        vtkPVClientServerCoreCore
+        vtkPVVTKExtensionsCGNSReader
+ * vtkParaViewWeb, needed by Option PARAVIEW_ENABLE_WEB.
+ * vtkParaViewWebCore, needed by vtkParaViewWeb.
+ * vtkParaViewWebPython, needed by vtkParaViewWeb.
+ * vtkParallelCore, needed by 17 modules:
+        vtkFiltersAMR
+        vtkFiltersParallel
+        vtkFiltersParallelStatistics
+        vtkFiltersParallelVerdict
+        vtkIOAMR
+        vtkIOParallel
+        vtkIOParallelExodus
+        vtkIOParallelLSDyna
+        vtkIOParallelXML
+        vtkIOVPIC
+        vtkPVVTKExtensionsCGNSReader
+        vtkPVVTKExtensionsCGNSReader
+        vtkPVVTKExtensionsCGNSWriter
+        vtkPVVTKExtensionsCGNSWriter
+        vtkPVVTKExtensionsCore
+        vtkRenderingParallel
+        vtkWebCore
+ * vtkPython, needed by 10 modules:
+        CinemaPython
+        Pygments
+        vtkClientServer
+        vtkFiltersPython
+        vtkPythonInterpreter
+        vtkRenderingMatplotlib
+        vtkWebCore
+        vtkWebCore
+        vtkWebPython
+        vtkWrappingPythonCore
+ * vtkPythonInterpreter, needed by 8 modules:
+        pqPython
+        vtkClientServer
+        vtkPVCinemaReader
+        vtkPVClientServerCoreCore
+        vtkPVPythonAlgorithm
+        vtkPVServerManagerCore
+        vtkRenderingMatplotlib
+        vtkWrappingPythonCore
+ * vtkRenderingAnnotation, needed by 4 modules:
+        vtkInteractionWidgets
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsRendering
+        vtkWebGLExporter
+ * vtkRenderingContext2D, needed by 6 modules:
+        vtkChartsCore
+        vtkIOExport
+        vtkPVServerManagerApplication
+        vtkRenderingContextOpenGL2
+        vtkRenderingContextOpenGL2
+        vtkViewsContext2D
+ * vtkRenderingContextOpenGL2, needed by 2 modules:
+        vtkPVVTKExtensionsRendering
+        vtkRenderingContext2D
+ * vtkRenderingCore, needed by 35 modules:
+        vtkChartsCore
+        vtkDomainsChemistry
+        vtkDomainsChemistryOpenGL2
+        vtkFiltersHybrid
+        vtkFiltersParallel
+        vtkGUISupportQt
+        vtkIOExport
+        vtkIOExportOpenGL2
+        vtkIOImport
+        vtkInteractionImage
+        vtkInteractionStyle
+        vtkInteractionStyle
+        vtkInteractionWidgets
+        vtkPVCinemaReader
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingFreeType
+        vtkRenderingFreeType
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingLICOpenGL2
+        vtkRenderingLOD
+        vtkRenderingLabel
+        vtkRenderingMatplotlib
+        vtkRenderingOpenGL2
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolume
+        vtkRenderingVolumeAMR
+        vtkRenderingVolumeOpenGL2
+        vtkTestingRendering
+        vtkViewsContext2D
+        vtkViewsCore
+        vtkWebCore
+        vtkWebGLExporter
+ * vtkRenderingFreeType, needed by 11 modules:
+        vtkIOExport
+        vtkInteractionWidgets
+        vtkPVServerManagerApplication
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsRendering
+        vtkRenderingAnnotation
+        vtkRenderingContext2D
+        vtkRenderingContextOpenGL2
+        vtkRenderingLabel
+        vtkRenderingMatplotlib
+        vtkRenderingMatplotlib
+ * vtkRenderingGL2PSOpenGL2, needed by 2 modules:
+        vtkIOExport
+        vtkIOExportOpenGL2
+ * vtkRenderingLICOpenGL2, needed by vtkPVServerManagerApplication.
+ * vtkRenderingLOD, needed by vtkPVServerManagerApplication.
+ * vtkRenderingLabel, needed by 2 modules:
+        vtkPVClientServerCoreRendering
+        vtkPVServerManagerApplication
+ * vtkRenderingMatplotlib, needed by 2 modules:
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsRendering
+ * vtkRenderingOpenGL2, needed by 13 modules:
+        vtkDomainsChemistryOpenGL2
+        vtkGUISupportQt
+        vtkPVCinemaReader
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsRendering
+        vtkRenderingContextOpenGL2
+        vtkRenderingCore
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingGL2PSOpenGL2
+        vtkRenderingLICOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolumeOpenGL2
+ * vtkRenderingParallel, needed by 2 modules:
+        vtkPVServerManagerApplication
+        vtkPVVTKExtensionsRendering
+ * vtkRenderingVolume, needed by 5 modules:
+        vtkInteractionWidgets
+        vtkPVServerManagerApplication
+        vtkRenderingVolumeAMR
+        vtkRenderingVolumeOpenGL2
+        vtkRenderingVolumeOpenGL2
+ * vtkRenderingVolumeAMR, needed by vtkPVVTKExtensionsRendering.
+ * vtkRenderingVolumeOpenGL2, needed by 5 modules:
+        vtkPVClientServerCoreRendering
+        vtkPVServerManagerApplication
+        vtkPVServerManagerDefault
+        vtkRenderingVolume
+        vtkRenderingVolumeAMR
+ * vtkTestingCore, needed by vtkTestingRendering.
+ * vtkTestingRendering, needed by 3 modules:
+        pqCore
+        vtkPVServerManagerApplication
+        vtkPVServerManagerDefault
+ * vtkUtilitiesLegacyColorMapXMLToJSON, needed by pqApplicationComponents.
+ * vtkUtilitiesProcessXML, needed by 2 modules:
+        vtkPVServerManagerApplication
+        vtkPVServerManagerRendering
+ * vtkUtilitiesWrapClientServer, needed by vtkPVClientServerCoreCore.
+ * vtkVPIC, needed by vtkIOVPIC.
+ * vtkVTKm, needed by 2 modules:
+        vtkAcceleratorsVTKm
+        vtkPVClientServerCoreRendering
+ * vtkViewsContext2D, needed by 2 modules:
+        vtkPVClientServerCoreRendering
+        vtkPVServerManagerApplication
+ * vtkViewsCore, needed by 2 modules:
+        vtkPVClientServerCoreRendering
+        vtkViewsContext2D
+ * vtkWebCore, needed by 3 modules:
+        vtkParaViewWeb
+        vtkParaViewWebCore
+        vtkWebPython
+ * vtkWebGLExporter, needed by 3 modules:
+        vtkParaViewWeb
+        vtkParaViewWebCore
+        vtkWebCore
+ * vtkWebPython, needed by vtkParaViewWeb.
+ * vtkWrappingTools, needed by 2 modules:
+        vtkUtilitiesWrapClientServer
+        vtkWrappingPythonCore
+ * vtkcgns, needed by 3 modules:
+        vtkPVVTKExtensionsCGNSReader
+        vtkPVVTKExtensionsCGNSWriter
+        vtkPVVTKExtensionsH5PartReader
+ * vtkdoubleconversion, needed by vtkIOCore.
+ * vtkeigen, needed by vtkFiltersStatistics.
+ * vtkexodusII, needed by 3 modules:
+        vtkIOExodus
+        vtkIOParallel
+        vtkIOParallelExodus
+ * vtkexpat, needed by vtkIOXMLParser.
+ * vtkfreetype, needed by vtkRenderingFreeType.
+ * vtkgl2ps, needed by 2 modules:
+        vtkIOExportOpenGL2
+        vtkRenderingGL2PSOpenGL2
+ * vtkglew, needed by 7 modules:
+        vtkDomainsChemistryOpenGL2
+        vtkPVVTKExtensionsRendering
+        vtkRenderingContextOpenGL2
+        vtkRenderingLICOpenGL2
+        vtkRenderingOpenGL2
+        vtkRenderingParallel
+        vtkRenderingVolumeOpenGL2
+ * vtkhdf5, needed by 9 modules:
+        vtkIOAMR
+        vtkIOTRUCHAS
+        vtkIOVeraOut
+        vtkPVVTKExtensionsCGNSReader
+        vtkPVVTKExtensionsCGNSWriter
+        vtkPVVTKExtensionsH5PartReader
+        vtkcgns
+        vtknetcdf
+        vtkxdmf2
+ * vtkjpeg, needed by 3 modules:
+        vtkIOAsynchronous
+        vtkIOImage
+        vtktiff
+ * vtkjsoncpp, needed by 7 modules:
+        pqApplicationComponents
+        pqComponents
+        vtkIOParallel
+        vtkPVClientServerCoreRendering
+        vtkPVServerManagerCore
+        vtkPVServerManagerRendering
+        vtkPVVTKExtensionsCore
+ * vtkkwiml, needed by 2 modules:
+        vtkCommonCore
+        vtkfreetype
+ * vtklibxml2, needed by 3 modules:
+        vtkIOInfovis
+        vtkPVServerManagerApplication
+        vtkxdmf2
+ * vtklz4, needed by 2 modules:
+        vtkIOCore
+        vtkPVVTKExtensionsRendering
+ * vtklzma, needed by vtkIOCore.
+ * vtknetcdf, needed by 4 modules:
+        vtkIONetCDF
+        vtkIOParallel
+        vtkexodusII
+        vtknetcdfcpp
+ * vtknetcdfcpp, needed by 2 modules:
+        vtkIONetCDF
+        vtkPVVTKExtensionsDefault
+ * vtkogg, needed by vtktheora.
+ * vtkpegtl, needed by vtkIOMotionFX.
+ * vtkpng, needed by 3 modules:
+        vtkIOAsynchronous
+        vtkIOImage
+        vtkgl2ps
+ * vtkprotobuf, needed by vtkPVServerImplementationCore.
+ * vtkpugixml, needed by 4 modules:
+        pqComponents
+        vtkPVServerManagerCore
+        vtkPVServerManagerDefault
+        vtkPVVTKExtensionsSIL
+ * vtkqttesting, needed by pqWidgets.
+ * vtksys, needed by 66 modules:
+        pqApplicationComponents
+        pqComponents
+        pqCore
+        smTestDriver
+        vtkChartsCore
+        vtkClientServer
+        vtkCommonCore
+        vtkCommonDataModel
+        vtkCommonMisc
+        vtkCommonSystem
+        vtkDICOMParser
+        vtkDomainsChemistry
+        vtkFiltersHybrid
+        vtkIOAMR
+        vtkIOAsynchronous
+        vtkIOCore
+        vtkIOExodus
+        vtkIOExport
+        vtkIOGeometry
+        vtkIOImage
+        vtkIOImport
+        vtkIOInfovis
+        vtkIOLSDyna
+        vtkIOLegacy
+        vtkIOMotionFX
+        vtkIONetCDF
+        vtkIOPLY
+        vtkIOParallel
+        vtkIOParallelExodus
+        vtkIOParallelXML
+        vtkIOTecplotTable
+        vtkIOXML
+        vtkIOXMLParser
+        vtkIOXdmf2
+        vtkImagingFourier
+        vtkPVAnimation
+        vtkPVCatalyst
+        vtkPVClientServerCoreCore
+        vtkPVClientServerCoreDefault
+        vtkPVClientServerCoreRendering
+        vtkPVCommon
+        vtkPVPythonAlgorithm
+        vtkPVServerImplementationCore
+        vtkPVServerManagerApplication
+        vtkPVServerManagerCore
+        vtkPVServerManagerDefault
+        vtkPVServerManagerRendering
+        vtkPVVTKExtensionsCGNSReader
+        vtkPVVTKExtensionsCGNSWriter
+        vtkPVVTKExtensionsCore
+        vtkPVVTKExtensionsDefault
+        vtkPVVTKExtensionsH5PartReader
+        vtkPVVTKExtensionsSIL
+        vtkParallelCore
+        vtkPythonInterpreter
+        vtkRenderingCore
+        vtkRenderingLICOpenGL2
+        vtkRenderingOpenGL2
+        vtkRenderingVolumeOpenGL2
+        vtkTestingRendering
+        vtkUtilitiesProcessXML
+        vtkVPIC
+        vtkWebCore
+        vtkWebGLExporter
+        vtkWrappingPythonCore
+        vtkWrappingTools
+ * vtktheora, needed by vtkIOMovie.
+ * vtktiff, needed by 2 modules:
+        vtkIOAsynchronous
+        vtkIOImage
+ * vtkutf8, needed by 2 modules:
+        vtkCommonCore
+        vtkIOCore
+ * vtkverdict, needed by vtkFiltersVerdict.
+ * vtkxdmf2, needed by vtkIOXdmf2.
+ * vtkzlib, needed by 13 modules:
+        vtkIOAsynchronous
+        vtkIOCore
+        vtkIOGeometry
+        vtkIOImage
+        vtkMetaIO
+        vtkPVClientServerCoreRendering
+        vtkPVVTKExtensionsRendering
+        vtkfreetype
+        vtkgl2ps
+        vtkhdf5
+        vtklibxml2
+        vtkpng
+        vtktiff

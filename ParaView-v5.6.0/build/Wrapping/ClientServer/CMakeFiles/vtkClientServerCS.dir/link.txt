@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkClientServerCS-pv5.6.a  CMakeFiles/vtkClientServerCS.dir/vtkClientServerIDClientServer.cxx.o CMakeFiles/vtkClientServerCS.dir/vtkClientServerInterpreterClientServer.cxx.o CMakeFiles/vtkClientServerCS.dir/vtkClientServerStreamClientServer.cxx.o CMakeFiles/vtkClientServerCS.dir/vtkClientServerCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkClientServerCS-pv5.6.a

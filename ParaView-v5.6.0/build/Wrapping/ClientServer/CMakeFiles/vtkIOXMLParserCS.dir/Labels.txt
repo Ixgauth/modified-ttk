@@ -1,0 +1,10 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkXMLDataParserClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkXMLParserClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkXMLUtilitiesClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkIOXMLParserCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/XMLParser/vtkXMLDataParser.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/XMLParser/vtkXMLParser.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/XMLParser/vtkXMLUtilities.h

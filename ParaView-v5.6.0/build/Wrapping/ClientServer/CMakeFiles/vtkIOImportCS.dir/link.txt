@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkIOImportCS-pv5.6.a  CMakeFiles/vtkIOImportCS.dir/vtk3DSImporterClientServer.cxx.o CMakeFiles/vtkIOImportCS.dir/vtkImporterClientServer.cxx.o CMakeFiles/vtkIOImportCS.dir/vtkVRMLImporterClientServer.cxx.o CMakeFiles/vtkIOImportCS.dir/vtkOBJImporterClientServer.cxx.o CMakeFiles/vtkIOImportCS.dir/vtkOBJImporterInternalsClientServer.cxx.o CMakeFiles/vtkIOImportCS.dir/vtkIOImportCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkIOImportCS-pv5.6.a

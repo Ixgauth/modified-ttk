@@ -1,0 +1,5 @@
+vtkGMVReader : vtkMultiBlockDataSetAlgorithm ; vtkGMVReader.h ; GMVReader
+vtkGMVReader::DataInfo<C> ; vtkGMVReader.h ; GMVReader ; WRAP_EXCLUDE_PYTHON
+vtkGMVReader::GMVCell_type : enum ; vtkGMVReader.h ; GMVReader
+vtkGMVReader::Superclass = vtkMultiBlockDataSetAlgorithm ; vtkGMVReader.h ; GMVReader
+vtkGMVReader::stringToULongMap = std::map<std::string, unsigned long> ; vtkGMVReader.h ; GMVReader

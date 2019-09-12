@@ -1,0 +1,16 @@
+# Target labels
+ vtkWrappingTools
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParse.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParseType.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParse.tab.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParseData.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParseMain.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParseExtras.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParseMangle.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParseMerge.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParseString.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParseHierarchy.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParsePreprocess.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrap.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapText.c

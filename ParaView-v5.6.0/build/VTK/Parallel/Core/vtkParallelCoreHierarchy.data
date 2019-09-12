@@ -1,0 +1,15 @@
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkCommunicator.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkDummyCommunicator.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkDummyController.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkMultiProcessController.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkMultiProcessStream.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkPDirectory.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkProcess.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkProcessGroup.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkPSystemTools.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkSocketCommunicator.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkSocketController.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkSubCommunicator.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkSubGroup.h;vtkParallelCore
+/home/ian/ttk/ParaView-v5.6.0/VTK/Parallel/Core/vtkFieldDataSerializer.h;vtkParallelCore
+

@@ -1,0 +1,8 @@
+# Target labels
+ vtkRenderingMatplotlib
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Matplotlib/vtkMatplotlibMathTextUtilities.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/Matplotlib/vtkRenderingMatplotlibObjectFactory.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/Matplotlib/vtkMatplotlibMathTextUtilities.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/Matplotlib/vtkRenderingMatplotlibObjectFactory.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/Matplotlib/vtkRenderingMatplotlibModule.h

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapPython.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapPythonClass.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapPythonConstant.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapPythonEnum.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapPythonMethod.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapPythonMethodDef.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapPythonNamespace.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapPythonOverload.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapPythonTemplate.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapPythonType.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkWrappingTools"
+		],
+		"name" : "vtkWrapPython"
+	}
+}

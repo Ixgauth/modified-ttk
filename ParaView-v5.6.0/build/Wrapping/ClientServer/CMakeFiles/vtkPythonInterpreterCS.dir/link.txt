@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkPythonInterpreterCS-pv5.6.a  CMakeFiles/vtkPythonInterpreterCS.dir/vtkPythonInterpreterClientServer.cxx.o CMakeFiles/vtkPythonInterpreterCS.dir/vtkPythonInteractiveInterpreterClientServer.cxx.o CMakeFiles/vtkPythonInterpreterCS.dir/vtkPythonInterpreterCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkPythonInterpreterCS-pv5.6.a

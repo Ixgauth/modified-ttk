@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkPVServerManagerApplicationCS-pv5.6.a  CMakeFiles/vtkPVServerManagerApplicationCS.dir/vtkInitializationHelperClientServer.cxx.o CMakeFiles/vtkPVServerManagerApplicationCS.dir/vtkPVServerManagerApplicationCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkPVServerManagerApplicationCS-pv5.6.a

@@ -1,0 +1,11 @@
+set(vtkPVVTKExtensionsDefault_LOADED 1)
+set(vtkPVVTKExtensionsDefault_DEPENDS "vtkChartsCore;vtkFiltersAMR;vtkFiltersExtraction;vtkFiltersGeneral;vtkFiltersParallelStatistics;vtkIOEnSight;vtkIOImport;vtkIOInfovis;vtkIOPLY;vtkIOParallel;vtkIOParallelExodus;vtkIOParallelXML;vtkImagingFourier;vtkImagingSources;vtkInteractionWidgets;vtkPVVTKExtensionsCore;vtkPVVTKExtensionsRendering;vtknetcdfcpp;vtksys")
+set(vtkPVVTKExtensionsDefault_LIBRARIES "vtkPVVTKExtensionsDefault")
+set(vtkPVVTKExtensionsDefault_INCLUDE_DIRS "${VTK_INSTALL_PREFIX}/include/paraview-5.6")
+set(vtkPVVTKExtensionsDefault_LIBRARY_DIRS "")
+set(vtkPVVTKExtensionsDefault_RUNTIME_LIBRARY_DIRS "${VTK_INSTALL_PREFIX}/lib")
+set(vtkPVVTKExtensionsDefault_WRAP_HIERARCHY_FILE "${CMAKE_CURRENT_LIST_DIR}/vtkPVVTKExtensionsDefaultHierarchy.txt")
+set(vtkPVVTKExtensionsDefault_KIT "vtkPVExtensions")
+set(vtkPVVTKExtensionsDefault_TARGETS_FILE "")
+
+

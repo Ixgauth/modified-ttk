@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkIOExportOpenGL2CS-pv5.6.a  CMakeFiles/vtkIOExportOpenGL2CS.dir/vtkOpenGLGL2PSExporterClientServer.cxx.o CMakeFiles/vtkIOExportOpenGL2CS.dir/vtkIOExportOpenGL2ObjectFactoryClientServer.cxx.o CMakeFiles/vtkIOExportOpenGL2CS.dir/vtkIOExportOpenGL2CSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkIOExportOpenGL2CS-pv5.6.a

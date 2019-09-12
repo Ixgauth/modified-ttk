@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/SIL/vtkSubsetInclusionLattice.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/VTKExtensions/SIL/vtkSubsetInclusionLattice.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/VTKExtensions/SIL/vtkPVVTKExtensionsSILModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPVVTKExtensionsSIL"
+		],
+		"name" : "vtkPVVTKExtensionsSIL"
+	}
+}

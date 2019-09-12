@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/ParallelExodus/vtkPExodusIIReader.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/ParallelExodus/vtkPExodusIIWriter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/ParallelExodus/vtkIOParallelExodusObjectFactory.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/ParallelExodus/vtkPExodusIIReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/ParallelExodus/vtkPExodusIIWriter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/ParallelExodus/vtkIOParallelExodusObjectFactory.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/ParallelExodus/vtkIOParallelExodusModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOParallelExodus"
+		],
+		"name" : "vtkIOParallelExodus"
+	}
+}

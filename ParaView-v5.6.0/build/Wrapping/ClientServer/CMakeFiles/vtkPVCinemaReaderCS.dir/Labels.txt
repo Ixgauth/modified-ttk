@@ -1,0 +1,16 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkSMCinemaDatabaseImporterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCinemaDatabaseClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCinemaDatabaseReaderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCinemaLayerMapperClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCinemaLayerRepresentationClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPVCinemaDatabaseInformationClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPVCinemaReaderCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/CinemaReader/vtkSMCinemaDatabaseImporter.h
+/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/CinemaReader/vtkCinemaDatabase.h
+/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/CinemaReader/vtkCinemaDatabaseReader.h
+/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/CinemaReader/vtkCinemaLayerMapper.h
+/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/CinemaReader/vtkCinemaLayerRepresentation.h
+/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/CinemaReader/vtkPVCinemaDatabaseInformation.h

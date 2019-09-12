@@ -1,0 +1,214 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QFilterTreeProxyModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKApplication.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKInteractorAdapter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKInteractor.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkEventQtSlotConnect.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtAbstractModelAdapter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtAnnotationLayersModelAdapter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtConnection.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtDebugLeaksModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtDebugLeaksView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtTableModelAdapter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtTreeModelAdapter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKOpenGLNativeWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKOpenGLWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKOpenGLWindow.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKPaintEngine.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKPaintEngine.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QFilterTreeProxyModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKApplication.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKInteractorAdapter.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKInteractorInternal.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtAbstractModelAdapter.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtAnnotationLayersModelAdapter.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtConnection.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtDebugLeaksModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtDebugLeaksView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtTableModelAdapter.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtTreeModelAdapter.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKOpenGLNativeWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKOpenGLWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKOpenGLWindow.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKWin32Header.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkEventQtSlotConnect.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKInteractor.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QFilterTreeProxyModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKApplication.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKInteractorAdapter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKInteractorInternal.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtAbstractModelAdapter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtAnnotationLayersModelAdapter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtConnection.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtDebugLeaksModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtDebugLeaksView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtTableModelAdapter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/vtkQtTreeModelAdapter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKOpenGLNativeWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKOpenGLWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKOpenGLWindow.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/GUISupport/Qt/QVTKWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/vtkGUISupportQtModule.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QFilterTreeProxyModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKApplication.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKInteractorAdapter.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKInteractorInternal.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtAbstractModelAdapter.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtAnnotationLayersModelAdapter.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtConnection.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtDebugLeaksModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtDebugLeaksView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtTableModelAdapter.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_vtkQtTreeModelAdapter.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKOpenGLNativeWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKOpenGLWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKOpenGLWindow.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/GUISupport/Qt/moc_QVTKWidget.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkGUISupportQt"
+		],
+		"name" : "vtkGUISupportQt"
+	}
+}

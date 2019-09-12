@@ -1,0 +1,21 @@
+#include "vtkStreamLines_fs.h"
+
+const char *vtkStreamLines_fs =
+"// clang-format off\n"
+"//VTK::System::Dec\n"
+"//VTK::Output::Dec\n"
+"// clang-format on\n"
+"\n"
+"uniform vec3 color;\n"
+"uniform int scalarVisibility;\n"
+"\n"
+"varying vec3 vertexColorVSOutput;\n"
+"\n"
+"void main(void)\n"
+"{\n"
+"  if (scalarVisibility != 0)\n"
+"    gl_FragData[0] = vec4(vertexColorVSOutput, 1.);\n"
+"  else\n"
+"    gl_FragData[0] = vec4(color, 1.);\n"
+"}\n"
+"";

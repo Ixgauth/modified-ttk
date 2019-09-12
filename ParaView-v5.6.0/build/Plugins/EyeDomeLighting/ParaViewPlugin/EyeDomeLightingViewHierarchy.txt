@@ -1,0 +1,2 @@
+vtkPVRenderViewWithEDL : vtkPVRenderView ; vtkPVRenderViewWithEDL.h ; EyeDomeLightingView
+vtkPVRenderViewWithEDL::Superclass = vtkPVRenderView ; vtkPVRenderViewWithEDL.h ; EyeDomeLightingView

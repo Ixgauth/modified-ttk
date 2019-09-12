@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkCommonMiscCS-pv5.6.a  CMakeFiles/vtkCommonMiscCS.dir/vtkContourValuesClientServer.cxx.o CMakeFiles/vtkCommonMiscCS.dir/vtkErrorCodeClientServer.cxx.o CMakeFiles/vtkCommonMiscCS.dir/vtkFunctionParserClientServer.cxx.o CMakeFiles/vtkCommonMiscCS.dir/vtkHeapClientServer.cxx.o CMakeFiles/vtkCommonMiscCS.dir/vtkPolygonBuilderClientServer.cxx.o CMakeFiles/vtkCommonMiscCS.dir/vtkResourceFileLocatorClientServer.cxx.o CMakeFiles/vtkCommonMiscCS.dir/vtkCommonMiscCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkCommonMiscCS-pv5.6.a

@@ -1,0 +1,29 @@
+# Target labels
+ vtkWrappingPythonCore
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonArgs.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonCommand.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonOverload.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonUtil.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkSmartPyObject.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKExtras.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKMethodDescriptor.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKReference.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKNamespace.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKObject.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKSpecialObject.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKTemplate.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonCompatibility.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Wrapping/PythonCore/vtkWrappingPythonCoreModule.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonArgs.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonCommand.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonOverload.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkPythonUtil.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/vtkSmartPyObject.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKExtras.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKMethodDescriptor.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKReference.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKNamespace.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKObject.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKSpecialObject.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/PythonCore/PyVTKTemplate.h

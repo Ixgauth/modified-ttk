@@ -1,0 +1,6 @@
+# Target labels
+ vtkIOMotionFX
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/MotionFX/vtkMotionFXCFGReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/MotionFX/vtkMotionFXCFGReader.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/MotionFX/vtkIOMotionFXModule.h

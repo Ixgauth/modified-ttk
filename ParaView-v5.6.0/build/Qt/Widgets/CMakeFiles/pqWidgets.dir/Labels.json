@@ -1,0 +1,670 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqAnimationKeyFrame.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqAnimationKeyFrame.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqAnimationModel.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqAnimationModel.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqAnimationTrack.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqAnimationTrack.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqAnimationWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqAnimationWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqCheckableHeaderView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqCheckableHeaderView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqCheckBoxPixMaps.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqCheckBoxPixMaps.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqCollapsedGroup.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqCollapsedGroup.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqColorButtonEventPlayer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqColorButtonEventPlayer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqColorButtonEventTranslator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqColorButtonEventTranslator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqColorChooserButton.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqColorChooserButton.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqColorDialogEventPlayer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqColorDialogEventPlayer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqColorDialogEventTranslator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqColorDialogEventTranslator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqConnect.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqConnect.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqConsoleWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqConsoleWidgetEventPlayer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqConsoleWidgetEventPlayer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqConsoleWidgetEventTranslator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqConsoleWidgetEventTranslator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqConsoleWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDelimitedTextParser.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDelimitedTextParser.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDiscreteDoubleWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDiscreteDoubleWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleLineEdit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleLineEdit.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleLineEditEventPlayer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleLineEditEventPlayer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleLineEditEventTranslator.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleLineEditEventTranslator.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleRangeDialog.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleRangeDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleRangeWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleRangeWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleSliderWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleSliderWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleSpinBox.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqDoubleSpinBox.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqExpandableTableView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqExpandableTableView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqExpanderButton.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqExpanderButton.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqFlatTreeView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqFlatTreeView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqHeaderView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqHeaderView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqHighlightablePushButton.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqHighlightablePushButton.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqHighlightableToolButton.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqHighlightableToolButton.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqLineEdit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqLineEditEventPlayer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqLineEditEventPlayer.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqLineEdit.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqListWidgetCheckHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqListWidgetCheckHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqListWidgetItemObject.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqListWidgetItemObject.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqProgressWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqProgressWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqQuickLaunchDialog.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqQuickLaunchDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqScaleByButton.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqScaleByButton.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqSectionVisibilityContextMenu.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqSectionVisibilityContextMenu.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqSetData.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqSetData.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqSetName.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqSetName.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqSignalAdaptors.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqSignalAdaptors.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqSpinBox.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqSpinBox.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTableView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTableView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTextEdit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTextEdit.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeViewExpandState.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeViewExpandState.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeViewSelectionHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeViewSelectionHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeWidgetCheckHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeWidgetCheckHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeWidget.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeWidget.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeWidgetItem.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeWidgetItem.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeWidgetItemObject.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeWidgetItemObject.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeWidgetSelectionHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqTreeWidgetSelectionHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqWaitCursor.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqWaitCursor.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqHelpWindow.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/pqHelpWindow.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqAnimationKeyFrame.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqAnimationModel.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqAnimationTrack.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqAnimationWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqCheckableHeaderView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqCheckBoxPixMaps.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqCollapsedGroup.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqColorButtonEventPlayer.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqColorButtonEventTranslator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqColorChooserButton.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqColorDialogEventPlayer.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqColorDialogEventTranslator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqConsoleWidgetEventPlayer.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqConsoleWidgetEventTranslator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqConsoleWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDelimitedTextParser.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDiscreteDoubleWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleLineEdit.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleLineEditEventPlayer.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleLineEditEventTranslator.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleRangeDialog.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleRangeWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleSliderWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleSpinBox.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqExpandableTableView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqExpanderButton.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqFlatTreeView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqHeaderView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqHighlightablePushButton.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqHighlightableToolButton.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqLineEditEventPlayer.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqLineEdit.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqListWidgetCheckHelper.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqListWidgetItemObject.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqProgressWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqQuickLaunchDialog.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqScaleByButton.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqSectionVisibilityContextMenu.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqSignalAdaptors.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqSpinBox.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTableView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTextEdit.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeViewExpandState.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeViewSelectionHelper.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeWidgetCheckHelper.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeWidget.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeWidgetItemObject.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeWidgetSelectionHelper.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqHelpWindow.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/qrc_QtWidgets.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/ui_pqExpanderButton.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/ui_pqHelpWindow.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/ui_pqQuickLaunchDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/pqWidgetsModule.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqAnimationKeyFrame.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqAnimationModel.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqAnimationTrack.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqAnimationWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqCheckableHeaderView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqCheckBoxPixMaps.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqCollapsedGroup.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqColorButtonEventPlayer.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqColorButtonEventTranslator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqColorChooserButton.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqColorDialogEventPlayer.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqColorDialogEventTranslator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqConsoleWidgetEventPlayer.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqConsoleWidgetEventTranslator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqConsoleWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDelimitedTextParser.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDiscreteDoubleWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleLineEdit.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleLineEditEventPlayer.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleLineEditEventTranslator.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleRangeDialog.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleRangeWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleSliderWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqDoubleSpinBox.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqExpandableTableView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqExpanderButton.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqFlatTreeView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqHeaderView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqHighlightablePushButton.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqHighlightableToolButton.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqLineEditEventPlayer.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqLineEdit.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqListWidgetCheckHelper.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqListWidgetItemObject.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqProgressWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqQuickLaunchDialog.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqScaleByButton.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqSectionVisibilityContextMenu.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqSignalAdaptors.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqSpinBox.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTableView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTextEdit.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeViewExpandState.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeViewSelectionHelper.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeWidgetCheckHelper.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeWidget.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeWidgetItemObject.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqTreeWidgetSelectionHelper.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Widgets/moc_pqHelpWindow.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/Resources/QtWidgets.qrc"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/Resources/UI/pqExpanderButton.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/Resources/UI/pqHelpWindow.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Widgets/Resources/UI/pqQuickLaunchDialog.ui"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pqWidgets"
+		],
+		"name" : "pqWidgets"
+	}
+}

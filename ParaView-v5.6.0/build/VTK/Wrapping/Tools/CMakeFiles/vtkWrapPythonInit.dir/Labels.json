@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkWrapPythonInit.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkWrappingTools"
+		],
+		"name" : "vtkWrapPythonInit"
+	}
+}

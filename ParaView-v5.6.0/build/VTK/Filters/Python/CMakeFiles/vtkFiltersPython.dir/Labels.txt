@@ -1,0 +1,6 @@
+# Target labels
+ vtkFiltersPython
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Python/vtkPythonAlgorithm.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/Python/vtkPythonAlgorithm.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Filters/Python/vtkFiltersPythonModule.h

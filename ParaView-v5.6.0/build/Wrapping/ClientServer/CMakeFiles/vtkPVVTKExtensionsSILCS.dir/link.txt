@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkPVVTKExtensionsSILCS-pv5.6.a  CMakeFiles/vtkPVVTKExtensionsSILCS.dir/vtkSubsetInclusionLatticeClientServer.cxx.o CMakeFiles/vtkPVVTKExtensionsSILCS.dir/vtkPVVTKExtensionsSILCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkPVVTKExtensionsSILCS-pv5.6.a

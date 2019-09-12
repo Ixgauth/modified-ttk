@@ -1,0 +1,15 @@
+# Target labels
+ vtkIOImport
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtk3DSImporter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkImporter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkVRMLImporter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkOBJImporter.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkOBJImporterInternals.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtk3DS.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtk3DSImporter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkImporter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkVRMLImporter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkOBJImporter.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/Import/vtkOBJImporterInternals.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/Import/vtkIOImportModule.h

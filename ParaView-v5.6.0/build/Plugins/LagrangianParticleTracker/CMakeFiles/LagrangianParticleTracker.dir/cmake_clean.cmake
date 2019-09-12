@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "moc_pqIntegrationModelHelperWidget.cpp"
+  "moc_pqIntegrationModelSeedHelperWidget.cpp"
+  "moc_pqIntegrationModelSurfaceHelperWidget.cpp"
+  "moc_pqIntegrationModelSeedHelperWidgetPWIImplementation.cpp"
+  "moc_pqIntegrationModelSurfaceHelperWidgetPWIImplementation.cpp"
+  "LagrangianParticleTracker_doc.h"
+  "vtkLagrangianHelperBaseClientServer.cxx"
+  "vtkLagrangianSeedHelperClientServer.cxx"
+  "vtkLagrangianSurfaceHelperClientServer.cxx"
+  "vtkSMXML_LagrangianParticleTracker.h"
+  "moc_LagrangianParticleTracker_Plugin.cpp"
+  "doc/LagrangianParticleTracker.qch"
+  "LagrangianParticleTracker.xml"
+  "CMakeFiles/LagrangianParticleTracker.dir/moc_pqIntegrationModelHelperWidget.cpp.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/moc_pqIntegrationModelSeedHelperWidget.cpp.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/moc_pqIntegrationModelSurfaceHelperWidget.cpp.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/moc_pqIntegrationModelSeedHelperWidgetPWIImplementation.cpp.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/pqIntegrationModelSeedHelperWidgetPWIImplementation.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/moc_pqIntegrationModelSurfaceHelperWidgetPWIImplementation.cpp.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/pqIntegrationModelSurfaceHelperWidgetPWIImplementation.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/pqIntegrationModelHelperWidget.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/pqIntegrationModelSeedHelperWidget.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/pqIntegrationModelSurfaceHelperWidget.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/vtkLagrangianHelperBase.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/vtkLagrangianSeedHelper.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/vtkLagrangianSurfaceHelper.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/vtkLagrangianHelperBaseClientServer.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/vtkLagrangianSeedHelperClientServer.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/vtkLagrangianSurfaceHelperClientServer.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/LagrangianParticleTrackerInit.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/LagrangianParticleTracker_Plugin.cxx.o"
+  "CMakeFiles/LagrangianParticleTracker.dir/moc_LagrangianParticleTracker_Plugin.cpp.o"
+  "../../lib/paraview-5.6/plugins/LagrangianParticleTracker/libLagrangianParticleTracker.pdb"
+  "../../lib/paraview-5.6/plugins/LagrangianParticleTracker/libLagrangianParticleTracker.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/LagrangianParticleTracker.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

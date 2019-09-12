@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkRenderingMatplotlibCS-pv5.6.a  CMakeFiles/vtkRenderingMatplotlibCS.dir/vtkMatplotlibMathTextUtilitiesClientServer.cxx.o CMakeFiles/vtkRenderingMatplotlibCS.dir/vtkRenderingMatplotlibObjectFactoryClientServer.cxx.o CMakeFiles/vtkRenderingMatplotlibCS.dir/vtkRenderingMatplotlibCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkRenderingMatplotlibCS-pv5.6.a

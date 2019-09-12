@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC    -w -w -O3 -DNDEBUG  -Wl,-lc    -shared -Wl,-soname,libvtkgl2ps-pv5.6.so.1 -o ../../../../lib/libvtkgl2ps-pv5.6.so.1 CMakeFiles/vtkgl2ps.dir/gl2ps.c.o -Wl,-rpath,/home/ian/ttk/ParaView-v5.6.0/build/lib: ../../../../lib/libvtkpng-pv5.6.so.1 ../../../../lib/libvtkzlib-pv5.6.so.1 /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so -lm 

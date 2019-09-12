@@ -1,0 +1,24 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkAMRBaseParticlesReaderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkAMRBaseReaderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkAMRDataSetCacheClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkAMREnzoParticlesReaderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkAMREnzoReaderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkAMREnzoReaderInternalClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkAMReXParticlesReaderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkAMRFlashParticlesReaderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkAMRFlashReaderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkAMRFlashReaderInternalClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkIOAMRCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/AMR/vtkAMRBaseParticlesReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/AMR/vtkAMRBaseReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/AMR/vtkAMRDataSetCache.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/AMR/vtkAMREnzoParticlesReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/AMR/vtkAMREnzoReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/AMR/vtkAMREnzoReaderInternal.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/AMR/vtkAMReXParticlesReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/AMR/vtkAMRFlashParticlesReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/AMR/vtkAMRFlashReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/AMR/vtkAMRFlashReaderInternal.h

@@ -1,0 +1,6 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkAMRVolumeMapperClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkRenderingVolumeAMRCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/VolumeAMR/vtkAMRVolumeMapper.h

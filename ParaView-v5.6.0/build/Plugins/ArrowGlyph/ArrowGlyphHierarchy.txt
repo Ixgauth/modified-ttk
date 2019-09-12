@@ -1,0 +1,2 @@
+vtkArrowGlyphFilter : vtkPolyDataAlgorithm ; vtkArrowGlyphFilter.h ; ArrowGlyph
+vtkArrowGlyphFilter::Superclass = vtkPolyDataAlgorithm ; vtkArrowGlyphFilter.h ; ArrowGlyph

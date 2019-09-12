@@ -1,0 +1,2 @@
+vtkShearedWaveletSource : vtkUnstructuredGridAlgorithm ; vtkShearedWaveletSource.h ; NonOrthogonalSource
+vtkShearedWaveletSource::Superclass = vtkUnstructuredGridAlgorithm ; vtkShearedWaveletSource.h ; NonOrthogonalSource

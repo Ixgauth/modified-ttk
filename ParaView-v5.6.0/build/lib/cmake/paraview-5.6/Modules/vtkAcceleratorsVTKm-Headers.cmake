@@ -1,0 +1,6 @@
+set(vtkAcceleratorsVTKm_HEADERS_LOADED 1)
+set(vtkAcceleratorsVTKm_HEADERS "vtkmAverageToCells;vtkmAverageToPoints;vtkmCleanGrid;vtkmClip;vtkmContour;vtkmExternalFaces;vtkmExtractVOI;vtkmGradient;vtkmHistogram;vtkmLevelOfDetail;vtkmNDHistogram;vtkmPointElevation;vtkmPolyDataNormals;vtkmProbe;vtkmThreshold;vtkmTriangleMeshPointNormals;vtkmWarpScalar;vtkmWarpVector;vtkmAverageToCells;vtkmAverageToPoints;vtkmCellSetExplicit;vtkmCellSetSingleType;vtkmCleanGrid;vtkmClip;vtkmConnectivityExec;vtkmContour;vtkmExternalFaces;vtkmExtractVOI;vtkmGradient;vtkmHistogram;vtkmLevelOfDetail;vtkmNDHistogram;vtkmPointElevation;vtkmPolyDataNormals;vtkmProbe;vtkmThreshold;vtkmTriangleMeshPointNormals;vtkmWarpScalar;vtkmWarpVector")
+
+foreach(header ${vtkAcceleratorsVTKm_HEADERS})
+  set(vtkAcceleratorsVTKm_HEADER_${header}_EXISTS 1)
+endforeach()

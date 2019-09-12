@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkFiltersPythonCS-pv5.6.a  CMakeFiles/vtkFiltersPythonCS.dir/vtkPythonAlgorithmClientServer.cxx.o CMakeFiles/vtkFiltersPythonCS.dir/vtkFiltersPythonCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkFiltersPythonCS-pv5.6.a

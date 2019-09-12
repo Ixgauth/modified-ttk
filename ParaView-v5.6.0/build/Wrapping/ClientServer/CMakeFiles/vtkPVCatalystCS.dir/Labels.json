@@ -1,0 +1,64 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/CAdaptorAPIClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCPAdaptorAPIClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCPCxxHelperClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCPDataDescriptionClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCPInputDataDescriptionClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCPPipelineClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCPProcessorClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCPXMLPWriterPipelineClientServer.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPVCatalystCSInit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/Catalyst/CAdaptorAPI.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/Catalyst/vtkCPAdaptorAPI.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/Catalyst/vtkCPCxxHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/Catalyst/vtkCPDataDescription.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/Catalyst/vtkCPInputDataDescription.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/Catalyst/vtkCPPipeline.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/Catalyst/vtkCPProcessor.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/Catalyst/vtkCPXMLPWriterPipeline.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"VTKModular"
+		],
+		"name" : "vtkPVCatalystCS"
+	}
+}

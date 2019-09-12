@@ -1,0 +1,5 @@
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYReader.h;vtkIOSegY
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYIOUtils.h;vtkIOSegY
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYReaderInternal.h;vtkIOSegY
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/SegY/vtkSegYTraceReader.h;vtkIOSegY
+

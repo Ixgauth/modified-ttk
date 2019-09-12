@@ -1,0 +1,4 @@
+# Target labels
+ vtkWrappingTools
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Wrapping/Tools/vtkParseJava.c

@@ -1,0 +1,106 @@
+The Topology ToolKit (TTK)
+=
+https://topology-tool-kit.github.io/
+
+This archive contains the data-sets and ParaView state files required to 
+reproduce the examples provided on the TTK website (gallery and tutorials).
+
+To run these examples, from the current directory, enter the following command
+(omit the '$' character):
+$ paraview --state=states/<example demo state file .pvsm>
+
+See the TTK tutorial page for more details:
+https://topology-tool-kit.github.io/tutorials.html
+
+Data specs
+=
+{
+  "name": "bivariateToy.vtu",
+  "description": "Simple bivariate example using X and Y coordinates",
+  "acknowledgement": "Julien Tierny",
+  "url": "https://github.com/topology-tool-kit/ttk-data"
+}
+
+{
+  "name": "BuiltinExample1.vti",
+  "description": "2D von Karman vortex street",
+  "acknowledgement": "Gerris",
+  "url": "http://gfs.sourceforge.net/examples/examples/cylinder.html"
+}
+
+{
+  "name": "BuiltinExample2.vti",
+  "description": "Electron density and reduced gradient, Ethane-Diol molecule",
+  "acknowledgement": "Roberto Alvarez Boto",
+  "url": "https://github.com/topology-tool-kit/ttk-data""
+}
+
+{
+  "name": "BuiltinExample3.vti",
+  "description": "Uncertain 2D von Karman vortex street",
+  "acknowledgement": "Gerris",
+  "url": "http://gfs.sourceforge.net/examples/examples/cylinder.html"
+}
+
+{
+  "name": "ctBones.vti",
+  "description": "Rotational C-arm x-ray scan of a human foot",
+  "acknowledgement": "Philips Research, Hamburg, Germany",
+  "url": "http://cdn.klacansky.com/open-scivis-datasets/"
+}
+
+{
+  "name": "dragon.vtu",
+  "description": "Scanned dragon model",
+  "acknowledgement": "AIM@SHAPE",
+  "url": "http://visionair.ge.imati.cnr.it/ontologies/shapes/"
+}
+
+{
+  "name": "mechanical.vtu",
+  "description": "Magnitudes of flow velocity and vorticity in a mechanical piece",
+  "acknowledgement": "Robert Geist and Joshua A. Levine",
+  "url": "https://github.com/topology-tool-kit/ttk-data"
+}
+
+{
+  "name": "noisyTerrain.vtu",
+  "description": "Surface of a noisy terrain",
+  "acknowledgement": "Julien Tierny",
+  "url": "https://github.com/topology-tool-kit/ttk-data"
+}
+
+{
+  "name": "oceanVortices.vtu",
+  "description": "Sea surface height",
+  "acknowledgement": "Lionel Guez",
+  "url": "http://www.lmd.jussieu.fr/~lguez/index.html"
+}
+
+{
+  "name": "tectonicPuzzle.vtu",
+  "description": "Tectonic plate viscosity",
+  "acknowledgement": "Nicolas Coltice",
+  "url": "http://univ-lyon1.academia.edu/NicolasColtice"
+}
+
+{
+  "name": "tribute.png",
+  "description": "Microscoy of cell sheet morphogenesis (tribute to Edelsbrunner & Harer's book, page 217)",
+  "acknowledgement": "Daniel P. Kiehart, Catherine G. Galbraith, Kevin A. Edwards, Wayne L. Rickoll, Ruth A. Montague ",
+  "url": "http://jcb.rupress.org/content/149/2/471",
+}
+
+{
+  "name": "uncertainStartingVortex.vti",
+  "description": "Starting vortex behind an airplane wing (2D, uncertain data)",
+  "acknowledgement": "Gerris",
+  "url": "http://gerris.dalembert.upmc.fr/gerris/examples/examples/starting.html"
+}
+
+{
+  "name": "viscousFingering.vti",
+  "description": "Density of salt in water during viscous fingering",
+  "acknowledgement": "Berk Geveci and Christoph Garth",
+  "url": "http://www.uni-kl.de/sciviscontest/"
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkTestingRenderingCS-pv5.6.a  CMakeFiles/vtkTestingRenderingCS.dir/vtkMultiBaselineRegressionTestClientServer.cxx.o CMakeFiles/vtkTestingRenderingCS.dir/vtkRegressionTestImageClientServer.cxx.o CMakeFiles/vtkTestingRenderingCS.dir/vtkTestingClientServer.cxx.o CMakeFiles/vtkTestingRenderingCS.dir/vtkTestingInteractorClientServer.cxx.o CMakeFiles/vtkTestingRenderingCS.dir/vtkTestingObjectFactoryClientServer.cxx.o CMakeFiles/vtkTestingRenderingCS.dir/vtkTestingRenderingCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkTestingRenderingCS-pv5.6.a

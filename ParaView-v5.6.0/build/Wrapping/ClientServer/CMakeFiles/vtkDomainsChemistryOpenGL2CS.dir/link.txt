@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkDomainsChemistryOpenGL2CS-pv5.6.a  CMakeFiles/vtkDomainsChemistryOpenGL2CS.dir/vtkOpenGLMoleculeMapperClientServer.cxx.o CMakeFiles/vtkDomainsChemistryOpenGL2CS.dir/vtkDomainsChemistryOpenGL2ObjectFactoryClientServer.cxx.o CMakeFiles/vtkDomainsChemistryOpenGL2CS.dir/vtkDomainsChemistryOpenGL2CSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkDomainsChemistryOpenGL2CS-pv5.6.a

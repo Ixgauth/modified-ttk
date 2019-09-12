@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkViewsContext2DCS-pv5.6.a  CMakeFiles/vtkViewsContext2DCS.dir/vtkContextViewClientServer.cxx.o CMakeFiles/vtkViewsContext2DCS.dir/vtkContextInteractorStyleClientServer.cxx.o CMakeFiles/vtkViewsContext2DCS.dir/vtkViewsContext2DCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkViewsContext2DCS-pv5.6.a

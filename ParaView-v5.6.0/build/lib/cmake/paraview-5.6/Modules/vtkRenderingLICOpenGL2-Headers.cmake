@@ -1,0 +1,6 @@
+set(vtkRenderingLICOpenGL2_HEADERS_LOADED 1)
+set(vtkRenderingLICOpenGL2_HEADERS "vtkImageDataLIC2D;vtkLICNoiseHelper;vtkLineIntegralConvolution2D;vtkPainterCommunicator;vtkStructuredGridLIC2D;vtkSurfaceLICComposite;vtkSurfaceLICHelper;vtkSurfaceLICInterface;vtkSurfaceLICMapper;vtkCompositeSurfaceLICMapper;vtkTextureIO")
+
+foreach(header ${vtkRenderingLICOpenGL2_HEADERS})
+  set(vtkRenderingLICOpenGL2_HEADER_${header}_EXISTS 1)
+endforeach()

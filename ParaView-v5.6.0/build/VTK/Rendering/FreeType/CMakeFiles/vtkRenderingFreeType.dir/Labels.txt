@@ -1,0 +1,32 @@
+# Target labels
+ vtkRenderingFreeType
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkFreeTypeStringToImage.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkFreeTypeTools.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkMathTextUtilities.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkTextRendererStringToImage.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkScaledTextActor.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkVectorText.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/FreeType/vtkRenderingFreeTypeObjectFactory.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_arial_bold.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_arial_bold_italic.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_arial.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_arial_italic.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_courier_bold.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_courier_bold_italic.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_courier.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_courier_italic.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_times_bold.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_times_bold_italic.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_times.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/fonts/face_times_italic.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkFreeTypeStringToImage.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkFreeTypeTools.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkMathTextUtilities.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkTextRendererStringToImage.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkScaledTextActor.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/FreeType/vtkVectorText.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/FreeType/vtkRenderingFreeTypeObjectFactory.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/FreeType/vtkRenderingFreeTypeModule.h

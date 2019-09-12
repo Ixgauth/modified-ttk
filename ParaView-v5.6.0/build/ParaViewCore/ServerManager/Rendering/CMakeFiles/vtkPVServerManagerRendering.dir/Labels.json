@@ -1,0 +1,316 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkPVComparativeAnimationCue.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkPVComparativeView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkPVRepresentedArrayListSettings.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMBagChartSeriesListDomain.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMBoxRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMCameraLink.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMCameraProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMChartRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMChartSeriesListDomain.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMChartSeriesSelectionDomain.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMChartUseIndexForAxisDomain.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMComparativeAnimationCueProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMComparativeAnimationCueUndoElement.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMComparativeViewProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMContextViewProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMDataDeliveryManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMFunctionalBagChartSeriesSelectionDomain.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMImplicitPlaneRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMLightProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMMaterialDomain.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMMaterialLibraryProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMMultiSliceViewProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMNewWidgetRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMOrthographicSliceViewProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMPlotMatrixViewProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMPVRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMRenderViewProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMRepresentationTypeDomain.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMRepresentedArrayListDomain.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMSaveScreenshotProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMScalarBarWidgetRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMSelectionHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMSelectionLink.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMSpreadSheetRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMSpreadSheetViewProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMTextWidgetRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMTransferFunctionManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMTransferFunctionPresets.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMTransferFunctionProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMUtilities.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMViewLayoutProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMViewProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMViewProxyInteractorHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMViewResolutionDomain.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMWidgetRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMPythonViewProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMParaViewPipelineControllerWithRendering.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ServerManager/Rendering/vtkPVServerManagerRenderingObjectFactory.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ServerManager/Rendering/vtkSMTransferFunctionPresetsBuiltin.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkPVComparativeAnimationCue.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkPVComparativeView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkPVRepresentedArrayListSettings.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMBagChartSeriesListDomain.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMBoxRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMCameraLink.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMCameraProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMChartRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMChartSeriesListDomain.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMChartSeriesSelectionDomain.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMChartUseIndexForAxisDomain.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMComparativeAnimationCueProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMComparativeAnimationCueUndoElement.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMComparativeViewProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMContextViewProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMDataDeliveryManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMFunctionalBagChartSeriesSelectionDomain.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMImplicitPlaneRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMLightProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMMaterialDomain.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMMaterialLibraryProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMMultiSliceViewProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMNewWidgetRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMOrthographicSliceViewProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMPlotMatrixViewProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMPVRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMRenderViewProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMRepresentationTypeDomain.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMRepresentedArrayListDomain.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMSaveScreenshotProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMScalarBarWidgetRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMSelectionHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMSelectionLink.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMSpreadSheetRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMSpreadSheetViewProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMTextWidgetRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMTransferFunctionManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMTransferFunctionPresets.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMTransferFunctionProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMUtilities.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMViewLayoutProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMViewProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMViewProxyInteractorHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMViewResolutionDomain.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMWidgetRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMPythonViewProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/Rendering/vtkSMParaViewPipelineControllerWithRendering.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ServerManager/Rendering/vtkPVServerManagerRenderingObjectFactory.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ServerManager/Rendering/vtkPVServerManagerRenderingModule.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ServerManager/Rendering/vtkSMTransferFunctionPresetsBuiltin.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPVServerManagerRendering"
+		],
+		"name" : "vtkPVServerManagerRendering"
+	}
+}

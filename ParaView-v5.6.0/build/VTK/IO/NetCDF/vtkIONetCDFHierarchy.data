@@ -1,0 +1,8 @@
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/NetCDF/vtkMPASReader.h;vtkIONetCDF
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/NetCDF/vtkNetCDFCAMReader.h;vtkIONetCDF
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/NetCDF/vtkNetCDFCFReader.h;vtkIONetCDF
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/NetCDF/vtkNetCDFPOPReader.h;vtkIONetCDF
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/NetCDF/vtkNetCDFReader.h;vtkIONetCDF
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/NetCDF/vtkSLACParticleReader.h;vtkIONetCDF
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/NetCDF/vtkSLACReader.h;vtkIONetCDF
+

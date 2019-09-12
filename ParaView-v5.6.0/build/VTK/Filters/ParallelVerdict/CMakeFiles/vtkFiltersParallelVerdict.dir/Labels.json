@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelVerdict/vtkPCellSizeFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Filters/ParallelVerdict/vtkPCellSizeFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Filters/ParallelVerdict/vtkFiltersParallelVerdictModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkFiltersParallelVerdict"
+		],
+		"name" : "vtkFiltersParallelVerdict"
+	}
+}

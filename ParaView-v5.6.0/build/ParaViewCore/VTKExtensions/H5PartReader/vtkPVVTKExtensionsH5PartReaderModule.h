@@ -1,0 +1,38 @@
+
+#ifndef VTKPVVTKEXTENSIONSH5PARTREADER_EXPORT_H
+#define VTKPVVTKEXTENSIONSH5PARTREADER_EXPORT_H
+
+#ifdef VTKPVVTKEXTENSIONSH5PARTREADER_STATIC_DEFINE
+#  define VTKPVVTKEXTENSIONSH5PARTREADER_EXPORT
+#  define VTKPVVTKEXTENSIONSH5PARTREADER_NO_EXPORT
+#else
+#  ifndef VTKPVVTKEXTENSIONSH5PARTREADER_EXPORT
+#    ifdef vtkPVVTKExtensionsH5PartReader_EXPORTS
+        /* We are building this library */
+#      define VTKPVVTKEXTENSIONSH5PARTREADER_EXPORT __attribute__((visibility("default")))
+#    else
+        /* We are using this library */
+#      define VTKPVVTKEXTENSIONSH5PARTREADER_EXPORT __attribute__((visibility("default")))
+#    endif
+#  endif
+
+#  ifndef VTKPVVTKEXTENSIONSH5PARTREADER_NO_EXPORT
+#    define VTKPVVTKEXTENSIONSH5PARTREADER_NO_EXPORT __attribute__((visibility("hidden")))
+#  endif
+#endif
+
+#ifndef VTKPVVTKEXTENSIONSH5PARTREADER_DEPRECATED
+#  define VTKPVVTKEXTENSIONSH5PARTREADER_DEPRECATED __attribute__ ((__deprecated__))
+#  define VTKPVVTKEXTENSIONSH5PARTREADER_DEPRECATED_EXPORT VTKPVVTKEXTENSIONSH5PARTREADER_EXPORT __attribute__ ((__deprecated__))
+#  define VTKPVVTKEXTENSIONSH5PARTREADER_DEPRECATED_NO_EXPORT VTKPVVTKEXTENSIONSH5PARTREADER_NO_EXPORT __attribute__ ((__deprecated__))
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define VTKPVVTKEXTENSIONSH5PARTREADER_NO_DEPRECATED
+#endif
+
+/* AutoInit dependencies.  */
+#include "vtkPVVTKExtensionsCoreModule.h"
+
+#endif

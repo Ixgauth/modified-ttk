@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/PythonCatalyst/CPythonAdaptorAPI.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/PythonCatalyst/vtkCPPythonAdaptorAPI.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/PythonCatalyst/vtkCPPythonScriptPipeline.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/PythonCatalyst/CPythonAdaptorAPI.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/PythonCatalyst/vtkCPPythonAdaptorAPI.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/CoProcessing/PythonCatalyst/vtkCPPythonScriptPipeline.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/CoProcessing/PythonCatalyst/vtkPVPythonCatalystModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPVPythonCatalyst"
+		],
+		"name" : "vtkPVPythonCatalyst"
+	}
+}

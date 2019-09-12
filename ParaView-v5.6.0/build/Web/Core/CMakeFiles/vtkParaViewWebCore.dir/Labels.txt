@@ -1,0 +1,6 @@
+# Target labels
+ vtkParaViewWebCore
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/Web/Core/vtkPVWebApplication.cxx
+/home/ian/ttk/ParaView-v5.6.0/Web/Core/vtkPVWebApplication.h
+/home/ian/ttk/ParaView-v5.6.0/build/Web/Core/vtkParaViewWebCoreModule.h

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkIOVeraOutCS-pv5.6.a  CMakeFiles/vtkIOVeraOutCS.dir/vtkVeraOutReaderClientServer.cxx.o CMakeFiles/vtkIOVeraOutCS.dir/vtkIOVeraOutCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkIOVeraOutCS-pv5.6.a

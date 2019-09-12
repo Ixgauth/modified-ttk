@@ -1,0 +1,14 @@
+# Target labels
+ vtkWebCore
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkDataEncoder.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkWebApplication.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkWebInteractionEvent.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkWebUtilities.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkObjectIdMap.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkDataEncoder.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkWebApplication.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkWebInteractionEvent.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkWebUtilities.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Web/Core/vtkObjectIdMap.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Web/Core/vtkWebCoreModule.h

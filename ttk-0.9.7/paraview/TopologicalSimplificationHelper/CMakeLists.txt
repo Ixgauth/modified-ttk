@@ -1,0 +1,6 @@
+ttk_add_paraview_plugin(ttkTopologicalSimplificationHelper
+	SOURCES ${VTKWRAPPER_DIR}/ttkTopologicalSimplificationHelper/ttkTopologicalSimplificationHelper.cpp
+	PLUGIN_VERSION 1.0
+	PLUGIN_XML TopologicalSimplificationHelper.xml
+	LINK topologicalSimplificationHelper)
+

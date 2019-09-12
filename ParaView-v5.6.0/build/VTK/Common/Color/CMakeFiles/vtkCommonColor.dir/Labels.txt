@@ -1,0 +1,8 @@
+# Target labels
+ vtkCommonColor
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Common/Color/vtkColorSeries.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Common/Color/vtkNamedColors.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Common/Color/vtkColorSeries.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Common/Color/vtkNamedColors.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Common/Color/vtkCommonColorModule.h

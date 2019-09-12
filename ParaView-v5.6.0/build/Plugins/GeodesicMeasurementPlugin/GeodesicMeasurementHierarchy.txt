@@ -1,0 +1,8 @@
+vtkFastMarchingGeodesicDistance : vtkPolyDataGeodesicDistance ; vtkFastMarchingGeodesicDistance.h ; GeodesicMeasurement
+vtkFastMarchingGeodesicDistance::Superclass = vtkPolyDataGeodesicDistance ; vtkFastMarchingGeodesicDistance.h ; GeodesicMeasurement
+vtkFastMarchingGeodesicPath : vtkGeodesicPath ; vtkFastMarchingGeodesicPath.h ; GeodesicMeasurement
+vtkFastMarchingGeodesicPath::Superclass = vtkGeodesicPath ; vtkFastMarchingGeodesicPath.h ; GeodesicMeasurement
+vtkGeodesicsBetweenPoints : vtkPolyDataAlgorithm ; vtkGeodesicsBetweenPoints.h ; GeodesicMeasurement
+vtkGeodesicsBetweenPoints::Superclass = vtkPolyDataAlgorithm ; vtkGeodesicsBetweenPoints.h ; GeodesicMeasurement
+vtkPolyDataGeodesicDistance : vtkPolyDataAlgorithm ; vtkPolyDataGeodesicDistance.h ; GeodesicMeasurement
+vtkPolyDataGeodesicDistance::Superclass = vtkPolyDataAlgorithm ; vtkPolyDataGeodesicDistance.h ; GeodesicMeasurement

@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/SMApplication/vtkInitializationHelper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerManager/SMApplication/vtkInitializationHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ServerManager/SMApplication/vtkPVServerManagerApplicationModule.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ServerManager/SMApplication/vtkSMGeneratedModules.h.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPVServerManagerApplication"
+		],
+		"name" : "vtkPVServerManagerApplication"
+	}
+}

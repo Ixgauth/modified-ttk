@@ -1,0 +1,1 @@
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/pvserver-launcher.dir/pvserver-forward.c.o  -o launcher/pvserver 

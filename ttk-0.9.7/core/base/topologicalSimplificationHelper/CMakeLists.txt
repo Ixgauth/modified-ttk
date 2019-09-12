@@ -1,0 +1,5 @@
+ttk_add_base_library(topologicalSimplificationHelper
+	SOURCES TopologicalSimplificationHelper.cpp
+	HEADERS TopologicalSimplificationHelper.h
+	LINK triangulation)
+

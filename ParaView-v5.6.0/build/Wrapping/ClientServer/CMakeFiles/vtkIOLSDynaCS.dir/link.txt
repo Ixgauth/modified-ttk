@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkIOLSDynaCS-pv5.6.a  CMakeFiles/vtkIOLSDynaCS.dir/vtkLSDynaPartClientServer.cxx.o CMakeFiles/vtkIOLSDynaCS.dir/vtkLSDynaPartCollectionClientServer.cxx.o CMakeFiles/vtkIOLSDynaCS.dir/vtkLSDynaReaderClientServer.cxx.o CMakeFiles/vtkIOLSDynaCS.dir/vtkLSDynaSummaryParserClientServer.cxx.o CMakeFiles/vtkIOLSDynaCS.dir/LSDynaMetaDataClientServer.cxx.o CMakeFiles/vtkIOLSDynaCS.dir/LSDynaFamilyClientServer.cxx.o CMakeFiles/vtkIOLSDynaCS.dir/vtkIOLSDynaCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkIOLSDynaCS-pv5.6.a

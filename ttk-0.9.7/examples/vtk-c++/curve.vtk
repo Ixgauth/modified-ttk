@@ -1,0 +1,10 @@
+# vtk DataFile Version 4.1
+vtk output
+ASCII
+DATASET TABLE
+ROW_DATA 4
+FIELD FieldData 2
+Persistence%20(minimum-saddle%20pairs) 1 4 double
+0.33237659931 0.38226127625 0.59561598301 2.3985831738 
+Number%20Of%20Pairs%20(minimum-saddle%20pairs) 1 4 int
+4 3 2 1 

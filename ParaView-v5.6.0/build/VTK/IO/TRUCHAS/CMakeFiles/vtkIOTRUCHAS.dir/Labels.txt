@@ -1,0 +1,6 @@
+# Target labels
+ vtkIOTRUCHAS
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/TRUCHAS/vtkTRUCHASReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/TRUCHAS/vtkTRUCHASReader.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/TRUCHAS/vtkIOTRUCHASModule.h

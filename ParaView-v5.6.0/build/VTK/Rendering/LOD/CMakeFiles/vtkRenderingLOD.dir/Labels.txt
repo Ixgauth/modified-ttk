@@ -1,0 +1,8 @@
+# Target labels
+ vtkRenderingLOD
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LOD/vtkLODActor.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LOD/vtkQuadricLODActor.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LOD/vtkLODActor.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Rendering/LOD/vtkQuadricLODActor.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/LOD/vtkRenderingLODModule.h

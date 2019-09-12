@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkIOSegYCS-pv5.6.a  CMakeFiles/vtkIOSegYCS.dir/vtkSegYReaderClientServer.cxx.o CMakeFiles/vtkIOSegYCS.dir/vtkSegYIOUtilsClientServer.cxx.o CMakeFiles/vtkIOSegYCS.dir/vtkSegYReaderInternalClientServer.cxx.o CMakeFiles/vtkIOSegYCS.dir/vtkSegYTraceReaderClientServer.cxx.o CMakeFiles/vtkIOSegYCS.dir/vtkIOSegYCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkIOSegYCS-pv5.6.a

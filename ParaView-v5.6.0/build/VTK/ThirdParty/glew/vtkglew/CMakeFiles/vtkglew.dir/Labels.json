@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/glew/vtkglew/src/glew.c"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/glew/vtkglew/include/GL/glew.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/glew/vtkglew/include/GL/glxew.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/glew/vtkglew/include/GL/vtk_glew_mangle.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/glew/vtkglew/include/GL/wglew.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkglew"
+		],
+		"name" : "vtkglew"
+	}
+}

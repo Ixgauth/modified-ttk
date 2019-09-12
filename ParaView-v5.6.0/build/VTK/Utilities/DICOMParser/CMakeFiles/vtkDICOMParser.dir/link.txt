@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC    -O3 -DNDEBUG  -Wl,-lc    -shared -Wl,-soname,libvtkDICOMParser-pv5.6.so.1 -o ../../../lib/libvtkDICOMParser-pv5.6.so.1 CMakeFiles/vtkDICOMParser.dir/DICOMFile.cxx.o CMakeFiles/vtkDICOMParser.dir/DICOMParser.cxx.o CMakeFiles/vtkDICOMParser.dir/DICOMAppHelper.cxx.o 

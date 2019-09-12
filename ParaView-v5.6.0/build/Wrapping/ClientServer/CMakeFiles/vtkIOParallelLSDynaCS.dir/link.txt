@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkIOParallelLSDynaCS-pv5.6.a  CMakeFiles/vtkIOParallelLSDynaCS.dir/vtkPLSDynaReaderClientServer.cxx.o CMakeFiles/vtkIOParallelLSDynaCS.dir/vtkIOParallelLSDynaCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkIOParallelLSDynaCS-pv5.6.a

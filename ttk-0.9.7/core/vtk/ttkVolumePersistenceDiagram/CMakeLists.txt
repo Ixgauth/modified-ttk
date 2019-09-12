@@ -1,0 +1,4 @@
+ttk_add_vtk_library(ttkVolumePersistenceDiagram
+	SOURCES ttkVolumePersistenceDiagram.cpp
+	HEADERS ttkVolumePersistenceDiagram.h
+	LINK volumeVolumePersistenceDiagram ttkTriangulation)

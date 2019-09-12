@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Rendering/vtkSIImageTextureProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Rendering/vtkSIPVRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Rendering/vtkSIUnstructuredGridVolumeRepresentationProxy.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Rendering/vtkSIImageTextureProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Rendering/vtkSIPVRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ServerImplementation/Rendering/vtkSIUnstructuredGridVolumeRepresentationProxy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/ParaViewCore/ServerImplementation/Rendering/vtkPVServerImplementationRenderingModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPVServerImplementationRendering"
+		],
+		"name" : "vtkPVServerImplementationRendering"
+	}
+}

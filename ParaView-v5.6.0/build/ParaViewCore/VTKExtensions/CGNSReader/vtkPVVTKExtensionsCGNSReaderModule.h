@@ -1,0 +1,38 @@
+
+#ifndef VTKPVVTKEXTENSIONSCGNSREADER_EXPORT_H
+#define VTKPVVTKEXTENSIONSCGNSREADER_EXPORT_H
+
+#ifdef VTKPVVTKEXTENSIONSCGNSREADER_STATIC_DEFINE
+#  define VTKPVVTKEXTENSIONSCGNSREADER_EXPORT
+#  define VTKPVVTKEXTENSIONSCGNSREADER_NO_EXPORT
+#else
+#  ifndef VTKPVVTKEXTENSIONSCGNSREADER_EXPORT
+#    ifdef vtkPVVTKExtensionsCGNSReader_EXPORTS
+        /* We are building this library */
+#      define VTKPVVTKEXTENSIONSCGNSREADER_EXPORT __attribute__((visibility("default")))
+#    else
+        /* We are using this library */
+#      define VTKPVVTKEXTENSIONSCGNSREADER_EXPORT __attribute__((visibility("default")))
+#    endif
+#  endif
+
+#  ifndef VTKPVVTKEXTENSIONSCGNSREADER_NO_EXPORT
+#    define VTKPVVTKEXTENSIONSCGNSREADER_NO_EXPORT __attribute__((visibility("hidden")))
+#  endif
+#endif
+
+#ifndef VTKPVVTKEXTENSIONSCGNSREADER_DEPRECATED
+#  define VTKPVVTKEXTENSIONSCGNSREADER_DEPRECATED __attribute__ ((__deprecated__))
+#  define VTKPVVTKEXTENSIONSCGNSREADER_DEPRECATED_EXPORT VTKPVVTKEXTENSIONSCGNSREADER_EXPORT __attribute__ ((__deprecated__))
+#  define VTKPVVTKEXTENSIONSCGNSREADER_DEPRECATED_NO_EXPORT VTKPVVTKEXTENSIONSCGNSREADER_NO_EXPORT __attribute__ ((__deprecated__))
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define VTKPVVTKEXTENSIONSCGNSREADER_NO_DEPRECATED
+#endif
+
+/* AutoInit dependencies.  */
+#include "vtkPVVTKExtensionsCoreModule.h"
+
+#endif

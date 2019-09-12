@@ -1,0 +1,4 @@
+vtkIOParallelExodusPython
+vtkPExodusIIReader
+vtkPExodusIIWriter
+vtkIOParallelExodusObjectFactory

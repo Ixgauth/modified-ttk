@@ -1,0 +1,10 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkClientServerIDClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkClientServerInterpreterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkClientServerStreamClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkClientServerCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerStream/vtkClientServerID.h
+/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerStream/vtkClientServerInterpreter.h
+/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/ClientServerStream/vtkClientServerStream.h

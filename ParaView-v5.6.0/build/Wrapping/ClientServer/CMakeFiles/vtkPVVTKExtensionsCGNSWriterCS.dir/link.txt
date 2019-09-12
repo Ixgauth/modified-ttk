@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkPVVTKExtensionsCGNSWriterCS-pv5.6.a  CMakeFiles/vtkPVVTKExtensionsCGNSWriterCS.dir/vtkCGNSWriterClientServer.cxx.o CMakeFiles/vtkPVVTKExtensionsCGNSWriterCS.dir/vtkPVVTKExtensionsCGNSWriterCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkPVVTKExtensionsCGNSWriterCS-pv5.6.a

@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/netcdfcpp/vtknetcdfcpp/cxx/netcdf.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/netcdfcpp/vtknetcdfcpp/cxx/ncvalues.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtknetcdfcpp"
+		],
+		"name" : "vtknetcdfcpp"
+	}
+}

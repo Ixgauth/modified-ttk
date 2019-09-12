@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvtkIOMotionFXCS-pv5.6.a  CMakeFiles/vtkIOMotionFXCS.dir/vtkMotionFXCFGReaderClientServer.cxx.o CMakeFiles/vtkIOMotionFXCS.dir/vtkIOMotionFXCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkIOMotionFXCS-pv5.6.a

@@ -1,0 +1,36 @@
+# Target labels
+ vtkMetaIO
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaTypes.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaUtils.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaArrow.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaBlob.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaCommand.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaCommand.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaContour.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaContour.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaDTITube.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaEllipse.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaGroup.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaGaussian.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaImage.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaImageUtils.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaLandmark.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaLine.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaMesh.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaMesh.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaObject.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaOutput.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaOutput.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaScene.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaSurface.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaTube.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaVesselTube.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaTransform.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaTubeGraph.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaForm.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaForm.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaArray.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaArray.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaFEMObject.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/MetaIO/vtkmetaio/metaFEMObject.cxx

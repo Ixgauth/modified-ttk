@@ -1,0 +1,7 @@
+/home/ian/ttk/ParaView-v5.6.0/Plugins/AnalyzeNIfTIReaderWriter/vtkAnalyzeReader.h;AnalyzeNIfTIIO
+/home/ian/ttk/ParaView-v5.6.0/Plugins/AnalyzeNIfTIReaderWriter/vtkAnalyzeWriter.h;AnalyzeNIfTIIO
+/home/ian/ttk/ParaView-v5.6.0/Plugins/AnalyzeNIfTIReaderWriter/vtkNIfTIReader.h;AnalyzeNIfTIIO
+/home/ian/ttk/ParaView-v5.6.0/Plugins/AnalyzeNIfTIReaderWriter/vtkNIfTIWriter.h;AnalyzeNIfTIIO
+/home/ian/ttk/ParaView-v5.6.0/Plugins/AnalyzeNIfTIReaderWriter/vtknifti1_io.h;AnalyzeNIfTIIO
+/home/ian/ttk/ParaView-v5.6.0/Plugins/AnalyzeNIfTIReaderWriter/vtkznzlib.h;AnalyzeNIfTIIO
+

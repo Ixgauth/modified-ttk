@@ -1,0 +1,16 @@
+# Target labels
+ vtkViewsCore
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkConvertSelectionDomain.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkDataRepresentation.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkEmptyRepresentation.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkRenderViewBase.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkView.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkViewTheme.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkConvertSelectionDomain.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkDataRepresentation.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkEmptyRepresentation.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkRenderViewBase.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkView.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Core/vtkViewTheme.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Views/Core/vtkViewsCoreModule.h

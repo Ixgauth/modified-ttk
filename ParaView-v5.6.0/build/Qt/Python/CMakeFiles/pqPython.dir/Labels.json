@@ -1,0 +1,112 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonDebugLeaksView.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonDebugLeaksView.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonMacroSupervisor.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonMacroSupervisor.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonManager.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonManager.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonScriptEditor.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonScriptEditor.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonShell.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonShell.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonSyntaxHighlighter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonSyntaxHighlighter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonDialog.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonDebugLeaksView.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonMacroSupervisor.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonManager.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonScriptEditor.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonShell.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonSyntaxHighlighter.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonDialog.cpp"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/ui_pqPythonShell.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/ui_pqPythonDialog.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/pqPythonModule.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonDebugLeaksView.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonMacroSupervisor.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonManager.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonScriptEditor.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonShell.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonSyntaxHighlighter.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonDialog.cpp.rule"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonShell.ui"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonDialog.ui"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pqPython"
+		],
+		"name" : "pqPython"
+	}
+}

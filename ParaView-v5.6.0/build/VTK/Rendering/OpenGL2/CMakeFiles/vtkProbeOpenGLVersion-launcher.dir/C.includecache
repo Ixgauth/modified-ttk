@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/Rendering/OpenGL2/vtkProbeOpenGLVersion-forward.c
+vtksys/SharedForward.h
+-
+
+VTK/Utilities/KWSys/vtksys/SharedForward.h
+vtksys/SharedForward.h
+-
+errno.h
+-
+limits.h
+-
+stddef.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+windows.h
+-
+io.h
+-
+process.h
+-
+sys/stat.h
+-
+unistd.h
+-
+sys/isa_defs.h
+-
+

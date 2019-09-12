@@ -1,0 +1,2 @@
+vtkThickenLayeredCells : vtkUnstructuredGridAlgorithm ; vtkThickenLayeredCells.h ; ThickenLayeredCells
+vtkThickenLayeredCells::Superclass = vtkUnstructuredGridAlgorithm ; vtkThickenLayeredCells.h ; ThickenLayeredCells

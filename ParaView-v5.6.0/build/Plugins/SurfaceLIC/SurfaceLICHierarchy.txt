@@ -1,0 +1,2 @@
+vtkSurfaceLICRepresentation : vtkGeometryRepresentation ; vtkSurfaceLICRepresentation.h ; SurfaceLIC
+vtkSurfaceLICRepresentation::Superclass = vtkGeometryRepresentation ; vtkSurfaceLICRepresentation.h ; SurfaceLIC

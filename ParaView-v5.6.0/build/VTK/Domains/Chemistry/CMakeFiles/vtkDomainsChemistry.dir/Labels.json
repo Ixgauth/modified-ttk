@@ -1,0 +1,121 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkBlueObeliskData.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkBlueObeliskDataInternal.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkBlueObeliskDataParser.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkCMLMoleculeReader.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkGaussianCubeReader2.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkMoleculeMapper.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkMoleculeToAtomBallFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkMoleculeToBondStickFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkMoleculeToLinesFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkMoleculeToPolyDataFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkPeriodicTable.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkPointSetToMoleculeFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkProgrammableElectronicData.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkProteinRibbonFilter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkSimpleBondPerceiver.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkVASPAnimationReader.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkVASPTessellationReader.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkXYZMolReader2.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkBlueObeliskData.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkBlueObeliskDataParser.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkCMLMoleculeReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkGaussianCubeReader2.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkMoleculeMapper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkMoleculeToAtomBallFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkMoleculeToBondStickFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkMoleculeToLinesFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkMoleculeToPolyDataFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkPeriodicTable.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkPointSetToMoleculeFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkProgrammableElectronicData.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkProteinRibbonFilter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkSimpleBondPerceiver.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkVASPAnimationReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkVASPTessellationReader.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Domains/Chemistry/vtkXYZMolReader2.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Domains/Chemistry/vtkDomainsChemistryModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkDomainsChemistry"
+		],
+		"name" : "vtkDomainsChemistry"
+	}
+}

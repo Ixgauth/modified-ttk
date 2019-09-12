@@ -1,0 +1,10 @@
+# Target labels
+ vtkIOXMLParser
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/XMLParser/vtkXMLDataParser.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/XMLParser/vtkXMLParser.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/XMLParser/vtkXMLUtilities.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/XMLParser/vtkXMLDataParser.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/XMLParser/vtkXMLParser.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/XMLParser/vtkXMLUtilities.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/XMLParser/vtkIOXMLParserModule.h

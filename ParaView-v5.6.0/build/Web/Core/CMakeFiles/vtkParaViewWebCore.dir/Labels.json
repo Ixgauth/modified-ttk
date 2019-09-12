@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Web/Core/vtkPVWebApplication.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/Web/Core/vtkPVWebApplication.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/Web/Core/vtkParaViewWebCoreModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkParaViewWebCore"
+		],
+		"name" : "vtkParaViewWebCore"
+	}
+}

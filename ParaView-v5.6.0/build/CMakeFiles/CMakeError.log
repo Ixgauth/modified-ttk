@@ -1,0 +1,2044 @@
+Looking for a Fortran compiler failed with the following output:
+-- The Fortran compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_Fortran_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "FC" or the CMake cache entry CMAKE_Fortran_COMPILER to the full
+  path to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeOutput.log".
+See also "/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeError.log".
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c485/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c485.dir/build.make CMakeFiles/cmTC_1c485.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c485.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1c485.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1c485
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c485.dir/link.txt --verbose=1
+/usr/bin/cc       -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_1c485.dir/CheckSymbolExists.c.o  -o cmTC_1c485 
+CMakeFiles/cmTC_1c485.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1c485.dir/build.make:97: recipe for target 'cmTC_1c485' failed
+make[1]: *** [cmTC_1c485] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1c485/fast' failed
+make: *** [cmTC_1c485/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf7bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf7bd.dir/build.make CMakeFiles/cmTC_bf7bd.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf7bd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bf7bd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bf7bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf7bd.dir/link.txt --verbose=1
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_bf7bd.dir/CheckFunctionExists.c.o  -o cmTC_bf7bd -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bf7bd.dir/build.make:97: recipe for target 'cmTC_bf7bd' failed
+make[1]: *** [cmTC_bf7bd] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bf7bd/fast' failed
+make: *** [cmTC_bf7bd/fast] Error 2
+
+
+Checking whether C++ compiler has '__int64' failed to compile with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa74b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa74b.dir/build.make CMakeFiles/cmTC_fa74b.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fa74b.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++  -DTEST_KWSYS_CXX_HAS___INT64   -o CMakeFiles/cmTC_fa74b.dir/kwsysPlatformTestsCXX.cxx.o -c /home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:24:1: error: ‘__int64’ does not name a type; did you mean ‘__amd64’?
+ __int64 f(__int64 n)
+ ^~~~~~~
+ __amd64
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:30:3: error: ‘__int64’ was not declared in this scope
+   __int64 n = 0;
+   ^~~~~~~
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:30:3: note: suggested alternative: ‘__amd64’
+   __int64 n = 0;
+   ^~~~~~~
+   __amd64
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:31:29: error: ‘n’ was not declared in this scope
+   return static_cast<int>(f(n));
+                             ^
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:31:27: error: ‘f’ was not declared in this scope
+   return static_cast<int>(f(n));
+                           ^
+CMakeFiles/cmTC_fa74b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fa74b.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_fa74b.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fa74b/fast' failed
+make: *** [cmTC_fa74b/fast] Error 2
+
+
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83b8b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83b8b.dir/build.make CMakeFiles/cmTC_83b8b.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83b8b.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++  -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H   -o CMakeFiles/cmTC_83b8b.dir/kwsysPlatformTestsCXX.cxx.o -c /home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:196:13: error: ‘environ’ was not declared in this scope
+   char* e = environ[0];
+             ^~~~~~~
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:196:13: note: suggested alternative: ‘union’
+   char* e = environ[0];
+             ^~~~~~~
+             union
+CMakeFiles/cmTC_83b8b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_83b8b.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_83b8b.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_83b8b/fast' failed
+make: *** [cmTC_83b8b/fast] Error 2
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member failed to compile with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56921/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56921.dir/build.make CMakeFiles/cmTC_56921.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_56921.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++  -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC   -o CMakeFiles/cmTC_56921.dir/kwsysPlatformTestsCXX.cxx.o -c /home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:57:15: error: ‘struct stat’ has no member named ‘st_mtimespec’; did you mean ‘st_mtim’?
+   (void)stat1.st_mtimespec.tv_sec;
+               ^~~~~~~~~~~~
+               st_mtim
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:58:15: error: ‘struct stat’ has no member named ‘st_mtimespec’; did you mean ‘st_mtim’?
+   (void)stat1.st_mtimespec.tv_nsec;
+               ^~~~~~~~~~~~
+               st_mtim
+CMakeFiles/cmTC_56921.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_56921.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_56921.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_56921/fast' failed
+make: *** [cmTC_56921/fast] Error 2
+
+
+Checking whether CXX compiler has _atoi64 failed to compile with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2eaef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2eaef.dir/build.make CMakeFiles/cmTC_2eaef.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2eaef.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++  -DTEST_KWSYS_CXX_HAS__ATOI64   -o CMakeFiles/cmTC_2eaef.dir/kwsysPlatformTestsCXX.cxx.o -c /home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:252:27: error: ‘_atoi64’ was not declared in this scope
+   return static_cast<int>(_atoi64(str));
+                           ^~~~~~~
+/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:252:27: note: suggested alternative: ‘atoi’
+   return static_cast<int>(_atoi64(str));
+                           ^~~~~~~
+                           atoi
+CMakeFiles/cmTC_2eaef.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2eaef.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_2eaef.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2eaef/fast' failed
+make: *** [cmTC_2eaef/fast] Error 2
+
+
+Determining if the function getsockname exists in the socket failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f190/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f190.dir/build.make CMakeFiles/cmTC_9f190.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f190.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getsockname   -o CMakeFiles/cmTC_9f190.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9f190
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f190.dir/link.txt --verbose=1
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=getsockname   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_9f190.dir/CheckFunctionExists.c.o  -o cmTC_9f190 -lsocket 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9f190.dir/build.make:97: recipe for target 'cmTC_9f190' failed
+make[1]: *** [cmTC_9f190] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9f190/fast' failed
+make: *** [cmTC_9f190/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41543/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41543.dir/build.make CMakeFiles/cmTC_41543.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41543.dir/src.cxx.o
+/usr/bin/c++    -w -w -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_41543.dir/src.cxx.o -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_41543.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_41543.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_41543.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_41543/fast' failed
+make: *** [cmTC_41543/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8494/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8494.dir/build.make CMakeFiles/cmTC_b8494.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8494.dir/src.cxx.o
+/usr/bin/c++    -w -w -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTC_b8494.dir/src.cxx.o -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'; did you mean '-Wno-conversion'?
+CMakeFiles/cmTC_b8494.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b8494.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b8494.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b8494/fast' failed
+make: *** [cmTC_b8494/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2145b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2145b.dir/build.make CMakeFiles/cmTC_2145b.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2145b.dir/src.cxx.o
+/usr/bin/c++    -w -w -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_2145b.dir/src.cxx.o -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+CMakeFiles/cmTC_2145b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2145b.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_2145b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2145b/fast' failed
+make: *** [cmTC_2145b/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0b41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0b41.dir/build.make CMakeFiles/cmTC_c0b41.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0b41.dir/src.cxx.o
+/usr/bin/c++    -w -w -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_c0b41.dir/src.cxx.o -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+CMakeFiles/cmTC_c0b41.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c0b41.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c0b41.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c0b41/fast' failed
+make: *** [cmTC_c0b41/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bc57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7bc57.dir/build.make CMakeFiles/cmTC_7bc57.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7bc57.dir/src.cxx.o
+/usr/bin/c++    -w -w -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_7bc57.dir/src.cxx.o -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+CMakeFiles/cmTC_7bc57.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7bc57.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7bc57.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7bc57/fast' failed
+make: *** [cmTC_7bc57/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6004/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6004.dir/build.make CMakeFiles/cmTC_d6004.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6004.dir/src.cxx.o
+/usr/bin/c++    -w -w -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_d6004.dir/src.cxx.o -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'; did you mean '-fstrict-enums'?
+CMakeFiles/cmTC_d6004.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d6004.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d6004.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d6004/fast' failed
+make: *** [cmTC_d6004/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bba3e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bba3e.dir/build.make CMakeFiles/cmTC_bba3e.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bba3e.dir/src.cxx.o
+/usr/bin/c++    -w -w -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_bba3e.dir/src.cxx.o -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'; did you mean '-Wunused-parameter'?
+CMakeFiles/cmTC_bba3e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bba3e.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_bba3e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bba3e/fast' failed
+make: *** [cmTC_bba3e/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/endian.h exists failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cee5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cee5c.dir/build.make CMakeFiles/cmTC_cee5c.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cee5c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_cee5c.dir/CheckIncludeFile.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/endian.h: No such file or directory
+ #include <sys/endian.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_cee5c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cee5c.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_cee5c.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cee5c/fast' failed
+make: *** [cmTC_cee5c/fast] Error 2
+
+
+Determining if the HAVE_BSWAP_16 exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95a3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95a3d.dir/build.make CMakeFiles/cmTC_95a3d.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95a3d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_95a3d.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘HAVE_BSWAP_16’ undeclared (first use in this function)
+   return ((int*)(&HAVE_BSWAP_16))[argc];
+                   ^~~~~~~~~~~~~
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_95a3d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_95a3d.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_95a3d.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_95a3d/fast' failed
+make: *** [cmTC_95a3d/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <byteswap.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef HAVE_BSWAP_16
+  return ((int*)(&HAVE_BSWAP_16))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the HAVE_BSWAP_32 exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a38bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a38bf.dir/build.make CMakeFiles/cmTC_a38bf.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a38bf.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_a38bf.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘HAVE_BSWAP_32’ undeclared (first use in this function)
+   return ((int*)(&HAVE_BSWAP_32))[argc];
+                   ^~~~~~~~~~~~~
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_a38bf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a38bf.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a38bf.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a38bf/fast' failed
+make: *** [cmTC_a38bf/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <byteswap.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef HAVE_BSWAP_32
+  return ((int*)(&HAVE_BSWAP_32))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the HAVE_BSWAP_64 exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e837a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e837a.dir/build.make CMakeFiles/cmTC_e837a.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e837a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_e837a.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘HAVE_BSWAP_64’ undeclared (first use in this function)
+   return ((int*)(&HAVE_BSWAP_64))[argc];
+                   ^~~~~~~~~~~~~
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_e837a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e837a.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e837a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e837a/fast' failed
+make: *** [cmTC_e837a/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <byteswap.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef HAVE_BSWAP_64
+  return ((int*)(&HAVE_BSWAP_64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f58a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f58a5.dir/build.make CMakeFiles/cmTC_f58a5.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f58a5.dir/__INT64.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_f58a5.dir/__INT64.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/__INT64.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/__INT64.c:23:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/__INT64.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_f58a5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f58a5.dir/__INT64.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f58a5.dir/__INT64.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f58a5/fast' failed
+make: *** [cmTC_f58a5/fast] Error 2
+
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/__INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int64 failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72294/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72294.dir/build.make CMakeFiles/cmTC_72294.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72294.dir/UNSIGNED___INT64.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_72294.dir/UNSIGNED___INT64.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:23:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:23:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:26:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^~~~
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:23:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:27:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^~~~
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:23:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:28:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^~~~
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:23:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:29:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^~~~
+CMakeFiles/cmTC_72294.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_72294.dir/UNSIGNED___INT64.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_72294.dir/UNSIGNED___INT64.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_72294/fast' failed
+make: *** [cmTC_72294/fast] Error 2
+
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the arc4random_buf exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab468/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab468.dir/build.make CMakeFiles/cmTC_ab468.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab468.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_ab468.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘arc4random_buf’ undeclared (first use in this function); did you mean ‘srandom_r’?
+   return ((int*)(&arc4random_buf))[argc];
+                   ^~~~~~~~~~~~~~
+                   srandom_r
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_ab468.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ab468.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ab468.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ab468/fast' failed
+make: *** [cmTC_ab468/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random_buf
+  return ((int*)(&arc4random_buf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the arc4random exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f9ca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f9ca.dir/build.make CMakeFiles/cmTC_8f9ca.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f9ca.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_8f9ca.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘arc4random’ undeclared (first use in this function); did you mean ‘srandom’?
+   return ((int*)(&arc4random))[argc];
+                   ^~~~~~~~~~
+                   srandom
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_8f9ca.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8f9ca.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8f9ca.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8f9ca/fast' failed
+make: *** [cmTC_8f9ca/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the off_t exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2bedf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2bedf.dir/build.make CMakeFiles/cmTC_2bedf.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2bedf.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_2bedf.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: expected expression before ‘off_t’
+   return ((int*)(&off_t))[argc];
+                   ^~~~~
+CMakeFiles/cmTC_2bedf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2bedf.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2bedf.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2bedf/fast' failed
+make: *** [cmTC_2bedf/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef off_t
+  return ((int*)(&off_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the size_t exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04bdb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04bdb.dir/build.make CMakeFiles/cmTC_04bdb.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04bdb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_04bdb.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: expected expression before ‘size_t’
+   return ((int*)(&size_t))[argc];
+                   ^~~~~~
+CMakeFiles/cmTC_04bdb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_04bdb.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_04bdb.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_04bdb/fast' failed
+make: *** [cmTC_04bdb/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef size_t
+  return ((int*)(&size_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3858b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3858b.dir/build.make CMakeFiles/cmTC_3858b.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3858b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -w -w -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_3858b.dir/CheckIncludeFile.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
+ #include <io.h>
+          ^~~~~~
+compilation terminated.
+CMakeFiles/cmTC_3858b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3858b.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3858b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3858b/fast' failed
+make: *** [cmTC_3858b/fast] Error 2
+
+
+Determining if the function shl_load exists in the dld;dl failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c335/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c335.dir/build.make CMakeFiles/cmTC_5c335.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c335.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -w -DCHECK_FUNCTION_EXISTS=shl_load   -o CMakeFiles/cmTC_5c335.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5c335
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c335.dir/link.txt --verbose=1
+/usr/bin/cc    -w -w -DCHECK_FUNCTION_EXISTS=shl_load   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_5c335.dir/CheckFunctionExists.c.o  -o cmTC_5c335 -ldld -ldl 
+/usr/bin/ld: cannot find -ldld
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5c335.dir/build.make:97: recipe for target 'cmTC_5c335' failed
+make[1]: *** [cmTC_5c335] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5c335/fast' failed
+make: *** [cmTC_5c335/fast] Error 2
+
+
+Determining if files stdio.h;stddef.h;sys/types.h;inttypes.h;dlfcn.h;fcntl.h;malloc.h;memory.h;netdb.h;limits.h;sys/socket.h;netinet/in.h;sys/select.h;stdint.h;stdlib.h;string.h;strings.h;sys/stat.h;sys/time.h;time.h;unistd.h;signal.h;errno.h;ansidecl.h exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98adb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98adb.dir/build.make CMakeFiles/cmTC_98adb.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98adb.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w -w    -o CMakeFiles/cmTC_98adb.dir/CheckIncludeFiles.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:25:10: fatal error: ansidecl.h: No such file or directory
+ #include <ansidecl.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_98adb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_98adb.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_98adb.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_98adb/fast' failed
+make: *** [cmTC_98adb/fast] Error 2
+
+Source:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <ansidecl.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;stddef.h;sys/types.h;inttypes.h;dlfcn.h;fcntl.h;malloc.h;memory.h;netdb.h;limits.h;sys/socket.h;netinet/in.h;sys/select.h;stdint.h;stdlib.h;string.h;strings.h;sys/stat.h;sys/time.h;time.h;unistd.h;signal.h;errno.h;arpa/inet.h;arpa/nameser.h;ctype.h;dirent.h;dl.h exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30dd1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30dd1.dir/build.make CMakeFiles/cmTC_30dd1.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30dd1.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w -w    -o CMakeFiles/cmTC_30dd1.dir/CheckIncludeFiles.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:29:10: fatal error: dl.h: No such file or directory
+ #include <dl.h>
+          ^~~~~~
+compilation terminated.
+CMakeFiles/cmTC_30dd1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_30dd1.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_30dd1.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_30dd1/fast' failed
+make: *** [cmTC_30dd1/fast] Error 2
+
+Source:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <dl.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;stddef.h;sys/types.h;inttypes.h;dlfcn.h;fcntl.h;malloc.h;memory.h;netdb.h;limits.h;sys/socket.h;netinet/in.h;sys/select.h;stdint.h;stdlib.h;string.h;strings.h;sys/stat.h;sys/time.h;time.h;unistd.h;signal.h;errno.h;arpa/inet.h;arpa/nameser.h;ctype.h;dirent.h;float.h;fp_class.h exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e4e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e4e5.dir/build.make CMakeFiles/cmTC_7e4e5.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e4e5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w -w    -o CMakeFiles/cmTC_7e4e5.dir/CheckIncludeFiles.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:30:10: fatal error: fp_class.h: No such file or directory
+ #include <fp_class.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_7e4e5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7e4e5.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7e4e5.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7e4e5/fast' failed
+make: *** [cmTC_7e4e5/fast] Error 2
+
+Source:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <fp_class.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;stddef.h;sys/types.h;inttypes.h;dlfcn.h;fcntl.h;malloc.h;memory.h;netdb.h;limits.h;sys/socket.h;netinet/in.h;sys/select.h;stdint.h;stdlib.h;string.h;strings.h;sys/stat.h;sys/time.h;time.h;unistd.h;signal.h;errno.h;arpa/inet.h;arpa/nameser.h;ctype.h;dirent.h;float.h;ieeefp.h exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ba13/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ba13.dir/build.make CMakeFiles/cmTC_9ba13.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ba13.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w -w    -o CMakeFiles/cmTC_9ba13.dir/CheckIncludeFiles.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:30:10: fatal error: ieeefp.h: No such file or directory
+ #include <ieeefp.h>
+          ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_9ba13.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9ba13.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9ba13.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9ba13/fast' failed
+make: *** [cmTC_9ba13/fast] Error 2
+
+Source:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;stddef.h;sys/types.h;inttypes.h;dlfcn.h;fcntl.h;malloc.h;memory.h;netdb.h;limits.h;sys/socket.h;netinet/in.h;sys/select.h;stdint.h;stdlib.h;string.h;strings.h;sys/stat.h;sys/time.h;time.h;unistd.h;signal.h;errno.h;arpa/inet.h;arpa/nameser.h;ctype.h;dirent.h;float.h;math.h;nan.h exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8240a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8240a.dir/build.make CMakeFiles/cmTC_8240a.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8240a.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w -w    -o CMakeFiles/cmTC_8240a.dir/CheckIncludeFiles.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:31:10: fatal error: nan.h: No such file or directory
+ #include <nan.h>
+          ^~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_8240a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8240a.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8240a.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8240a/fast' failed
+make: *** [cmTC_8240a/fast] Error 2
+
+Source:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <math.h>
+#include <nan.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdio.h;stddef.h;sys/types.h;inttypes.h;dlfcn.h;fcntl.h;malloc.h;memory.h;netdb.h;limits.h;sys/socket.h;netinet/in.h;sys/select.h;stdint.h;stdlib.h;string.h;strings.h;sys/stat.h;sys/time.h;time.h;unistd.h;signal.h;errno.h;arpa/inet.h;arpa/nameser.h;ctype.h;dirent.h;float.h;math.h;ndir.h exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f57b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f57b3.dir/build.make CMakeFiles/cmTC_f57b3.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f57b3.dir/CheckIncludeFiles.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w -w    -o CMakeFiles/cmTC_f57b3.dir/CheckIncludeFiles.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:31:10: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+          ^~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_f57b3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f57b3.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f57b3.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f57b3/fast' failed
+make: *** [cmTC_f57b3/fast] Error 2
+
+Source:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <math.h>
+#include <ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if the fpclass exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ade56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ade56.dir/build.make CMakeFiles/cmTC_ade56.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ade56.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w -w    -o CMakeFiles/cmTC_ade56.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: error: ‘fpclass’ undeclared (first use in this function); did you mean ‘p_class’?
+   return ((int*)(&fpclass))[argc];
+                   ^~~~~~~
+                   p_class
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_ade56.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ade56.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ade56.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ade56/fast' failed
+make: *** [cmTC_ade56/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <math.h>
+#include <pthread.h>
+#include <resolv.h>
+#include <stdarg.h>
+#include <sys/mman.h>
+#include <sys/timeb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fpclass
+  return ((int*)(&fpclass))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fp_class exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f673/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f673.dir/build.make CMakeFiles/cmTC_6f673.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f673.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w -w    -o CMakeFiles/cmTC_6f673.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: error: ‘fp_class’ undeclared (first use in this function); did you mean ‘p_class’?
+   return ((int*)(&fp_class))[argc];
+                   ^~~~~~~~
+                   p_class
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_6f673.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6f673.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_6f673.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6f673/fast' failed
+make: *** [cmTC_6f673/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <math.h>
+#include <pthread.h>
+#include <resolv.h>
+#include <stdarg.h>
+#include <sys/mman.h>
+#include <sys/timeb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fp_class
+  return ((int*)(&fp_class))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _stat exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7aca9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7aca9.dir/build.make CMakeFiles/cmTC_7aca9.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7aca9.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -w -w    -o CMakeFiles/cmTC_7aca9.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: error: ‘_stat’ undeclared (first use in this function); did you mean ‘lstat’?
+   return ((int*)(&_stat))[argc];
+                   ^~~~~
+                   lstat
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_7aca9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7aca9.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7aca9.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7aca9/fast' failed
+make: *** [cmTC_7aca9/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <math.h>
+#include <pthread.h>
+#include <resolv.h>
+#include <stdarg.h>
+#include <sys/mman.h>
+#include <sys/timeb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stat
+  return ((int*)(&_stat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Checking for DIR in sys/ndir.h failed to compile with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/VTK/ThirdParty/libxml2/vtklibxml2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02693/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02693.dir/build.make CMakeFiles/cmTC_02693.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/VTK/ThirdParty/libxml2/vtklibxml2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02693.dir/platformTestsC.c.o
+/usr/bin/cc -DTEST_HAVE_SYS_NDIR_H  -w -w    -o CMakeFiles/cmTC_02693.dir/platformTestsC.c.o   -c /home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/libxml2/vtklibxml2/platformTestsC.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/libxml2/vtklibxml2/platformTestsC.c:82:10: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_02693.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_02693.dir/platformTestsC.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_02693.dir/platformTestsC.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/VTK/ThirdParty/libxml2/vtklibxml2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_02693/fast' failed
+make: *** [cmTC_02693/fast] Error 2
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;io.h exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7240/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7240.dir/build.make CMakeFiles/cmTC_a7240.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7240.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_a7240.dir/CheckIncludeFiles.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:14:10: fatal error: io.h: No such file or directory
+ #include <io.h>
+          ^~~~~~
+compilation terminated.
+CMakeFiles/cmTC_a7240.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a7240.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a7240.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a7240/fast' failed
+make: *** [cmTC_a7240/fast] Error 2
+
+Source:
+/* */
+#include <sys/file.h>
+#include <sys/ioctl.h>
+#include <sys/resource.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <features.h>
+#include <dirent.h>
+#include <setjmp.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <unistd.h>
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;winsock2.h exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8e72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8e72.dir/build.make CMakeFiles/cmTC_c8e72.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8e72.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_c8e72.dir/CheckIncludeFiles.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:14:10: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_c8e72.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c8e72.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c8e72.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c8e72/fast' failed
+make: *** [cmTC_c8e72/fast] Error 2
+
+Source:
+/* */
+#include <sys/file.h>
+#include <sys/ioctl.h>
+#include <sys/resource.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <features.h>
+#include <dirent.h>
+#include <setjmp.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <unistd.h>
+#include <winsock2.h>
+
+
+int main(void){return 0;}
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8dc7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8dc7.dir/build.make CMakeFiles/cmTC_e8dc7.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8dc7.dir/H5_SIZEOF___INT64.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -w -w    -o CMakeFiles/cmTC_e8dc7.dir/H5_SIZEOF___INT64.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:23:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_e8dc7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e8dc7.dir/H5_SIZEOF___INT64.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e8dc7.dir/H5_SIZEOF___INT64.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e8dc7/fast' failed
+make: *** [cmTC_e8dc7/fast] Error 2
+
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing Other Test HAVE___TM_GMTOFF failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_394ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_394ee.dir/build.make CMakeFiles/cmTC_394ee.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_394ee.dir/HDFTests.c.o
+/usr/bin/cc   -w -w -DHAVE___TM_GMTOFF  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_394ee.dir/HDFTests.c.o   -c /home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c:156:30: error: ‘struct tm’ has no member named ‘__tm_gmtoff’; did you mean ‘tm_gmtoff’?
+ SIMPLE_TEST(struct tm tm; tm.__tm_gmtoff=0);
+                              ^
+/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c:12:36: note: in definition of macro ‘SIMPLE_TEST’
+ #define SIMPLE_TEST(x) int main(){ x; return 0; }
+                                    ^
+CMakeFiles/cmTC_394ee.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_394ee.dir/HDFTests.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_394ee.dir/HDFTests.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_394ee/fast' failed
+make: *** [cmTC_394ee/fast] Error 2
+
+Performing Other Test HAVE_TM_ZONE failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9947/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9947.dir/build.make CMakeFiles/cmTC_d9947.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9947.dir/HDFTests.c.o
+/usr/bin/cc   -w -w -DHAVE_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_d9947.dir/HDFTests.c.o   -c /home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_d9947
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9947.dir/link.txt --verbose=1
+/usr/bin/cc    -w -w -DHAVE_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_d9947.dir/HDFTests.c.o  -o cmTC_d9947 
+/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d9947.dir/build.make:97: recipe for target 'cmTC_d9947' failed
+make[1]: *** [cmTC_d9947] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d9947/fast' failed
+make: *** [cmTC_d9947/fast] Error 2
+
+Performing Other Test HAVE_STRUCT_TM_TM_ZONE failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec57b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec57b.dir/build.make CMakeFiles/cmTC_ec57b.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec57b.dir/HDFTests.c.o
+/usr/bin/cc   -w -w -DHAVE_STRUCT_TM_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_ec57b.dir/HDFTests.c.o   -c /home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_ec57b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec57b.dir/link.txt --verbose=1
+/usr/bin/cc    -w -w -DHAVE_STRUCT_TM_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_ec57b.dir/HDFTests.c.o  -o cmTC_ec57b 
+/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ec57b.dir/build.make:97: recipe for target 'cmTC_ec57b' failed
+make[1]: *** [cmTC_ec57b] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ec57b/fast' failed
+make: *** [cmTC_ec57b/fast] Error 2
+
+Performing Other Test HAVE_STRUCT_VIDEOCONFIG failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9bc8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9bc8.dir/build.make CMakeFiles/cmTC_f9bc8.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9bc8.dir/HDFTests.c.o
+/usr/bin/cc   -w -w -DHAVE_STRUCT_VIDEOCONFIG  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_f9bc8.dir/HDFTests.c.o   -c /home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c:412:32: error: storage size of ‘w’ isn’t known
+ SIMPLE_TEST(struct videoconfig w; w.numtextcols=0);
+                                ^
+/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c:12:36: note: in definition of macro ‘SIMPLE_TEST’
+ #define SIMPLE_TEST(x) int main(){ x; return 0; }
+                                    ^
+CMakeFiles/cmTC_f9bc8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f9bc8.dir/HDFTests.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f9bc8.dir/HDFTests.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f9bc8/fast' failed
+make: *** [cmTC_f9bc8/fast] Error 2
+
+Performing Other Test HAVE_STRUCT_TEXT_INFO failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_321f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_321f0.dir/build.make CMakeFiles/cmTC_321f0.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_321f0.dir/HDFTests.c.o
+/usr/bin/cc   -w -w -DHAVE_STRUCT_TEXT_INFO  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_321f0.dir/HDFTests.c.o   -c /home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c
+/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c:418:30: error: storage size of ‘w’ isn’t known
+ SIMPLE_TEST(struct text_info w; w.screenwidth=0);
+                              ^
+/home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake_ext_mod/HDFTests.c:12:36: note: in definition of macro ‘SIMPLE_TEST’
+ #define SIMPLE_TEST(x) int main(){ x; return 0; }
+                                    ^
+CMakeFiles/cmTC_321f0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_321f0.dir/HDFTests.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_321f0.dir/HDFTests.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_321f0/fast' failed
+make: *** [cmTC_321f0/fast] Error 2
+
+Determining if the function _getvideoconfig exists failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64bb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64bb4.dir/build.make CMakeFiles/cmTC_64bb4.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64bb4.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -w -w -DCHECK_FUNCTION_EXISTS=_getvideoconfig   -o CMakeFiles/cmTC_64bb4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_64bb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64bb4.dir/link.txt --verbose=1
+/usr/bin/cc    -w -w -DCHECK_FUNCTION_EXISTS=_getvideoconfig   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_64bb4.dir/CheckFunctionExists.c.o  -o cmTC_64bb4 
+CMakeFiles/cmTC_64bb4.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_getvideoconfig'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_64bb4.dir/build.make:97: recipe for target 'cmTC_64bb4' failed
+make[1]: *** [cmTC_64bb4] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_64bb4/fast' failed
+make: *** [cmTC_64bb4/fast] Error 2
+
+
+Determining if the function gettextinfo exists failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26fbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26fbc.dir/build.make CMakeFiles/cmTC_26fbc.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26fbc.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -w -w -DCHECK_FUNCTION_EXISTS=gettextinfo   -o CMakeFiles/cmTC_26fbc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26fbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26fbc.dir/link.txt --verbose=1
+/usr/bin/cc    -w -w -DCHECK_FUNCTION_EXISTS=gettextinfo   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_26fbc.dir/CheckFunctionExists.c.o  -o cmTC_26fbc 
+CMakeFiles/cmTC_26fbc.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `gettextinfo'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_26fbc.dir/build.make:97: recipe for target 'cmTC_26fbc' failed
+make[1]: *** [cmTC_26fbc] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_26fbc/fast' failed
+make: *** [cmTC_26fbc/fast] Error 2
+
+
+Determining if the function _scrsize exists failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7aeb5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7aeb5.dir/build.make CMakeFiles/cmTC_7aeb5.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7aeb5.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -w -w -DCHECK_FUNCTION_EXISTS=_scrsize   -o CMakeFiles/cmTC_7aeb5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7aeb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aeb5.dir/link.txt --verbose=1
+/usr/bin/cc    -w -w -DCHECK_FUNCTION_EXISTS=_scrsize   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_7aeb5.dir/CheckFunctionExists.c.o  -o cmTC_7aeb5 
+CMakeFiles/cmTC_7aeb5.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_scrsize'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7aeb5.dir/build.make:97: recipe for target 'cmTC_7aeb5' failed
+make[1]: *** [cmTC_7aeb5] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7aeb5/fast' failed
+make: *** [cmTC_7aeb5/fast] Error 2
+
+
+Determining if the function GetConsoleScreenBufferInfo exists failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00cf5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00cf5.dir/build.make CMakeFiles/cmTC_00cf5.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00cf5.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -w -w -DCHECK_FUNCTION_EXISTS=GetConsoleScreenBufferInfo   -o CMakeFiles/cmTC_00cf5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_00cf5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00cf5.dir/link.txt --verbose=1
+/usr/bin/cc    -w -w -DCHECK_FUNCTION_EXISTS=GetConsoleScreenBufferInfo   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_00cf5.dir/CheckFunctionExists.c.o  -o cmTC_00cf5 
+CMakeFiles/cmTC_00cf5.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `GetConsoleScreenBufferInfo'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_00cf5.dir/build.make:97: recipe for target 'cmTC_00cf5' failed
+make[1]: *** [cmTC_00cf5] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_00cf5/fast' failed
+make: *** [cmTC_00cf5/fast] Error 2
+
+
+Determining if the function setsysinfo exists failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88ffb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88ffb.dir/build.make CMakeFiles/cmTC_88ffb.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88ffb.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -w -w -DCHECK_FUNCTION_EXISTS=setsysinfo   -o CMakeFiles/cmTC_88ffb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_88ffb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88ffb.dir/link.txt --verbose=1
+/usr/bin/cc    -w -w -DCHECK_FUNCTION_EXISTS=setsysinfo   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_88ffb.dir/CheckFunctionExists.c.o  -o cmTC_88ffb 
+CMakeFiles/cmTC_88ffb.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `setsysinfo'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_88ffb.dir/build.make:97: recipe for target 'cmTC_88ffb' failed
+make[1]: *** [cmTC_88ffb] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_88ffb/fast' failed
+make: *** [cmTC_88ffb/fast] Error 2
+
+
+Determining if the function sigsetjmp exists failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52ced/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52ced.dir/build.make CMakeFiles/cmTC_52ced.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52ced.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -w -w -DCHECK_FUNCTION_EXISTS=sigsetjmp   -o CMakeFiles/cmTC_52ced.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_52ced
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52ced.dir/link.txt --verbose=1
+/usr/bin/cc    -w -w -DCHECK_FUNCTION_EXISTS=sigsetjmp   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_52ced.dir/CheckFunctionExists.c.o  -o cmTC_52ced 
+CMakeFiles/cmTC_52ced.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sigsetjmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_52ced.dir/build.make:97: recipe for target 'cmTC_52ced' failed
+make[1]: *** [cmTC_52ced] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_52ced/fast' failed
+make: *** [cmTC_52ced/fast] Error 2
+
+
+Test H5_LDOUBLE_TO_LONG_SPECIAL Run failed with the following output and exit code:
+ Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfcd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfcd8.dir/build.make CMakeFiles/cmTC_dfcd8.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfcd8.dir/ConversionTests.c.o
+/usr/bin/cc   -w -w -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST   -o CMakeFiles/cmTC_dfcd8.dir/ConversionTests.c.o   -c /home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_dfcd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfcd8.dir/link.txt --verbose=1
+/usr/bin/cc    -w -w -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_dfcd8.dir/ConversionTests.c.o  -o cmTC_dfcd8 
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+
+Test H5_LONG_TO_LDOUBLE_SPECIAL Run failed with the following output and exit code:
+ Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b9ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b9ed.dir/build.make CMakeFiles/cmTC_5b9ed.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b9ed.dir/ConversionTests.c.o
+/usr/bin/cc   -w -w -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST   -o CMakeFiles/cmTC_5b9ed.dir/ConversionTests.c.o   -c /home/ian/ttk/ParaView-v5.6.0/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_5b9ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b9ed.dir/link.txt --verbose=1
+/usr/bin/cc    -w -w -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST   -Wl,-lc  -Wl,-lc     -rdynamic CMakeFiles/cmTC_5b9ed.dir/ConversionTests.c.o  -o cmTC_5b9ed 
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06f28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06f28.dir/build.make CMakeFiles/cmTC_06f28.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06f28.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_06f28.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+   return ((int*)(&strlcat))[argc];
+                   ^~~~~~~
+                   strncat
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_06f28.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_06f28.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_06f28.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_06f28/fast' failed
+make: *** [cmTC_06f28/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the st_blocksize exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e5ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e5ee.dir/build.make CMakeFiles/cmTC_4e5ee.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e5ee.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_4e5ee.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘st_blocksize’ undeclared (first use in this function); did you mean ‘__blksize_t’?
+   return ((int*)(&st_blocksize))[argc];
+                   ^~~~~~~~~~~~
+                   __blksize_t
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_4e5ee.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4e5ee.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4e5ee.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4e5ee/fast' failed
+make: *** [cmTC_4e5ee/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef st_blocksize
+  return ((int*)(&st_blocksize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the H5free_memory exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32371/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32371.dir/build.make CMakeFiles/cmTC_32371.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32371.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_32371.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: vtk_hdf5.h: No such file or directory
+ #include <vtk_hdf5.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_32371.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_32371.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_32371.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_32371/fast' failed
+make: *** [cmTC_32371/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <vtk_hdf5.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef H5free_memory
+  return ((int*)(&H5free_memory))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the H5Pset_all_coll_metadata_ops exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd69b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd69b.dir/build.make CMakeFiles/cmTC_fd69b.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd69b.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_fd69b.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: vtk_hdf5.h: No such file or directory
+ #include <vtk_hdf5.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_fd69b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fd69b.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_fd69b.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fd69b/fast' failed
+make: *** [cmTC_fd69b/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <vtk_hdf5.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef H5Pset_all_coll_metadata_ops
+  return ((int*)(&H5Pset_all_coll_metadata_ops))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the H5Pset_libver_bounds exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35051/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35051.dir/build.make CMakeFiles/cmTC_35051.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35051.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_35051.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: vtk_hdf5.h: No such file or directory
+ #include <vtk_hdf5.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_35051.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_35051.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_35051.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_35051/fast' failed
+make: *** [cmTC_35051/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <vtk_hdf5.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef H5Pset_libver_bounds
+  return ((int*)(&H5Pset_libver_bounds))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the HDF5_PARALLEL exist failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95465/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95465.dir/build.make CMakeFiles/cmTC_95465.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95465.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_95465.dir/CheckSymbolExists.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: vtk_hdf5.h: No such file or directory
+ #include <vtk_hdf5.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_95465.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_95465.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_95465.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_95465/fast' failed
+make: *** [cmTC_95465/fast] Error 2
+
+File /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <vtk_hdf5.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef HDF5_PARALLEL
+  return ((int*)(&HDF5_PARALLEL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of longlong failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a42a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a42a.dir/build.make CMakeFiles/cmTC_9a42a.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a42a.dir/HAVE_LONGLONG.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_9a42a.dir/HAVE_LONGLONG.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/HAVE_LONGLONG.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/HAVE_LONGLONG.c:23:22: error: ‘longlong’ undeclared here (not in a function); did you mean ‘long int’?
+ #define SIZE (sizeof(longlong))
+                      ^
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/HAVE_LONGLONG.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_9a42a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9a42a.dir/HAVE_LONGLONG.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9a42a.dir/HAVE_LONGLONG.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a42a/fast' failed
+make: *** [cmTC_9a42a/fast] Error 2
+
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/HAVE_LONGLONG.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(longlong))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78d2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78d2b.dir/build.make CMakeFiles/cmTC_78d2b.dir/build
+make[1]: Entering directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78d2b.dir/HAVE_UCHAR.c.o
+/usr/bin/cc   -w -w    -o CMakeFiles/cmTC_78d2b.dir/HAVE_UCHAR.c.o   -c /home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/HAVE_UCHAR.c
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/HAVE_UCHAR.c:23:22: error: ‘uchar’ undeclared here (not in a function); did you mean ‘u_char’?
+ #define SIZE (sizeof(uchar))
+                      ^
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/HAVE_UCHAR.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_78d2b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_78d2b.dir/HAVE_UCHAR.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_78d2b.dir/HAVE_UCHAR.c.o] Error 1
+make[1]: Leaving directory '/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_78d2b/fast' failed
+make: *** [cmTC_78d2b/fast] Error 2
+
+/home/ian/ttk/ParaView-v5.6.0/build/CMakeFiles/CheckTypeSize/HAVE_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

@@ -1,0 +1,12 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkImageViewer2ClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkImageViewerClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkResliceImageViewerClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkResliceImageViewerMeasurementsClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkInteractionImageCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Interaction/Image/vtkImageViewer2.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Interaction/Image/vtkImageViewer.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Interaction/Image/vtkResliceImageViewer.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Interaction/Image/vtkResliceImageViewerMeasurements.h

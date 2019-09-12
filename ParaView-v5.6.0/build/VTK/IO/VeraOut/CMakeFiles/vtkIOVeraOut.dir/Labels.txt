@@ -1,0 +1,6 @@
+# Target labels
+ vtkIOVeraOut
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/VeraOut/vtkVeraOutReader.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/VeraOut/vtkVeraOutReader.h
+/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/VeraOut/vtkIOVeraOutModule.h

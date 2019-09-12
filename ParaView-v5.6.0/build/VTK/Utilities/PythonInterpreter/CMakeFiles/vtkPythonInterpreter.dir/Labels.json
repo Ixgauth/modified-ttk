@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/PythonInterpreter/vtkPythonInterpreter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/PythonInterpreter/vtkPythonInteractiveInterpreter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/PythonInterpreter/vtkPythonStdStreamCaptureHelper.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/PythonInterpreter/vtkPythonInterpreter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Utilities/PythonInterpreter/vtkPythonInteractiveInterpreter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Utilities/PythonInterpreter/vtkPythonInterpreterModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkPythonInterpreter"
+		],
+		"name" : "vtkPythonInterpreter"
+	}
+}

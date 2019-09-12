@@ -1,0 +1,419 @@
+// python wrapper for vtkHyperTreeGridAxisCut
+//
+#define VTK_WRAPPING_CXX
+#define VTK_STREAMS_FWD_ONLY
+#include "vtkPythonArgs.h"
+#include "vtkPythonOverload.h"
+#include "vtkConfigure.h"
+#include <cstddef>
+#include <sstream>
+#include "vtkVariant.h"
+#include "vtkIndent.h"
+#include "vtkHyperTreeGridAxisCut.h"
+
+extern "C" { VTK_ABI_EXPORT void PyVTKAddFile_vtkHyperTreeGridAxisCut(PyObject *); }
+extern "C" { VTK_ABI_EXPORT PyObject *PyvtkHyperTreeGridAxisCut_ClassNew(); }
+
+#ifndef DECLARED_PyvtkHyperTreeGridAlgorithm_ClassNew
+extern "C" { PyObject *PyvtkHyperTreeGridAlgorithm_ClassNew(); }
+#define DECLARED_PyvtkHyperTreeGridAlgorithm_ClassNew
+#endif
+
+static const char *PyvtkHyperTreeGridAxisCut_Doc =
+  "vtkHyperTreeGridAxisCut - Axis aligned hyper tree grid cut\n\n"
+  "Superclass: vtkHyperTreeGridAlgorithm\n\n"
+  "Cut an hyper tree grid along an axis aligned plane and output a hyper\n"
+  "tree grid lower dimensionality. Only works for 3D grids as inputs\n\n"
+  "NB: This new (2014-16) version of the class is not to be confused\n"
+  "with earlier (2012-13) version that produced a vtkPolyData output\n"
+  "composed of disjoint (no point sharing) quadrilaterals, with possibly\n"
+  "superimposed faces when cut plane contained inter-cell boundaries.\n\n"
+  "@sa\n"
+  "vtkHyperTreeGrid vtkHyperTreeGridAlgorithm\n\n"
+  "@par Thanks: This class was written by Guenole Harel and\n"
+  "Jacques-Bernard Lekien 2014 This class was modified by Philippe\n"
+  "Pebay, 2016 This work was supported by Commissariat a l'Energie\n"
+  "Atomique (CEA/DIF)\n\n";
+
+
+static PyObject *
+PyvtkHyperTreeGridAxisCut_IsTypeOf(PyObject *, PyObject *args)
+{
+  vtkPythonArgs ap(args, "IsTypeOf");
+
+  const char *temp0 = nullptr;
+  PyObject *result = nullptr;
+
+  if (ap.CheckArgCount(1) &&
+      ap.GetValue(temp0))
+  {
+    int tempr = vtkHyperTreeGridAxisCut::IsTypeOf(temp0);
+
+    if (!ap.ErrorOccurred())
+    {
+      result = ap.BuildValue(tempr);
+    }
+  }
+
+  return result;
+}
+
+
+static PyObject *
+PyvtkHyperTreeGridAxisCut_IsA(PyObject *self, PyObject *args)
+{
+  vtkPythonArgs ap(self, args, "IsA");
+  vtkObjectBase *vp = ap.GetSelfPointer(self, args);
+  vtkHyperTreeGridAxisCut *op = static_cast<vtkHyperTreeGridAxisCut *>(vp);
+
+  const char *temp0 = nullptr;
+  PyObject *result = nullptr;
+
+  if (op && ap.CheckArgCount(1) &&
+      ap.GetValue(temp0))
+  {
+    int tempr = (ap.IsBound() ?
+      op->IsA(temp0) :
+      op->vtkHyperTreeGridAxisCut::IsA(temp0));
+
+    if (!ap.ErrorOccurred())
+    {
+      result = ap.BuildValue(tempr);
+    }
+  }
+
+  return result;
+}
+
+
+static PyObject *
+PyvtkHyperTreeGridAxisCut_SafeDownCast(PyObject *, PyObject *args)
+{
+  vtkPythonArgs ap(args, "SafeDownCast");
+
+  vtkObjectBase *temp0 = nullptr;
+  PyObject *result = nullptr;
+
+  if (ap.CheckArgCount(1) &&
+      ap.GetVTKObject(temp0, "vtkObjectBase"))
+  {
+    vtkHyperTreeGridAxisCut *tempr = vtkHyperTreeGridAxisCut::SafeDownCast(temp0);
+
+    if (!ap.ErrorOccurred())
+    {
+      result = ap.BuildVTKObject(tempr);
+    }
+  }
+
+  return result;
+}
+
+
+static PyObject *
+PyvtkHyperTreeGridAxisCut_NewInstance(PyObject *self, PyObject *args)
+{
+  vtkPythonArgs ap(self, args, "NewInstance");
+  vtkObjectBase *vp = ap.GetSelfPointer(self, args);
+  vtkHyperTreeGridAxisCut *op = static_cast<vtkHyperTreeGridAxisCut *>(vp);
+
+  PyObject *result = nullptr;
+
+  if (op && ap.CheckArgCount(0))
+  {
+    vtkHyperTreeGridAxisCut *tempr = (ap.IsBound() ?
+      op->NewInstance() :
+      op->vtkHyperTreeGridAxisCut::NewInstance());
+
+    if (!ap.ErrorOccurred())
+    {
+      result = ap.BuildVTKObject(tempr);
+      if (result && PyVTKObject_Check(result))
+      {
+        PyVTKObject_GetObject(result)->UnRegister(0);
+        PyVTKObject_SetFlag(result, VTK_PYTHON_IGNORE_UNREGISTER, 1);
+      }
+    }
+  }
+
+  return result;
+}
+
+
+static PyObject *
+PyvtkHyperTreeGridAxisCut_SetPlaneNormalAxis(PyObject *self, PyObject *args)
+{
+  vtkPythonArgs ap(self, args, "SetPlaneNormalAxis");
+  vtkObjectBase *vp = ap.GetSelfPointer(self, args);
+  vtkHyperTreeGridAxisCut *op = static_cast<vtkHyperTreeGridAxisCut *>(vp);
+
+  int temp0;
+  PyObject *result = nullptr;
+
+  if (op && ap.CheckArgCount(1) &&
+      ap.GetValue(temp0))
+  {
+    if (ap.IsBound())
+    {
+      op->SetPlaneNormalAxis(temp0);
+    }
+    else
+    {
+      op->vtkHyperTreeGridAxisCut::SetPlaneNormalAxis(temp0);
+    }
+
+    if (!ap.ErrorOccurred())
+    {
+      result = ap.BuildNone();
+    }
+  }
+
+  return result;
+}
+
+
+static PyObject *
+PyvtkHyperTreeGridAxisCut_GetPlaneNormalAxisMinValue(PyObject *self, PyObject *args)
+{
+  vtkPythonArgs ap(self, args, "GetPlaneNormalAxisMinValue");
+  vtkObjectBase *vp = ap.GetSelfPointer(self, args);
+  vtkHyperTreeGridAxisCut *op = static_cast<vtkHyperTreeGridAxisCut *>(vp);
+
+  PyObject *result = nullptr;
+
+  if (op && ap.CheckArgCount(0))
+  {
+    int tempr = (ap.IsBound() ?
+      op->GetPlaneNormalAxisMinValue() :
+      op->vtkHyperTreeGridAxisCut::GetPlaneNormalAxisMinValue());
+
+    if (!ap.ErrorOccurred())
+    {
+      result = ap.BuildValue(tempr);
+    }
+  }
+
+  return result;
+}
+
+
+static PyObject *
+PyvtkHyperTreeGridAxisCut_GetPlaneNormalAxisMaxValue(PyObject *self, PyObject *args)
+{
+  vtkPythonArgs ap(self, args, "GetPlaneNormalAxisMaxValue");
+  vtkObjectBase *vp = ap.GetSelfPointer(self, args);
+  vtkHyperTreeGridAxisCut *op = static_cast<vtkHyperTreeGridAxisCut *>(vp);
+
+  PyObject *result = nullptr;
+
+  if (op && ap.CheckArgCount(0))
+  {
+    int tempr = (ap.IsBound() ?
+      op->GetPlaneNormalAxisMaxValue() :
+      op->vtkHyperTreeGridAxisCut::GetPlaneNormalAxisMaxValue());
+
+    if (!ap.ErrorOccurred())
+    {
+      result = ap.BuildValue(tempr);
+    }
+  }
+
+  return result;
+}
+
+
+static PyObject *
+PyvtkHyperTreeGridAxisCut_GetPlaneNormalAxis(PyObject *self, PyObject *args)
+{
+  vtkPythonArgs ap(self, args, "GetPlaneNormalAxis");
+  vtkObjectBase *vp = ap.GetSelfPointer(self, args);
+  vtkHyperTreeGridAxisCut *op = static_cast<vtkHyperTreeGridAxisCut *>(vp);
+
+  PyObject *result = nullptr;
+
+  if (op && ap.CheckArgCount(0))
+  {
+    int tempr = (ap.IsBound() ?
+      op->GetPlaneNormalAxis() :
+      op->vtkHyperTreeGridAxisCut::GetPlaneNormalAxis());
+
+    if (!ap.ErrorOccurred())
+    {
+      result = ap.BuildValue(tempr);
+    }
+  }
+
+  return result;
+}
+
+
+static PyObject *
+PyvtkHyperTreeGridAxisCut_SetPlanePosition(PyObject *self, PyObject *args)
+{
+  vtkPythonArgs ap(self, args, "SetPlanePosition");
+  vtkObjectBase *vp = ap.GetSelfPointer(self, args);
+  vtkHyperTreeGridAxisCut *op = static_cast<vtkHyperTreeGridAxisCut *>(vp);
+
+  double temp0;
+  PyObject *result = nullptr;
+
+  if (op && ap.CheckArgCount(1) &&
+      ap.GetValue(temp0))
+  {
+    if (ap.IsBound())
+    {
+      op->SetPlanePosition(temp0);
+    }
+    else
+    {
+      op->vtkHyperTreeGridAxisCut::SetPlanePosition(temp0);
+    }
+
+    if (!ap.ErrorOccurred())
+    {
+      result = ap.BuildNone();
+    }
+  }
+
+  return result;
+}
+
+
+static PyObject *
+PyvtkHyperTreeGridAxisCut_GetPlanePosition(PyObject *self, PyObject *args)
+{
+  vtkPythonArgs ap(self, args, "GetPlanePosition");
+  vtkObjectBase *vp = ap.GetSelfPointer(self, args);
+  vtkHyperTreeGridAxisCut *op = static_cast<vtkHyperTreeGridAxisCut *>(vp);
+
+  PyObject *result = nullptr;
+
+  if (op && ap.CheckArgCount(0))
+  {
+    double tempr = (ap.IsBound() ?
+      op->GetPlanePosition() :
+      op->vtkHyperTreeGridAxisCut::GetPlanePosition());
+
+    if (!ap.ErrorOccurred())
+    {
+      result = ap.BuildValue(tempr);
+    }
+  }
+
+  return result;
+}
+
+static PyMethodDef PyvtkHyperTreeGridAxisCut_Methods[] = {
+  {"IsTypeOf", PyvtkHyperTreeGridAxisCut_IsTypeOf, METH_VARARGS,
+   "V.IsTypeOf(string) -> int\nC++: static vtkTypeBool IsTypeOf(const char *type)\n\nReturn 1 if this class type is the same type of (or a subclass\nof) the named class. Returns 0 otherwise. This method works in\ncombination with vtkTypeMacro found in vtkSetGet.h.\n"},
+  {"IsA", PyvtkHyperTreeGridAxisCut_IsA, METH_VARARGS,
+   "V.IsA(string) -> int\nC++: vtkTypeBool IsA(const char *type) override;\n\nReturn 1 if this class is the same type of (or a subclass of) the\nnamed class. Returns 0 otherwise. This method works in\ncombination with vtkTypeMacro found in vtkSetGet.h.\n"},
+  {"SafeDownCast", PyvtkHyperTreeGridAxisCut_SafeDownCast, METH_VARARGS,
+   "V.SafeDownCast(vtkObjectBase) -> vtkHyperTreeGridAxisCut\nC++: static vtkHyperTreeGridAxisCut *SafeDownCast(\n    vtkObjectBase *o)\n\n"},
+  {"NewInstance", PyvtkHyperTreeGridAxisCut_NewInstance, METH_VARARGS,
+   "V.NewInstance() -> vtkHyperTreeGridAxisCut\nC++: vtkHyperTreeGridAxisCut *NewInstance()\n\n"},
+  {"SetPlaneNormalAxis", PyvtkHyperTreeGridAxisCut_SetPlaneNormalAxis, METH_VARARGS,
+   "V.SetPlaneNormalAxis(int)\nC++: virtual void SetPlaneNormalAxis(int _arg)\n\nNormal axis: 0=X, 1=Y, 2=Z. Default is 0\n"},
+  {"GetPlaneNormalAxisMinValue", PyvtkHyperTreeGridAxisCut_GetPlaneNormalAxisMinValue, METH_VARARGS,
+   "V.GetPlaneNormalAxisMinValue() -> int\nC++: virtual int GetPlaneNormalAxisMinValue()\n\nNormal axis: 0=X, 1=Y, 2=Z. Default is 0\n"},
+  {"GetPlaneNormalAxisMaxValue", PyvtkHyperTreeGridAxisCut_GetPlaneNormalAxisMaxValue, METH_VARARGS,
+   "V.GetPlaneNormalAxisMaxValue() -> int\nC++: virtual int GetPlaneNormalAxisMaxValue()\n\nNormal axis: 0=X, 1=Y, 2=Z. Default is 0\n"},
+  {"GetPlaneNormalAxis", PyvtkHyperTreeGridAxisCut_GetPlaneNormalAxis, METH_VARARGS,
+   "V.GetPlaneNormalAxis() -> int\nC++: virtual int GetPlaneNormalAxis()\n\nNormal axis: 0=X, 1=Y, 2=Z. Default is 0\n"},
+  {"SetPlanePosition", PyvtkHyperTreeGridAxisCut_SetPlanePosition, METH_VARARGS,
+   "V.SetPlanePosition(float)\nC++: virtual void SetPlanePosition(double _arg)\n\nPosition of plane: Axis constant. Default is 0.0\n"},
+  {"GetPlanePosition", PyvtkHyperTreeGridAxisCut_GetPlanePosition, METH_VARARGS,
+   "V.GetPlanePosition() -> float\nC++: virtual double GetPlanePosition()\n\nPosition of plane: Axis constant. Default is 0.0\n"},
+  {nullptr, nullptr, 0, nullptr}
+};
+
+static PyTypeObject PyvtkHyperTreeGridAxisCut_Type = {
+  PyVarObject_HEAD_INIT(&PyType_Type, 0)
+  "vtkFiltersHyperTreePython.vtkHyperTreeGridAxisCut", // tp_name
+  sizeof(PyVTKObject), // tp_basicsize
+  0, // tp_itemsize
+  PyVTKObject_Delete, // tp_dealloc
+  nullptr, // tp_print
+  nullptr, // tp_getattr
+  nullptr, // tp_setattr
+  nullptr, // tp_compare
+  PyVTKObject_Repr, // tp_repr
+  nullptr, // tp_as_number
+  nullptr, // tp_as_sequence
+  nullptr, // tp_as_mapping
+  nullptr, // tp_hash
+  nullptr, // tp_call
+  PyVTKObject_String, // tp_str
+  PyObject_GenericGetAttr, // tp_getattro
+  PyObject_GenericSetAttr, // tp_setattro
+  &PyVTKObject_AsBuffer, // tp_as_buffer
+  Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE, // tp_flags
+  PyvtkHyperTreeGridAxisCut_Doc, // tp_doc
+  PyVTKObject_Traverse, // tp_traverse
+  nullptr, // tp_clear
+  nullptr, // tp_richcompare
+  offsetof(PyVTKObject, vtk_weakreflist), // tp_weaklistoffset
+  nullptr, // tp_iter
+  nullptr, // tp_iternext
+  nullptr, // tp_methods
+  nullptr, // tp_members
+  PyVTKObject_GetSet, // tp_getset
+  nullptr, // tp_base
+  nullptr, // tp_dict
+  nullptr, // tp_descr_get
+  nullptr, // tp_descr_set
+  offsetof(PyVTKObject, vtk_dict), // tp_dictoffset
+  nullptr, // tp_init
+  nullptr, // tp_alloc
+  PyVTKObject_New, // tp_new
+  PyObject_GC_Del, // tp_free
+  nullptr, // tp_is_gc
+  nullptr, // tp_bases
+  nullptr, // tp_mro
+  nullptr, // tp_cache
+  nullptr, // tp_subclasses
+  nullptr, // tp_weaklist
+  VTK_WRAP_PYTHON_SUPPRESS_UNINITIALIZED
+};
+
+static vtkObjectBase *PyvtkHyperTreeGridAxisCut_StaticNew()
+{
+  return vtkHyperTreeGridAxisCut::New();
+}
+
+PyObject *PyvtkHyperTreeGridAxisCut_ClassNew()
+{
+  PyVTKClass_Add(
+    &PyvtkHyperTreeGridAxisCut_Type, PyvtkHyperTreeGridAxisCut_Methods,
+    "vtkHyperTreeGridAxisCut",
+ &PyvtkHyperTreeGridAxisCut_StaticNew);
+
+  PyTypeObject *pytype = &PyvtkHyperTreeGridAxisCut_Type;
+
+  if ((pytype->tp_flags & Py_TPFLAGS_READY) != 0)
+  {
+    return (PyObject *)pytype;
+  }
+
+#if !defined(VTK_PY3K) && PY_VERSION_HEX >= 0x02060000
+  pytype->tp_flags |= Py_TPFLAGS_HAVE_NEWBUFFER;
+#endif
+
+  pytype->tp_base = (PyTypeObject *)PyvtkHyperTreeGridAlgorithm_ClassNew();
+
+  PyType_Ready(pytype);
+  return (PyObject *)pytype;
+}
+
+void PyVTKAddFile_vtkHyperTreeGridAxisCut(
+  PyObject *dict)
+{
+  PyObject *o;
+  o = PyvtkHyperTreeGridAxisCut_ClassNew();
+
+  if (o && PyDict_SetItemString(dict, "vtkHyperTreeGridAxisCut", o) != 0)
+  {
+    Py_DECREF(o);
+  }
+
+}
+

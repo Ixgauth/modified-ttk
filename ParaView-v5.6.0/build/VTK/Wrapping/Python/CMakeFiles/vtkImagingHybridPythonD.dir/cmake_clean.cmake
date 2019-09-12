@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "vtkBooleanTexturePython.cxx"
+  "vtkCheckerboardSplatterPython.cxx"
+  "vtkFastSplatterPython.cxx"
+  "vtkGaussianSplatterPython.cxx"
+  "vtkImageCursor3DPython.cxx"
+  "vtkImageRectilinearWipePython.cxx"
+  "vtkImageToPointsPython.cxx"
+  "vtkPointLoadPython.cxx"
+  "vtkSampleFunctionPython.cxx"
+  "vtkShepardMethodPython.cxx"
+  "vtkSliceCubesPython.cxx"
+  "vtkSurfaceReconstructionFilterPython.cxx"
+  "vtkTriangularTexturePython.cxx"
+  "vtkVoxelModellerPython.cxx"
+  "vtkImagingHybridPythonInit.cxx"
+  "vtkImagingHybridPythonInitImpl.cxx"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkBooleanTexturePython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkCheckerboardSplatterPython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkFastSplatterPython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkGaussianSplatterPython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkImageCursor3DPython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkImageRectilinearWipePython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkImageToPointsPython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkPointLoadPython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkSampleFunctionPython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkShepardMethodPython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkSliceCubesPython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkSurfaceReconstructionFilterPython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkTriangularTexturePython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkVoxelModellerPython.cxx.o"
+  "CMakeFiles/vtkImagingHybridPythonD.dir/vtkImagingHybridPythonInitImpl.cxx.o"
+  "../../../lib/libvtkImagingHybridPython36D-pv5.6.pdb"
+  "../../../lib/libvtkImagingHybridPython36D-pv5.6.so.1"
+  "../../../lib/libvtkImagingHybridPython36D-pv5.6.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vtkImagingHybridPythonD.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

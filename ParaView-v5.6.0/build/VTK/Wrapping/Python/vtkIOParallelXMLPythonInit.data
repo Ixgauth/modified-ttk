@@ -1,0 +1,15 @@
+vtkIOParallelXMLPython
+vtkXMLPDataSetWriter
+vtkXMLPDataObjectWriter
+vtkXMLPDataWriter
+vtkXMLPImageDataWriter
+vtkXMLPPolyDataWriter
+vtkXMLPRectilinearGridWriter
+vtkXMLPStructuredDataWriter
+vtkXMLPStructuredGridWriter
+vtkXMLPTableWriter
+vtkXMLPUnstructuredDataWriter
+vtkXMLPUnstructuredGridWriter
+vtkXMLPHierarchicalBoxDataWriter
+vtkXMLPMultiBlockDataWriter
+vtkXMLPUniformGridAMRWriter

@@ -1,0 +1,5 @@
+vtkIOSegYPython
+vtkSegYReader
+vtkSegYIOUtils
+vtkSegYReaderInternal
+vtkSegYTraceReader

@@ -1,0 +1,4 @@
+point ; vtkCDIReader.h ; CDIReader ; WRAP_EXCLUDE_PYTHON
+point_with_index ; vtkCDIReader.h ; CDIReader ; WRAP_EXCLUDE_PYTHON
+vtkCDIReader : vtkUnstructuredGridAlgorithm ; vtkCDIReader.h ; CDIReader
+vtkCDIReader::Superclass = vtkUnstructuredGridAlgorithm ; vtkCDIReader.h ; CDIReader

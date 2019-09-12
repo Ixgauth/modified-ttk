@@ -1,0 +1,37 @@
+
+#ifndef VTKFILTERSPARALLELVERDICT_EXPORT_H
+#define VTKFILTERSPARALLELVERDICT_EXPORT_H
+
+#ifdef VTKFILTERSPARALLELVERDICT_STATIC_DEFINE
+#  define VTKFILTERSPARALLELVERDICT_EXPORT
+#  define VTKFILTERSPARALLELVERDICT_NO_EXPORT
+#else
+#  ifndef VTKFILTERSPARALLELVERDICT_EXPORT
+#    ifdef vtkFiltersParallelVerdict_EXPORTS
+        /* We are building this library */
+#      define VTKFILTERSPARALLELVERDICT_EXPORT __attribute__((visibility("default")))
+#    else
+        /* We are using this library */
+#      define VTKFILTERSPARALLELVERDICT_EXPORT __attribute__((visibility("default")))
+#    endif
+#  endif
+
+#  ifndef VTKFILTERSPARALLELVERDICT_NO_EXPORT
+#    define VTKFILTERSPARALLELVERDICT_NO_EXPORT __attribute__((visibility("hidden")))
+#  endif
+#endif
+
+#ifndef VTKFILTERSPARALLELVERDICT_DEPRECATED
+#  define VTKFILTERSPARALLELVERDICT_DEPRECATED __attribute__ ((__deprecated__))
+#  define VTKFILTERSPARALLELVERDICT_DEPRECATED_EXPORT VTKFILTERSPARALLELVERDICT_EXPORT __attribute__ ((__deprecated__))
+#  define VTKFILTERSPARALLELVERDICT_DEPRECATED_NO_EXPORT VTKFILTERSPARALLELVERDICT_NO_EXPORT __attribute__ ((__deprecated__))
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define VTKFILTERSPARALLELVERDICT_NO_DEPRECATED
+#endif
+
+
+
+#endif

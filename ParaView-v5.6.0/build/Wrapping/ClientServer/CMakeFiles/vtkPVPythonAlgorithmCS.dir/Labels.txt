@@ -1,0 +1,8 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkSIPythonSourceProxyClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPVPythonAlgorithmPluginClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPVPythonAlgorithmCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/PythonAlgorithm/vtkSIPythonSourceProxy.h
+/home/ian/ttk/ParaView-v5.6.0/ParaViewCore/PythonAlgorithm/vtkPVPythonAlgorithmPlugin.h

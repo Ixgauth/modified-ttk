@@ -1,0 +1,4 @@
+vtkBumpMapRepresentation : vtkGeometryRepresentationWithFaces ; vtkBumpMapRepresentation.h ; EmbossingRepresentations
+vtkBumpMapRepresentation::Superclass = vtkGeometryRepresentationWithFaces ; vtkBumpMapRepresentation.h ; EmbossingRepresentations
+vtkExtrusionRepresentation : vtkGeometryRepresentationWithFaces ; vtkExtrusionRepresentation.h ; EmbossingRepresentations
+vtkExtrusionRepresentation::Superclass = vtkGeometryRepresentationWithFaces ; vtkExtrusionRepresentation.h ; EmbossingRepresentations

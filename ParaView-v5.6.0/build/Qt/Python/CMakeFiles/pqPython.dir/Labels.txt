@@ -1,0 +1,36 @@
+# Target labels
+ pqPython
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonDebugLeaksView.cxx
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonDebugLeaksView.h
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonMacroSupervisor.cxx
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonMacroSupervisor.h
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonManager.cxx
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonManager.h
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonScriptEditor.cxx
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonScriptEditor.h
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonShell.cxx
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonShell.h
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonSyntaxHighlighter.cxx
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonSyntaxHighlighter.h
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonDialog.cxx
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonDialog.h
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonDebugLeaksView.cpp
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonMacroSupervisor.cpp
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonManager.cpp
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonScriptEditor.cpp
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonShell.cpp
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonSyntaxHighlighter.cpp
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonDialog.cpp
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/ui_pqPythonShell.h
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/ui_pqPythonDialog.h
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/pqPythonModule.h
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonDebugLeaksView.cpp.rule
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonMacroSupervisor.cpp.rule
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonManager.cpp.rule
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonScriptEditor.cpp.rule
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonShell.cpp.rule
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonSyntaxHighlighter.cpp.rule
+/home/ian/ttk/ParaView-v5.6.0/build/Qt/Python/moc_pqPythonDialog.cpp.rule
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonShell.ui
+/home/ian/ttk/ParaView-v5.6.0/Qt/Python/pqPythonDialog.ui

@@ -1,0 +1,8 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkContextViewClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkContextInteractorStyleClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkViewsContext2DCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Context2D/vtkContextView.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Views/Context2D/vtkContextInteractorStyle.h

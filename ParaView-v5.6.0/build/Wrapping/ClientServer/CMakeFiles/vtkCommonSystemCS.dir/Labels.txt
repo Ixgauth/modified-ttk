@@ -1,0 +1,18 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkClientSocketClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkDirectoryClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkServerSocketClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkSocketClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkSocketCollectionClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkThreadMessagerClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkTimerLogClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkCommonSystemCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/Common/System/vtkClientSocket.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Common/System/vtkDirectory.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Common/System/vtkServerSocket.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Common/System/vtkSocket.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Common/System/vtkSocketCollection.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Common/System/vtkThreadMessager.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/Common/System/vtkTimerLog.h

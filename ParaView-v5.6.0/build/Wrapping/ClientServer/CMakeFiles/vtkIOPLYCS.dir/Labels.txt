@@ -1,0 +1,10 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPLYClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPLYReaderClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkPLYWriterClientServer.cxx
+/home/ian/ttk/ParaView-v5.6.0/build/Wrapping/ClientServer/vtkIOPLYCSInit.cxx
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/PLY/vtkPLY.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/PLY/vtkPLYReader.h
+/home/ian/ttk/ParaView-v5.6.0/VTK/IO/PLY/vtkPLYWriter.h

@@ -1,0 +1,178 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmAverageToCells.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmAverageToPoints.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmCleanGrid.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmClip.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmContour.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmExternalFaces.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmExtractVOI.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmGradient.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmHistogram.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmLevelOfDetail.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmNDHistogram.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmPointElevation.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmPolyDataNormals.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmProbe.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmThreshold.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmTriangleMeshPointNormals.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmWarpScalar.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmWarpVector.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmlib/PolyDataConverter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmlib/UnstructuredGridConverter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmlib/ArrayConverters.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmlib/CellSetConverters.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmlib/DataSetConverters.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmlib/ImageDataConverter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmlib/Storage.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmAverageToCells.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmAverageToPoints.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmCellSetExplicit.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmCellSetSingleType.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmCleanGrid.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmClip.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmConnectivityExec.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmContour.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmExternalFaces.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmExtractVOI.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmGradient.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmHistogram.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmLevelOfDetail.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmNDHistogram.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmPointElevation.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmPolyDataNormals.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmProbe.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmThreshold.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmTriangleMeshPointNormals.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmWarpScalar.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmWarpVector.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmlib/Portals.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmlib/ImplicitFunctionConverter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmTags.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmFilterPolicy.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Accelerators/Vtkm/vtkmConfig.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmCellSetExplicit.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmCellSetSingleType.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/Accelerators/Vtkm/vtkmConnectivityExec.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/Accelerators/Vtkm/vtkAcceleratorsVTKmModule.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkAcceleratorsVTKm"
+		],
+		"name" : "vtkAcceleratorsVTKm"
+	}
+}

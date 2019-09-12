@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC    -w -w -O3 -DNDEBUG  -Wl,-lc    -shared -Wl,-soname,libvtkogg-pv5.6.so.1 -o ../../../../lib/libvtkogg-pv5.6.so.1 CMakeFiles/vtkogg.dir/src/bitwise.c.o CMakeFiles/vtkogg.dir/src/framing.c.o 

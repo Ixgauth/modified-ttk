@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/ExportOpenGL2/vtkOpenGLGL2PSExporter.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/ExportOpenGL2/vtkIOExportOpenGL2ObjectFactory.cxx"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/VTK/IO/ExportOpenGL2/vtkOpenGLGL2PSExporter.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/ExportOpenGL2/vtkIOExportOpenGL2ObjectFactory.h"
+		},
+		{
+			"file" : "/home/ian/ttk/ParaView-v5.6.0/build/VTK/IO/ExportOpenGL2/vtkIOExportOpenGL2Module.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtkIOExportOpenGL2"
+		],
+		"name" : "vtkIOExportOpenGL2"
+	}
+}
